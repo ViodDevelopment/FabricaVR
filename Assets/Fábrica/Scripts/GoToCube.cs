@@ -7,7 +7,7 @@ public class GoToCube : MonoBehaviour
 
     public float speed;
     private bool voyHacia = false;
-
+    GameObject objeto;
     // Use this for initialization
     void Start()
     {
@@ -26,12 +26,18 @@ public class GoToCube : MonoBehaviour
     {
 
         if (voyHacia == true)
+        {
             transform.position = transform.position + Camera.main.transform.forward * speed * Time.deltaTime;
+
+            if (objeto == null)
+                DejarDeIrHacia();
+        }
 
     }
 
-    public void IrHacia()
+    public void IrHacia(GameObject l_objeto)
     {
+        objeto = l_objeto;
         voyHacia = true;
     }
 
