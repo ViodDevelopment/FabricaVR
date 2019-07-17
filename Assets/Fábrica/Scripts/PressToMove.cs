@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PressToMove : MonoBehaviour {
-
+public class PressToMove : MonoBehaviour
+{
     public float cubeSpeed = 5f;
 
     public Transform[] pointPosition;
@@ -14,18 +14,14 @@ public class PressToMove : MonoBehaviour {
 
     public GameObject goToCubeIAGameObject;
 
-    // Use this for initialization
     void Start ()
     {
         goToCubeIAScript = goToCubeIAGameObject.GetComponent<GoToCubeIA>();
-
     }
 	
-	// Update is called once per frame
 	void Update ()
     {
-
         if (notPressed == true)
-        transform.position = Vector3.MoveTowards(transform.position, pointPosition[goToCubeIAScript.counter].position, cubeSpeed * Time.deltaTime);
+             transform.position = Vector3.MoveTowards(transform.position, pointPosition[goToCubeIAScript.counter].position, cubeSpeed * Time.deltaTime);
 	}
 }

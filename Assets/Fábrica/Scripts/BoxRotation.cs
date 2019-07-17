@@ -7,12 +7,6 @@ public class BoxRotation : MonoBehaviour {
     public float rotationForce;
     private bool startRotation = false;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
 	void Update () {
 
         if (startRotation == true)
