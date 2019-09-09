@@ -4,27 +4,12 @@ using UnityEngine;
 
 public class GoToCube : MonoBehaviour
 {
-
     public float speed;
     private bool voyHacia = false;
     GameObject objeto;
-    // Use this for initialization
-    void Start()
-    {
-
-
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     void FixedUpdate()
     {
-
         if (voyHacia == true)
         {
             transform.position = transform.position + Camera.main.transform.forward * speed * Time.deltaTime;
@@ -32,7 +17,10 @@ public class GoToCube : MonoBehaviour
             if (objeto == null)
                 DejarDeIrHacia();
         }
-
+        else
+        {
+            DejarDeIrHacia();
+        }
     }
 
     public void IrHacia(GameObject l_objeto)
