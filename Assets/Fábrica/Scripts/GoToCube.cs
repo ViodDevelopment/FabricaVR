@@ -4,33 +4,38 @@ using UnityEngine;
 
 public class GoToCube : MonoBehaviour
 {
-    public float speed;
-    private bool voyHacia = false;
-    GameObject objeto;
+    public float m_Speed = 1;
+    private bool m_Going = false;
+    private GameObject m_Object;
 
     void FixedUpdate()
     {
-        if (voyHacia == true)
+        if (m_Going == true)
         {
-            transform.position = transform.position + Camera.main.transform.forward * speed * Time.deltaTime;
+            if (Vector3.Distance(this.transform.position, m_Object.transform.position) < 1f && this.tag == "Player" && m_Object.tag == "Taskmaster")
+            {
+                StopGoingTo();
+            }
+            else
+                transform.position = transform.position + Camera.main.transform.forward * m_Speed * Time.deltaTime;
 
-            if (objeto == null)
-                DejarDeIrHacia();
+            if (m_Object == null)
+                StopGoingTo();
         }
         else
         {
-            DejarDeIrHacia();
+            StopGoingTo();
         }
     }
 
-    public void IrHacia(GameObject l_objeto)
+    public void GoingTo(GameObject l_Object)
     {
-        objeto = l_objeto;
-        voyHacia = true;
+        m_Object = l_Object;
+        m_Going = true;
     }
 
-    public void DejarDeIrHacia()
+    public void StopGoingTo()
     {
-        voyHacia = false;
+        m_Going = false;
     }
 }
