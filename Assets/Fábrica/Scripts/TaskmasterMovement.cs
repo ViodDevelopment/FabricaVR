@@ -6,29 +6,38 @@ public class TaskmasterMovement : MonoBehaviour
 {
 
     public GameObject[] m_MovePoints;
-    private int m_ActiveMovingPoint;
-    private int l_Point;
+    public int l_Point;
 
     private float m_Speed;
-    private float l_MovingCounter;
+    public float l_MovingCounter;
 
     private GameObject m_Player;
+    public GameObject m_PlayerDetection;
 
-    // Start is called before the first frame update
+    public bool m_MovingBack;
+    public bool l_MoveAgain;
+
+    public LayerMask m_PlayerLayerMask;
+
+    public Animator m_Animator;
+
     void Start()
     {
         m_Player = GameObject.FindGameObjectWithTag("Player");
         l_Point = 0;
         m_Speed = 1f;
+        m_MovingBack = false;
+        l_MoveAgain = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if(m_Player.GetComponent<PlayerBehaviour>().m_MoveToNextPoint)
+        if (m_Player.GetComponent<PlayerBehaviour>().m_MoveToNextPoint)
         {
             MoveTaskmaster();
         }
+        else
+            m_Animator.SetBool("Walking", false);
 
         if (Vector3.Distance(this.transform.position, m_MovePoints[l_Point].transform.position) < 1f)
         {
@@ -41,17 +50,55 @@ public class TaskmasterMovement : MonoBehaviour
             {
                 l_Point++;
                 m_Player.GetComponent<PlayerBehaviour>().m_MoveToNextPoint = false;
+                m_Animator.SetBool("Walking", false);
+
             }
             else
                 l_MovingCounter += Time.deltaTime;
         }
-
-        
-
     }
 
     public void MoveTaskmaster()
     {
-        transform.position = Vector3.MoveTowards(this.transform.position, m_MovePoints[l_Point].transform.position, m_Speed * Time.deltaTime);
+        if (m_MovingBack)
+        {
+            m_PlayerDetection.SetActive(true);
+
+            if ((transform.position - m_MovePoints[l_Point - 1].transform.position).magnitude > 0.1f)
+            {
+                transform.position = Vector3.MoveTowards(this.transform.position, m_MovePoints[l_Point - 1].transform.position, m_Speed * Time.deltaTime);
+                m_Animator.SetBool("Walking", true);
+            }
+            else
+                m_Animator.SetBool("Walking", false);
+
+
+
+            if (l_MoveAgain)
+            {
+                m_MovingBack = false;
+                l_MoveAgain = false;
+                m_PlayerDetection.SetActive(false);
+            }
+        }
+        else
+        {
+            RaycastHit m_Hit;
+            if (Physics.Raycast(this.transform.position, (m_Player.transform.position - this.transform.position), out m_Hit, m_PlayerLayerMask))
+            {
+                if (m_Hit.transform.gameObject.tag == ("Player"))
+                {
+                    transform.position = Vector3.MoveTowards(this.transform.position, m_MovePoints[l_Point].transform.position, m_Speed * Time.deltaTime);
+                    m_Animator.SetBool("Walking", true);
+                    m_MovingBack = false;
+                    Debug.Log("HitPlayer");
+                }
+                else
+                {
+                    m_MovingBack = true;
+                    Debug.Log("notHitplayer" + m_Hit.transform.name);
+                }
+            }
+        }            
     }
 }

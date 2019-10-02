@@ -10,7 +10,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     void Start()
     {
-        l_Room = 1;
+        l_Room = 0;
         l_ActiveCubes = 0;
     }
 
@@ -18,11 +18,16 @@ public class PlayerBehaviour : MonoBehaviour
     {
         switch (l_Room)
         {
+            case 0:
+                m_MoveToNextPoint = true;
+                l_Room++;
+                break;
             case 1:
                 if(l_ActiveCubes == 1)
                 {
                     m_MoveToNextPoint = true;
                     l_ActiveCubes = 0;
+                    this.gameObject.GetComponent<ActivateCubes>().l_ActionsCubes = l_ActiveCubes;
                     l_Room++;
                 }
                 break;
@@ -31,6 +36,7 @@ public class PlayerBehaviour : MonoBehaviour
                 {
                     m_MoveToNextPoint = true;
                     l_ActiveCubes = 0;
+                    this.gameObject.GetComponent<ActivateCubes>().l_ActionsCubes = l_ActiveCubes;
                     l_Room++;
                 }
                 break;
@@ -39,6 +45,7 @@ public class PlayerBehaviour : MonoBehaviour
                 {
                     m_MoveToNextPoint = true;
                     l_ActiveCubes = 0;
+                    this.gameObject.GetComponent<ActivateCubes>().l_ActionsCubes = l_ActiveCubes;
                     l_Room++;
                 }
                 break;
@@ -47,6 +54,7 @@ public class PlayerBehaviour : MonoBehaviour
                 {
                     m_MoveToNextPoint = true;
                     l_ActiveCubes = 0;
+                    this.gameObject.GetComponent<ActivateCubes>().l_ActionsCubes = l_ActiveCubes;
                     l_Room++;
                 }
                 break;
@@ -55,6 +63,7 @@ public class PlayerBehaviour : MonoBehaviour
                 {
                     m_MoveToNextPoint = true;
                     l_ActiveCubes = 0;
+                    this.gameObject.GetComponent<ActivateCubes>().l_ActionsCubes = l_ActiveCubes;
                     l_Room++;
                 }
                 break;
@@ -63,6 +72,7 @@ public class PlayerBehaviour : MonoBehaviour
                 {
                     m_MoveToNextPoint = true;
                     l_ActiveCubes = 0;
+                    this.gameObject.GetComponent<ActivateCubes>().l_ActionsCubes = l_ActiveCubes;
                     l_Room++;
                 }
                 break;
@@ -71,6 +81,7 @@ public class PlayerBehaviour : MonoBehaviour
                 {
                     m_MoveToNextPoint = true;
                     l_ActiveCubes = 0;
+                    this.gameObject.GetComponent<ActivateCubes>().l_ActionsCubes = l_ActiveCubes;
                     l_Room++;
                 }
                 break;
@@ -79,12 +90,12 @@ public class PlayerBehaviour : MonoBehaviour
                 {
                     m_MoveToNextPoint = true;
                     l_ActiveCubes = 0;
+                    this.gameObject.GetComponent<ActivateCubes>().l_ActionsCubes = l_ActiveCubes;
                     l_Room++;
                 }
                 break;
         }
 
         l_ActiveCubes = this.gameObject.GetComponent<ActivateCubes>().l_ActionsCubes;
-        this.gameObject.GetComponent<ActivateCubes>().l_ActionsCubes = l_ActiveCubes;
     }
 }

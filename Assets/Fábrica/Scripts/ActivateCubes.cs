@@ -19,8 +19,8 @@ public class ActivateCubes : MonoBehaviour
     {
         if (Vector3.Distance(m_Player.transform.position, m_CubesList[l_Cube].transform.position) < 1.5f)
         {
-            l_ActionsCubes++;
             Destroy(m_CubesList[l_Cube]);
+            l_ActionsCubes++;
             l_Cube++;
             m_CubesList[l_Cube].SetActive(true);            
         }

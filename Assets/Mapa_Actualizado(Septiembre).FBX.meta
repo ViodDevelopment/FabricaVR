@@ -1,0 +1,1268 @@
+fileFormatVersion: 2
+guid: 1229753b6cafa8646889d8efb6868e5d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Almacen_Armario_Industrial_005
+    100002: Almacen_Armario_Industrial_006
+    100004: Almacen_Armario_Industrial_01
+    100006: Almacen_Armario_Industrial_02
+    100008: Almacen_Armario_Industrial_03
+    100010: Almacen_Armario_Industrial_04
+    100012: Almacen_Banco_Vestirse_01
+    100014: Almacen_Puerta_Vestuario
+    100016: Almacen_Sacos_Grp
+    100018: Almacen_Sala
+    100020: Almacen_Suelos
+    100022: Almacen_Techos
+    100024: Carbonera_Carbon_grp
+    100026: Carbonera_Rail_00
+    100028: Carbonera_Rail_01
+    100030: Carbonera_Rail_02
+    100032: Carbonera_Rail_03
+    100034: Carbonera_Rail_04
+    100036: Carbonera_Rail_05
+    100038: Carbonera_Rail_06
+    100040: Carbonera_Rail_07
+    100042: Carbonera_Rail_08
+    100044: Carbonera_Rail_09
+    100046: Carbonera_Rail_10
+    100048: Carbonera_Rail_11
+    100050: Carbonera_Rail_12
+    100052: Carbonera_Rail_13
+    100054: Carbonera_Rail_14
+    100056: Carbonera_Rail_15
+    100058: Carbonera_RailCambio_All_Grp
+    100060: Carbonera_Sala
+    100062: Carbonera_Suelos
+    100064: Carbonera_Techo
+    100066: Carbonera_Vagoneta_01
+    100068: Carbonera_Vagoneta_02
+    100070: Carbonera_Vagoneta_03
+    100072: Despacho_Alfombra_geo
+    100074: Despacho_CajaFuerte_Base_geo
+    100076: Despacho_CajaFuerte_Grp
+    100078: Despacho_CajaFuerte_Inside_geo
+    100080: Despacho_CajaFuerte_Puerta_geo
+    100082: Despacho_CajaFuerte_Sobre_geo
+    100084: Despacho_Cajonera_geo
+    100086: Despacho_Cristalera_00
+    100088: Despacho_Cristalera_01
+    100090: Despacho_Cuadro01_geo
+    100092: Despacho_Cuadro02_geo
+    100094: Despacho_Escritorio_geo
+    100096: Despacho_Escritorio_GLASS_Lampara_geo
+    100098: Despacho_Escritorio_grp
+    100100: Despacho_Escritorio_Periodico_geo
+    100102: Despacho_Escritorio_Props_geo
+    100104: Despacho_Escritorio_Sobre_geo
+    100106: Despacho_Marco_Cristal
+    100108: Despacho_Marco_Cristal001
+    100110: Despacho_Perchero_geo
+    100112: Despacho_Puerta_grp
+    100114: Despacho_Reloj_geo
+    100116: Despacho_Sala
+    100118: Despacho_Silla_geo
+    100120: Despacho_Suelos
+    100122: Despacho_Techos
+    100124: Fachada_Bordes_Edificio
+    100126: Fachada_Cristaleras
+    100128: Fachada_Edificio
+    100130: Fachada_Escaleras
+    100132: Fachada_Muro
+    100134: Fachada_Puertas_Muro
+    100136: Fachada_Techo_Entrada
+    100138: Fachada_Ventanas_Redondas
+    100140: Hilares_All
+    100142: Hilares_Cesta_TipoA_grp
+    100144: Hilares_Cesta_TipoA_grp001
+    100146: Hilares_Cesta_TipoA_grp002
+    100148: Hilares_Cesta_TipoB_grp
+    100150: Hilares_Cesta_TipoB_grp001
+    100152: Hilares_Cesta_TipoB_grp002
+    100154: Hilares_Cesta_TipoC_grp
+    100156: Hilares_Cesta_TipoC_grp001
+    100158: Hilares_Cesta_TipoD_grp
+    100160: Hilares_Cesta_TipoD_grp001
+    100162: Hilares_Sala
+    100164: Hilares_Selfactina_00
+    100166: Hilares_Selfactina_01
+    100168: Hilares_Selfactina_02
+    100170: Hilares_Selfactina_03
+    100172: Hilares_Selfactina_04
+    100174: Hilares_Selfactina_05
+    100176: Hilares_Suelo
+    100178: Hilares_Taburete_00
+    100180: Hilares_Taburete_01
+    100182: Hilares_Taburete_02
+    100184: Hilares_Taburete_03
+    100186: Hilares_Taburete_04
+    100188: Hilares_Taburete_05
+    100190: Hilares_Taburete_06
+    100192: Hilares_Taburete_07
+    100194: Hilares_Taburete_08
+    100196: Hilares_Taburete_09
+    100198: Hilares_Ventanales_Techo
+    100200: Hilares_Ventanas
+    100202: Hornos_Carbon_Grp
+    100204: Hornos_Esclaeras
+    100206: Hornos_Maquinaria_01
+    100208: Hornos_Maquinaria_02
+    100210: Hornos_Puerta
+    100212: Hornos_Rail_00
+    100214: Hornos_Rail_01
+    100216: Hornos_Rail_02
+    100218: Hornos_Rail_03
+    100220: Hornos_Rail_04
+    100222: Hornos_Rail_05
+    100224: Hornos_Rail_06
+    100226: Hornos_Rail_07
+    100228: Hornos_Rail_08
+    100230: Hornos_Rail_09
+    100232: Hornos_Rail_10
+    100234: Hornos_Rail_11
+    100236: Hornos_RailCambio_All
+    100238: Hornos_Sala
+    100240: Hornos_Suelo
+    100242: Hornos_Techo
+    100244: Hornos_Ventanas
+    100246: //RootNode
+    100248: MaquinaVapor_Sala
+    100250: MaquinaVapor_Suelo
+    100252: MaquinaVapor_Techo
+    100254: MaquinaVapor_Ventanales
+    100256: OBJETO ELIMINAR
+    100258: OBJETO ELIMINAR 1
+    100260: OBJETO ELIMINAR 10
+    100262: OBJETO ELIMINAR 11
+    100264: OBJETO ELIMINAR 12
+    100266: OBJETO ELIMINAR 13
+    100268: OBJETO ELIMINAR 14
+    100270: OBJETO ELIMINAR 15
+    100272: OBJETO ELIMINAR 16
+    100274: OBJETO ELIMINAR 17
+    100276: OBJETO ELIMINAR 18
+    100278: OBJETO ELIMINAR 19
+    100280: OBJETO ELIMINAR 2
+    100282: OBJETO ELIMINAR 20
+    100284: OBJETO ELIMINAR 21
+    100286: OBJETO ELIMINAR 22
+    100288: OBJETO ELIMINAR 23
+    100290: OBJETO ELIMINAR 24
+    100292: OBJETO ELIMINAR 25
+    100294: OBJETO ELIMINAR 26
+    100296: OBJETO ELIMINAR 27
+    100298: OBJETO ELIMINAR 28
+    100300: OBJETO ELIMINAR 29
+    100302: OBJETO ELIMINAR 3
+    100304: OBJETO ELIMINAR 30
+    100306: OBJETO ELIMINAR 31
+    100308: OBJETO ELIMINAR 4
+    100310: OBJETO ELIMINAR 5
+    100312: OBJETO ELIMINAR 6
+    100314: OBJETO ELIMINAR 7
+    100316: OBJETO ELIMINAR 8
+    100318: OBJETO ELIMINAR 9
+    100320: Vestuario_Armario_Industrial_00
+    100322: Vestuario_Armario_Industrial_01
+    100324: Vestuario_Banco_00
+    100326: Vestuario_Banco_01
+    100328: Vestuario_Banco_Vestirse_00
+    100330: Vestuario_Banco_Vestirse_01
+    100332: Vestuario_Banco_Vestirse_02
+    100334: Vestuario_Banco_Vestirse_03
+    100336: Vestuario_Banco_Vestirse_04
+    100338: Vestuario_Banco_Vestirse_05
+    100340: Vestuario_Banco_Vestirse_06
+    100342: Vestuario_Banco_Vestirse_07
+    100344: Vestuario_Banco_Vestirse_08
+    100346: Vestuario_Banco_Vestirse_09
+    100348: Vestuario_Grifos
+    100350: Vestuario_Maquina_Fichar
+    100352: Vestuario_Puerta_Almacen
+    100354: Vestuario_Sala
+    100356: Vestuario_Suelos
+    100358: Vestuario_Taquilla_00
+    100360: Vestuario_Taquilla_01
+    100362: Vestuario_Taquilla_02
+    100364: Vestuario_Taquilla_03
+    100366: Vestuario_Taquilla_04
+    100368: Vestuario_Taquilla_05
+    100370: Vestuario_Taquilla_06
+    100372: Vestuario_Taquilla_07
+    100374: Vestuario_Taquilla_08
+    100376: Vestuario_Taquilla_09
+    100378: Vestuario_Taquilla_10
+    100380: Vestuario_Taquilla_11
+    100382: Vestuario_Taquilla_12
+    100384: Vestuario_Taquilla_13
+    100386: Vestuario_Taquilla_14
+    100388: Vestuario_Taquilla_15
+    100390: Vestuario_Taquilla_16
+    100392: Vestuario_Taquilla_17
+    100394: Vestuario_Taquilla_18
+    100396: Vestuario_Taquilla_19
+    100398: Vestuario_Taquilla_20
+    100400: Vestuario_Taquilla_21
+    100402: Vestuario_Taquilla_22
+    100404: Vestuario_Taquilla_23
+    100406: Vestuario_Taquilla_24
+    100408: Vestuario_Taquilla_25
+    100410: Vestuario_Taquilla_26
+    100412: Vestuario_Taquilla_27
+    100414: Vestuario_Taquilla_28
+    100416: Vestuario_Taquilla_29
+    100418: Vestuario_Taquilla_30
+    100420: Vestuario_Taquilla_31
+    100422: Vestuario_Taquilla_32
+    100424: Vestuario_Taquilla_33
+    100426: Vestuario_Taquilla_34
+    100428: Vestuario_Taquilla_35
+    100430: Vestuario_Taquilla_36
+    100432: Vestuario_Taquilla_37
+    100434: Vestuario_Taquilla_38
+    100436: Vestuario_Taquilla_39
+    100438: Vestuario_Taquilla_40
+    100440: Vestuario_Taquilla_41
+    100442: Vestuario_Taquilla_42
+    100444: Vestuario_Taquilla_43
+    100446: Vestuario_Taquilla_44
+    100448: Vestuario_Taquilla_45
+    100450: Vestuario_Taquilla_46
+    100452: Vestuario_Taquilla_47
+    100454: Vestuario_Taquilla_48
+    100456: Vestuario_Taquilla_49
+    100458: Vestuario_Taquilla_50
+    100460: Vestuario_Taquilla_51
+    100462: Vestuario_Taquilla_52
+    100464: Vestuario_Taquilla_53
+    100466: Vestuario_Taquilla_54
+    100468: Vestuario_Taquilla_55
+    100470: Vestuario_Taquilla_56
+    100472: Vestuario_Taquilla_57
+    100474: Vestuario_Taquilla_58
+    100476: Vestuario_Taquilla_59
+    100478: Vestuario_Taquilla_60
+    100480: Vestuario_Taquilla_61
+    100482: Vestuario_Taquilla_62
+    100484: Vestuario_Taquilla_63
+    100486: Vestuario_Taquilla_64
+    100488: Vestuario_Taquilla_65
+    100490: Vestuario_Taquilla_66
+    100492: Vestuario_Taquilla_67
+    100494: Vestuario_Taquilla_68
+    100496: Vestuario_Techos
+    100498: Vestuario_Ventanas
+    400000: Almacen_Armario_Industrial_005
+    400002: Almacen_Armario_Industrial_006
+    400004: Almacen_Armario_Industrial_01
+    400006: Almacen_Armario_Industrial_02
+    400008: Almacen_Armario_Industrial_03
+    400010: Almacen_Armario_Industrial_04
+    400012: Almacen_Banco_Vestirse_01
+    400014: Almacen_Puerta_Vestuario
+    400016: Almacen_Sacos_Grp
+    400018: Almacen_Sala
+    400020: Almacen_Suelos
+    400022: Almacen_Techos
+    400024: Carbonera_Carbon_grp
+    400026: Carbonera_Rail_00
+    400028: Carbonera_Rail_01
+    400030: Carbonera_Rail_02
+    400032: Carbonera_Rail_03
+    400034: Carbonera_Rail_04
+    400036: Carbonera_Rail_05
+    400038: Carbonera_Rail_06
+    400040: Carbonera_Rail_07
+    400042: Carbonera_Rail_08
+    400044: Carbonera_Rail_09
+    400046: Carbonera_Rail_10
+    400048: Carbonera_Rail_11
+    400050: Carbonera_Rail_12
+    400052: Carbonera_Rail_13
+    400054: Carbonera_Rail_14
+    400056: Carbonera_Rail_15
+    400058: Carbonera_RailCambio_All_Grp
+    400060: Carbonera_Sala
+    400062: Carbonera_Suelos
+    400064: Carbonera_Techo
+    400066: Carbonera_Vagoneta_01
+    400068: Carbonera_Vagoneta_02
+    400070: Carbonera_Vagoneta_03
+    400072: Despacho_Alfombra_geo
+    400074: Despacho_CajaFuerte_Base_geo
+    400076: Despacho_CajaFuerte_Grp
+    400078: Despacho_CajaFuerte_Inside_geo
+    400080: Despacho_CajaFuerte_Puerta_geo
+    400082: Despacho_CajaFuerte_Sobre_geo
+    400084: Despacho_Cajonera_geo
+    400086: Despacho_Cristalera_00
+    400088: Despacho_Cristalera_01
+    400090: Despacho_Cuadro01_geo
+    400092: Despacho_Cuadro02_geo
+    400094: Despacho_Escritorio_geo
+    400096: Despacho_Escritorio_GLASS_Lampara_geo
+    400098: Despacho_Escritorio_grp
+    400100: Despacho_Escritorio_Periodico_geo
+    400102: Despacho_Escritorio_Props_geo
+    400104: Despacho_Escritorio_Sobre_geo
+    400106: Despacho_Marco_Cristal
+    400108: Despacho_Marco_Cristal001
+    400110: Despacho_Perchero_geo
+    400112: Despacho_Puerta_grp
+    400114: Despacho_Reloj_geo
+    400116: Despacho_Sala
+    400118: Despacho_Silla_geo
+    400120: Despacho_Suelos
+    400122: Despacho_Techos
+    400124: Fachada_Bordes_Edificio
+    400126: Fachada_Cristaleras
+    400128: Fachada_Edificio
+    400130: Fachada_Escaleras
+    400132: Fachada_Muro
+    400134: Fachada_Puertas_Muro
+    400136: Fachada_Techo_Entrada
+    400138: Fachada_Ventanas_Redondas
+    400140: Hilares_All
+    400142: Hilares_Cesta_TipoA_grp
+    400144: Hilares_Cesta_TipoA_grp001
+    400146: Hilares_Cesta_TipoA_grp002
+    400148: Hilares_Cesta_TipoB_grp
+    400150: Hilares_Cesta_TipoB_grp001
+    400152: Hilares_Cesta_TipoB_grp002
+    400154: Hilares_Cesta_TipoC_grp
+    400156: Hilares_Cesta_TipoC_grp001
+    400158: Hilares_Cesta_TipoD_grp
+    400160: Hilares_Cesta_TipoD_grp001
+    400162: Hilares_Sala
+    400164: Hilares_Selfactina_00
+    400166: Hilares_Selfactina_01
+    400168: Hilares_Selfactina_02
+    400170: Hilares_Selfactina_03
+    400172: Hilares_Selfactina_04
+    400174: Hilares_Selfactina_05
+    400176: Hilares_Suelo
+    400178: Hilares_Taburete_00
+    400180: Hilares_Taburete_01
+    400182: Hilares_Taburete_02
+    400184: Hilares_Taburete_03
+    400186: Hilares_Taburete_04
+    400188: Hilares_Taburete_05
+    400190: Hilares_Taburete_06
+    400192: Hilares_Taburete_07
+    400194: Hilares_Taburete_08
+    400196: Hilares_Taburete_09
+    400198: Hilares_Ventanales_Techo
+    400200: Hilares_Ventanas
+    400202: Hornos_Carbon_Grp
+    400204: Hornos_Esclaeras
+    400206: Hornos_Maquinaria_01
+    400208: Hornos_Maquinaria_02
+    400210: Hornos_Puerta
+    400212: Hornos_Rail_00
+    400214: Hornos_Rail_01
+    400216: Hornos_Rail_02
+    400218: Hornos_Rail_03
+    400220: Hornos_Rail_04
+    400222: Hornos_Rail_05
+    400224: Hornos_Rail_06
+    400226: Hornos_Rail_07
+    400228: Hornos_Rail_08
+    400230: Hornos_Rail_09
+    400232: Hornos_Rail_10
+    400234: Hornos_Rail_11
+    400236: Hornos_RailCambio_All
+    400238: Hornos_Sala
+    400240: Hornos_Suelo
+    400242: Hornos_Techo
+    400244: Hornos_Ventanas
+    400246: //RootNode
+    400248: MaquinaVapor_Sala
+    400250: MaquinaVapor_Suelo
+    400252: MaquinaVapor_Techo
+    400254: MaquinaVapor_Ventanales
+    400256: OBJETO ELIMINAR
+    400258: OBJETO ELIMINAR 1
+    400260: OBJETO ELIMINAR 10
+    400262: OBJETO ELIMINAR 11
+    400264: OBJETO ELIMINAR 12
+    400266: OBJETO ELIMINAR 13
+    400268: OBJETO ELIMINAR 14
+    400270: OBJETO ELIMINAR 15
+    400272: OBJETO ELIMINAR 16
+    400274: OBJETO ELIMINAR 17
+    400276: OBJETO ELIMINAR 18
+    400278: OBJETO ELIMINAR 19
+    400280: OBJETO ELIMINAR 2
+    400282: OBJETO ELIMINAR 20
+    400284: OBJETO ELIMINAR 21
+    400286: OBJETO ELIMINAR 22
+    400288: OBJETO ELIMINAR 23
+    400290: OBJETO ELIMINAR 24
+    400292: OBJETO ELIMINAR 25
+    400294: OBJETO ELIMINAR 26
+    400296: OBJETO ELIMINAR 27
+    400298: OBJETO ELIMINAR 28
+    400300: OBJETO ELIMINAR 29
+    400302: OBJETO ELIMINAR 3
+    400304: OBJETO ELIMINAR 30
+    400306: OBJETO ELIMINAR 31
+    400308: OBJETO ELIMINAR 4
+    400310: OBJETO ELIMINAR 5
+    400312: OBJETO ELIMINAR 6
+    400314: OBJETO ELIMINAR 7
+    400316: OBJETO ELIMINAR 8
+    400318: OBJETO ELIMINAR 9
+    400320: Vestuario_Armario_Industrial_00
+    400322: Vestuario_Armario_Industrial_01
+    400324: Vestuario_Banco_00
+    400326: Vestuario_Banco_01
+    400328: Vestuario_Banco_Vestirse_00
+    400330: Vestuario_Banco_Vestirse_01
+    400332: Vestuario_Banco_Vestirse_02
+    400334: Vestuario_Banco_Vestirse_03
+    400336: Vestuario_Banco_Vestirse_04
+    400338: Vestuario_Banco_Vestirse_05
+    400340: Vestuario_Banco_Vestirse_06
+    400342: Vestuario_Banco_Vestirse_07
+    400344: Vestuario_Banco_Vestirse_08
+    400346: Vestuario_Banco_Vestirse_09
+    400348: Vestuario_Grifos
+    400350: Vestuario_Maquina_Fichar
+    400352: Vestuario_Puerta_Almacen
+    400354: Vestuario_Sala
+    400356: Vestuario_Suelos
+    400358: Vestuario_Taquilla_00
+    400360: Vestuario_Taquilla_01
+    400362: Vestuario_Taquilla_02
+    400364: Vestuario_Taquilla_03
+    400366: Vestuario_Taquilla_04
+    400368: Vestuario_Taquilla_05
+    400370: Vestuario_Taquilla_06
+    400372: Vestuario_Taquilla_07
+    400374: Vestuario_Taquilla_08
+    400376: Vestuario_Taquilla_09
+    400378: Vestuario_Taquilla_10
+    400380: Vestuario_Taquilla_11
+    400382: Vestuario_Taquilla_12
+    400384: Vestuario_Taquilla_13
+    400386: Vestuario_Taquilla_14
+    400388: Vestuario_Taquilla_15
+    400390: Vestuario_Taquilla_16
+    400392: Vestuario_Taquilla_17
+    400394: Vestuario_Taquilla_18
+    400396: Vestuario_Taquilla_19
+    400398: Vestuario_Taquilla_20
+    400400: Vestuario_Taquilla_21
+    400402: Vestuario_Taquilla_22
+    400404: Vestuario_Taquilla_23
+    400406: Vestuario_Taquilla_24
+    400408: Vestuario_Taquilla_25
+    400410: Vestuario_Taquilla_26
+    400412: Vestuario_Taquilla_27
+    400414: Vestuario_Taquilla_28
+    400416: Vestuario_Taquilla_29
+    400418: Vestuario_Taquilla_30
+    400420: Vestuario_Taquilla_31
+    400422: Vestuario_Taquilla_32
+    400424: Vestuario_Taquilla_33
+    400426: Vestuario_Taquilla_34
+    400428: Vestuario_Taquilla_35
+    400430: Vestuario_Taquilla_36
+    400432: Vestuario_Taquilla_37
+    400434: Vestuario_Taquilla_38
+    400436: Vestuario_Taquilla_39
+    400438: Vestuario_Taquilla_40
+    400440: Vestuario_Taquilla_41
+    400442: Vestuario_Taquilla_42
+    400444: Vestuario_Taquilla_43
+    400446: Vestuario_Taquilla_44
+    400448: Vestuario_Taquilla_45
+    400450: Vestuario_Taquilla_46
+    400452: Vestuario_Taquilla_47
+    400454: Vestuario_Taquilla_48
+    400456: Vestuario_Taquilla_49
+    400458: Vestuario_Taquilla_50
+    400460: Vestuario_Taquilla_51
+    400462: Vestuario_Taquilla_52
+    400464: Vestuario_Taquilla_53
+    400466: Vestuario_Taquilla_54
+    400468: Vestuario_Taquilla_55
+    400470: Vestuario_Taquilla_56
+    400472: Vestuario_Taquilla_57
+    400474: Vestuario_Taquilla_58
+    400476: Vestuario_Taquilla_59
+    400478: Vestuario_Taquilla_60
+    400480: Vestuario_Taquilla_61
+    400482: Vestuario_Taquilla_62
+    400484: Vestuario_Taquilla_63
+    400486: Vestuario_Taquilla_64
+    400488: Vestuario_Taquilla_65
+    400490: Vestuario_Taquilla_66
+    400492: Vestuario_Taquilla_67
+    400494: Vestuario_Taquilla_68
+    400496: Vestuario_Techos
+    400498: Vestuario_Ventanas
+    2100000: No Name
+    2100002: lambert1
+    2300000: Almacen_Armario_Industrial_005
+    2300002: Almacen_Armario_Industrial_006
+    2300004: Almacen_Armario_Industrial_01
+    2300006: Almacen_Armario_Industrial_02
+    2300008: Almacen_Armario_Industrial_03
+    2300010: Almacen_Armario_Industrial_04
+    2300012: Almacen_Banco_Vestirse_01
+    2300014: Almacen_Puerta_Vestuario
+    2300016: Almacen_Sala
+    2300018: Almacen_Suelos
+    2300020: Almacen_Techos
+    2300022: Carbonera_Rail_00
+    2300024: Carbonera_Rail_01
+    2300026: Carbonera_Rail_02
+    2300028: Carbonera_Rail_03
+    2300030: Carbonera_Rail_04
+    2300032: Carbonera_Rail_05
+    2300034: Carbonera_Rail_06
+    2300036: Carbonera_Rail_07
+    2300038: Carbonera_Rail_08
+    2300040: Carbonera_Rail_09
+    2300042: Carbonera_Rail_10
+    2300044: Carbonera_Rail_11
+    2300046: Carbonera_Rail_12
+    2300048: Carbonera_Rail_13
+    2300050: Carbonera_Rail_14
+    2300052: Carbonera_Rail_15
+    2300054: Carbonera_Sala
+    2300056: Carbonera_Suelos
+    2300058: Carbonera_Techo
+    2300060: Carbonera_Vagoneta_01
+    2300062: Carbonera_Vagoneta_02
+    2300064: Carbonera_Vagoneta_03
+    2300066: Despacho_Alfombra_geo
+    2300068: Despacho_CajaFuerte_Base_geo
+    2300070: Despacho_CajaFuerte_Inside_geo
+    2300072: Despacho_CajaFuerte_Puerta_geo
+    2300074: Despacho_CajaFuerte_Sobre_geo
+    2300076: Despacho_Cajonera_geo
+    2300078: Despacho_Cristalera_00
+    2300080: Despacho_Cristalera_01
+    2300082: Despacho_Cuadro01_geo
+    2300084: Despacho_Cuadro02_geo
+    2300086: Despacho_Escritorio_geo
+    2300088: Despacho_Escritorio_GLASS_Lampara_geo
+    2300090: Despacho_Escritorio_Periodico_geo
+    2300092: Despacho_Escritorio_Props_geo
+    2300094: Despacho_Escritorio_Sobre_geo
+    2300096: Despacho_Marco_Cristal
+    2300098: Despacho_Marco_Cristal001
+    2300100: Despacho_Perchero_geo
+    2300102: Despacho_Reloj_geo
+    2300104: Despacho_Sala
+    2300106: Despacho_Silla_geo
+    2300108: Despacho_Suelos
+    2300110: Despacho_Techos
+    2300112: Fachada_Bordes_Edificio
+    2300114: Fachada_Cristaleras
+    2300116: Fachada_Edificio
+    2300118: Fachada_Escaleras
+    2300120: Fachada_Muro
+    2300122: Fachada_Puertas_Muro
+    2300124: Fachada_Techo_Entrada
+    2300126: Fachada_Ventanas_Redondas
+    2300128: Hilares_Sala
+    2300130: Hilares_Selfactina_00
+    2300132: Hilares_Selfactina_01
+    2300134: Hilares_Selfactina_02
+    2300136: Hilares_Selfactina_03
+    2300138: Hilares_Selfactina_04
+    2300140: Hilares_Selfactina_05
+    2300142: Hilares_Suelo
+    2300144: Hilares_Taburete_00
+    2300146: Hilares_Taburete_01
+    2300148: Hilares_Taburete_02
+    2300150: Hilares_Taburete_03
+    2300152: Hilares_Taburete_04
+    2300154: Hilares_Taburete_05
+    2300156: Hilares_Taburete_06
+    2300158: Hilares_Taburete_07
+    2300160: Hilares_Taburete_08
+    2300162: Hilares_Taburete_09
+    2300164: Hilares_Ventanales_Techo
+    2300166: Hilares_Ventanas
+    2300168: Hornos_Esclaeras
+    2300170: Hornos_Puerta
+    2300172: Hornos_Rail_00
+    2300174: Hornos_Rail_01
+    2300176: Hornos_Rail_02
+    2300178: Hornos_Rail_03
+    2300180: Hornos_Rail_04
+    2300182: Hornos_Rail_05
+    2300184: Hornos_Rail_06
+    2300186: Hornos_Rail_07
+    2300188: Hornos_Rail_08
+    2300190: Hornos_Rail_09
+    2300192: Hornos_Rail_10
+    2300194: Hornos_Rail_11
+    2300196: Hornos_Sala
+    2300198: Hornos_Suelo
+    2300200: Hornos_Techo
+    2300202: Hornos_Ventanas
+    2300204: MaquinaVapor_Sala
+    2300206: MaquinaVapor_Suelo
+    2300208: MaquinaVapor_Techo
+    2300210: MaquinaVapor_Ventanales
+    2300212: OBJETO ELIMINAR
+    2300214: OBJETO ELIMINAR 1
+    2300216: OBJETO ELIMINAR 10
+    2300218: OBJETO ELIMINAR 11
+    2300220: OBJETO ELIMINAR 12
+    2300222: OBJETO ELIMINAR 13
+    2300224: OBJETO ELIMINAR 14
+    2300226: OBJETO ELIMINAR 15
+    2300228: OBJETO ELIMINAR 16
+    2300230: OBJETO ELIMINAR 17
+    2300232: OBJETO ELIMINAR 18
+    2300234: OBJETO ELIMINAR 19
+    2300236: OBJETO ELIMINAR 2
+    2300238: OBJETO ELIMINAR 20
+    2300240: OBJETO ELIMINAR 21
+    2300242: OBJETO ELIMINAR 22
+    2300244: OBJETO ELIMINAR 23
+    2300246: OBJETO ELIMINAR 24
+    2300248: OBJETO ELIMINAR 25
+    2300250: OBJETO ELIMINAR 26
+    2300252: OBJETO ELIMINAR 27
+    2300254: OBJETO ELIMINAR 28
+    2300256: OBJETO ELIMINAR 29
+    2300258: OBJETO ELIMINAR 3
+    2300260: OBJETO ELIMINAR 30
+    2300262: OBJETO ELIMINAR 31
+    2300264: OBJETO ELIMINAR 4
+    2300266: OBJETO ELIMINAR 5
+    2300268: OBJETO ELIMINAR 8
+    2300270: OBJETO ELIMINAR 9
+    2300272: Vestuario_Armario_Industrial_00
+    2300274: Vestuario_Armario_Industrial_01
+    2300276: Vestuario_Banco_00
+    2300278: Vestuario_Banco_01
+    2300280: Vestuario_Banco_Vestirse_00
+    2300282: Vestuario_Banco_Vestirse_01
+    2300284: Vestuario_Banco_Vestirse_02
+    2300286: Vestuario_Banco_Vestirse_03
+    2300288: Vestuario_Banco_Vestirse_04
+    2300290: Vestuario_Banco_Vestirse_05
+    2300292: Vestuario_Banco_Vestirse_06
+    2300294: Vestuario_Banco_Vestirse_07
+    2300296: Vestuario_Banco_Vestirse_08
+    2300298: Vestuario_Banco_Vestirse_09
+    2300300: Vestuario_Puerta_Almacen
+    2300302: Vestuario_Sala
+    2300304: Vestuario_Suelos
+    2300306: Vestuario_Taquilla_00
+    2300308: Vestuario_Taquilla_01
+    2300310: Vestuario_Taquilla_02
+    2300312: Vestuario_Taquilla_03
+    2300314: Vestuario_Taquilla_04
+    2300316: Vestuario_Taquilla_05
+    2300318: Vestuario_Taquilla_06
+    2300320: Vestuario_Taquilla_07
+    2300322: Vestuario_Taquilla_08
+    2300324: Vestuario_Taquilla_09
+    2300326: Vestuario_Taquilla_10
+    2300328: Vestuario_Taquilla_11
+    2300330: Vestuario_Taquilla_12
+    2300332: Vestuario_Taquilla_13
+    2300334: Vestuario_Taquilla_14
+    2300336: Vestuario_Taquilla_15
+    2300338: Vestuario_Taquilla_16
+    2300340: Vestuario_Taquilla_17
+    2300342: Vestuario_Taquilla_18
+    2300344: Vestuario_Taquilla_19
+    2300346: Vestuario_Taquilla_20
+    2300348: Vestuario_Taquilla_21
+    2300350: Vestuario_Taquilla_22
+    2300352: Vestuario_Taquilla_23
+    2300354: Vestuario_Taquilla_24
+    2300356: Vestuario_Taquilla_25
+    2300358: Vestuario_Taquilla_26
+    2300360: Vestuario_Taquilla_27
+    2300362: Vestuario_Taquilla_28
+    2300364: Vestuario_Taquilla_29
+    2300366: Vestuario_Taquilla_30
+    2300368: Vestuario_Taquilla_31
+    2300370: Vestuario_Taquilla_32
+    2300372: Vestuario_Taquilla_33
+    2300374: Vestuario_Taquilla_34
+    2300376: Vestuario_Taquilla_35
+    2300378: Vestuario_Taquilla_36
+    2300380: Vestuario_Taquilla_37
+    2300382: Vestuario_Taquilla_38
+    2300384: Vestuario_Taquilla_39
+    2300386: Vestuario_Taquilla_40
+    2300388: Vestuario_Taquilla_41
+    2300390: Vestuario_Taquilla_42
+    2300392: Vestuario_Taquilla_43
+    2300394: Vestuario_Taquilla_44
+    2300396: Vestuario_Taquilla_45
+    2300398: Vestuario_Taquilla_46
+    2300400: Vestuario_Taquilla_47
+    2300402: Vestuario_Taquilla_48
+    2300404: Vestuario_Taquilla_49
+    2300406: Vestuario_Taquilla_50
+    2300408: Vestuario_Taquilla_51
+    2300410: Vestuario_Taquilla_52
+    2300412: Vestuario_Taquilla_53
+    2300414: Vestuario_Taquilla_54
+    2300416: Vestuario_Taquilla_55
+    2300418: Vestuario_Taquilla_56
+    2300420: Vestuario_Taquilla_57
+    2300422: Vestuario_Taquilla_58
+    2300424: Vestuario_Taquilla_59
+    2300426: Vestuario_Taquilla_60
+    2300428: Vestuario_Taquilla_61
+    2300430: Vestuario_Taquilla_62
+    2300432: Vestuario_Taquilla_63
+    2300434: Vestuario_Taquilla_64
+    2300436: Vestuario_Taquilla_65
+    2300438: Vestuario_Taquilla_66
+    2300440: Vestuario_Taquilla_67
+    2300442: Vestuario_Taquilla_68
+    2300444: Vestuario_Techos
+    2300446: Vestuario_Ventanas
+    3300000: Almacen_Armario_Industrial_005
+    3300002: Almacen_Armario_Industrial_006
+    3300004: Almacen_Armario_Industrial_01
+    3300006: Almacen_Armario_Industrial_02
+    3300008: Almacen_Armario_Industrial_03
+    3300010: Almacen_Armario_Industrial_04
+    3300012: Almacen_Banco_Vestirse_01
+    3300014: Almacen_Puerta_Vestuario
+    3300016: Almacen_Sala
+    3300018: Almacen_Suelos
+    3300020: Almacen_Techos
+    3300022: Carbonera_Rail_00
+    3300024: Carbonera_Rail_01
+    3300026: Carbonera_Rail_02
+    3300028: Carbonera_Rail_03
+    3300030: Carbonera_Rail_04
+    3300032: Carbonera_Rail_05
+    3300034: Carbonera_Rail_06
+    3300036: Carbonera_Rail_07
+    3300038: Carbonera_Rail_08
+    3300040: Carbonera_Rail_09
+    3300042: Carbonera_Rail_10
+    3300044: Carbonera_Rail_11
+    3300046: Carbonera_Rail_12
+    3300048: Carbonera_Rail_13
+    3300050: Carbonera_Rail_14
+    3300052: Carbonera_Rail_15
+    3300054: Carbonera_Sala
+    3300056: Carbonera_Suelos
+    3300058: Carbonera_Techo
+    3300060: Carbonera_Vagoneta_01
+    3300062: Carbonera_Vagoneta_02
+    3300064: Carbonera_Vagoneta_03
+    3300066: Despacho_Alfombra_geo
+    3300068: Despacho_CajaFuerte_Base_geo
+    3300070: Despacho_CajaFuerte_Inside_geo
+    3300072: Despacho_CajaFuerte_Puerta_geo
+    3300074: Despacho_CajaFuerte_Sobre_geo
+    3300076: Despacho_Cajonera_geo
+    3300078: Despacho_Cristalera_00
+    3300080: Despacho_Cristalera_01
+    3300082: Despacho_Cuadro01_geo
+    3300084: Despacho_Cuadro02_geo
+    3300086: Despacho_Escritorio_geo
+    3300088: Despacho_Escritorio_GLASS_Lampara_geo
+    3300090: Despacho_Escritorio_Periodico_geo
+    3300092: Despacho_Escritorio_Props_geo
+    3300094: Despacho_Escritorio_Sobre_geo
+    3300096: Despacho_Marco_Cristal
+    3300098: Despacho_Marco_Cristal001
+    3300100: Despacho_Perchero_geo
+    3300102: Despacho_Reloj_geo
+    3300104: Despacho_Sala
+    3300106: Despacho_Silla_geo
+    3300108: Despacho_Suelos
+    3300110: Despacho_Techos
+    3300112: Fachada_Bordes_Edificio
+    3300114: Fachada_Cristaleras
+    3300116: Fachada_Edificio
+    3300118: Fachada_Escaleras
+    3300120: Fachada_Muro
+    3300122: Fachada_Puertas_Muro
+    3300124: Fachada_Techo_Entrada
+    3300126: Fachada_Ventanas_Redondas
+    3300128: Hilares_Sala
+    3300130: Hilares_Selfactina_00
+    3300132: Hilares_Selfactina_01
+    3300134: Hilares_Selfactina_02
+    3300136: Hilares_Selfactina_03
+    3300138: Hilares_Selfactina_04
+    3300140: Hilares_Selfactina_05
+    3300142: Hilares_Suelo
+    3300144: Hilares_Taburete_00
+    3300146: Hilares_Taburete_01
+    3300148: Hilares_Taburete_02
+    3300150: Hilares_Taburete_03
+    3300152: Hilares_Taburete_04
+    3300154: Hilares_Taburete_05
+    3300156: Hilares_Taburete_06
+    3300158: Hilares_Taburete_07
+    3300160: Hilares_Taburete_08
+    3300162: Hilares_Taburete_09
+    3300164: Hilares_Ventanales_Techo
+    3300166: Hilares_Ventanas
+    3300168: Hornos_Esclaeras
+    3300170: Hornos_Puerta
+    3300172: Hornos_Rail_00
+    3300174: Hornos_Rail_01
+    3300176: Hornos_Rail_02
+    3300178: Hornos_Rail_03
+    3300180: Hornos_Rail_04
+    3300182: Hornos_Rail_05
+    3300184: Hornos_Rail_06
+    3300186: Hornos_Rail_07
+    3300188: Hornos_Rail_08
+    3300190: Hornos_Rail_09
+    3300192: Hornos_Rail_10
+    3300194: Hornos_Rail_11
+    3300196: Hornos_Sala
+    3300198: Hornos_Suelo
+    3300200: Hornos_Techo
+    3300202: Hornos_Ventanas
+    3300204: MaquinaVapor_Sala
+    3300206: MaquinaVapor_Suelo
+    3300208: MaquinaVapor_Techo
+    3300210: MaquinaVapor_Ventanales
+    3300212: OBJETO ELIMINAR
+    3300214: OBJETO ELIMINAR 1
+    3300216: OBJETO ELIMINAR 10
+    3300218: OBJETO ELIMINAR 11
+    3300220: OBJETO ELIMINAR 12
+    3300222: OBJETO ELIMINAR 13
+    3300224: OBJETO ELIMINAR 14
+    3300226: OBJETO ELIMINAR 15
+    3300228: OBJETO ELIMINAR 16
+    3300230: OBJETO ELIMINAR 17
+    3300232: OBJETO ELIMINAR 18
+    3300234: OBJETO ELIMINAR 19
+    3300236: OBJETO ELIMINAR 2
+    3300238: OBJETO ELIMINAR 20
+    3300240: OBJETO ELIMINAR 21
+    3300242: OBJETO ELIMINAR 22
+    3300244: OBJETO ELIMINAR 23
+    3300246: OBJETO ELIMINAR 24
+    3300248: OBJETO ELIMINAR 25
+    3300250: OBJETO ELIMINAR 26
+    3300252: OBJETO ELIMINAR 27
+    3300254: OBJETO ELIMINAR 28
+    3300256: OBJETO ELIMINAR 29
+    3300258: OBJETO ELIMINAR 3
+    3300260: OBJETO ELIMINAR 30
+    3300262: OBJETO ELIMINAR 31
+    3300264: OBJETO ELIMINAR 4
+    3300266: OBJETO ELIMINAR 5
+    3300268: OBJETO ELIMINAR 8
+    3300270: OBJETO ELIMINAR 9
+    3300272: Vestuario_Armario_Industrial_00
+    3300274: Vestuario_Armario_Industrial_01
+    3300276: Vestuario_Banco_00
+    3300278: Vestuario_Banco_01
+    3300280: Vestuario_Banco_Vestirse_00
+    3300282: Vestuario_Banco_Vestirse_01
+    3300284: Vestuario_Banco_Vestirse_02
+    3300286: Vestuario_Banco_Vestirse_03
+    3300288: Vestuario_Banco_Vestirse_04
+    3300290: Vestuario_Banco_Vestirse_05
+    3300292: Vestuario_Banco_Vestirse_06
+    3300294: Vestuario_Banco_Vestirse_07
+    3300296: Vestuario_Banco_Vestirse_08
+    3300298: Vestuario_Banco_Vestirse_09
+    3300300: Vestuario_Puerta_Almacen
+    3300302: Vestuario_Sala
+    3300304: Vestuario_Suelos
+    3300306: Vestuario_Taquilla_00
+    3300308: Vestuario_Taquilla_01
+    3300310: Vestuario_Taquilla_02
+    3300312: Vestuario_Taquilla_03
+    3300314: Vestuario_Taquilla_04
+    3300316: Vestuario_Taquilla_05
+    3300318: Vestuario_Taquilla_06
+    3300320: Vestuario_Taquilla_07
+    3300322: Vestuario_Taquilla_08
+    3300324: Vestuario_Taquilla_09
+    3300326: Vestuario_Taquilla_10
+    3300328: Vestuario_Taquilla_11
+    3300330: Vestuario_Taquilla_12
+    3300332: Vestuario_Taquilla_13
+    3300334: Vestuario_Taquilla_14
+    3300336: Vestuario_Taquilla_15
+    3300338: Vestuario_Taquilla_16
+    3300340: Vestuario_Taquilla_17
+    3300342: Vestuario_Taquilla_18
+    3300344: Vestuario_Taquilla_19
+    3300346: Vestuario_Taquilla_20
+    3300348: Vestuario_Taquilla_21
+    3300350: Vestuario_Taquilla_22
+    3300352: Vestuario_Taquilla_23
+    3300354: Vestuario_Taquilla_24
+    3300356: Vestuario_Taquilla_25
+    3300358: Vestuario_Taquilla_26
+    3300360: Vestuario_Taquilla_27
+    3300362: Vestuario_Taquilla_28
+    3300364: Vestuario_Taquilla_29
+    3300366: Vestuario_Taquilla_30
+    3300368: Vestuario_Taquilla_31
+    3300370: Vestuario_Taquilla_32
+    3300372: Vestuario_Taquilla_33
+    3300374: Vestuario_Taquilla_34
+    3300376: Vestuario_Taquilla_35
+    3300378: Vestuario_Taquilla_36
+    3300380: Vestuario_Taquilla_37
+    3300382: Vestuario_Taquilla_38
+    3300384: Vestuario_Taquilla_39
+    3300386: Vestuario_Taquilla_40
+    3300388: Vestuario_Taquilla_41
+    3300390: Vestuario_Taquilla_42
+    3300392: Vestuario_Taquilla_43
+    3300394: Vestuario_Taquilla_44
+    3300396: Vestuario_Taquilla_45
+    3300398: Vestuario_Taquilla_46
+    3300400: Vestuario_Taquilla_47
+    3300402: Vestuario_Taquilla_48
+    3300404: Vestuario_Taquilla_49
+    3300406: Vestuario_Taquilla_50
+    3300408: Vestuario_Taquilla_51
+    3300410: Vestuario_Taquilla_52
+    3300412: Vestuario_Taquilla_53
+    3300414: Vestuario_Taquilla_54
+    3300416: Vestuario_Taquilla_55
+    3300418: Vestuario_Taquilla_56
+    3300420: Vestuario_Taquilla_57
+    3300422: Vestuario_Taquilla_58
+    3300424: Vestuario_Taquilla_59
+    3300426: Vestuario_Taquilla_60
+    3300428: Vestuario_Taquilla_61
+    3300430: Vestuario_Taquilla_62
+    3300432: Vestuario_Taquilla_63
+    3300434: Vestuario_Taquilla_64
+    3300436: Vestuario_Taquilla_65
+    3300438: Vestuario_Taquilla_66
+    3300440: Vestuario_Taquilla_67
+    3300442: Vestuario_Taquilla_68
+    3300444: Vestuario_Techos
+    3300446: Vestuario_Ventanas
+    4300000: Vestuario_Sala
+    4300002: Vestuario_Banco_00
+    4300004: Vestuario_Banco_Vestirse_01
+    4300006: Vestuario_Taquilla_00
+    4300008: Vestuario_Taquilla_01
+    4300010: Vestuario_Taquilla_02
+    4300012: Vestuario_Taquilla_03
+    4300014: Vestuario_Taquilla_04
+    4300016: Vestuario_Taquilla_05
+    4300018: Vestuario_Taquilla_06
+    4300020: Vestuario_Taquilla_07
+    4300022: Vestuario_Taquilla_08
+    4300024: Vestuario_Taquilla_09
+    4300026: Vestuario_Taquilla_10
+    4300028: Vestuario_Taquilla_11
+    4300030: Vestuario_Taquilla_12
+    4300032: Vestuario_Taquilla_13
+    4300034: Vestuario_Taquilla_14
+    4300036: Vestuario_Taquilla_15
+    4300038: Vestuario_Taquilla_16
+    4300040: Vestuario_Taquilla_17
+    4300042: Vestuario_Taquilla_18
+    4300044: Vestuario_Taquilla_19
+    4300046: Vestuario_Taquilla_20
+    4300048: Vestuario_Taquilla_21
+    4300050: Vestuario_Taquilla_22
+    4300052: Vestuario_Taquilla_23
+    4300054: Vestuario_Taquilla_24
+    4300056: Vestuario_Taquilla_25
+    4300058: Vestuario_Taquilla_26
+    4300060: Vestuario_Taquilla_27
+    4300062: Vestuario_Armario_Industrial_01
+    4300064: Vestuario_Armario_Industrial_00
+    4300066: Vestuario_Taquilla_28
+    4300068: Vestuario_Taquilla_29
+    4300070: Vestuario_Taquilla_30
+    4300072: Vestuario_Taquilla_31
+    4300074: Vestuario_Taquilla_32
+    4300076: Vestuario_Taquilla_33
+    4300078: Vestuario_Taquilla_34
+    4300080: Vestuario_Taquilla_35
+    4300082: Vestuario_Taquilla_36
+    4300084: Vestuario_Taquilla_37
+    4300086: Vestuario_Taquilla_38
+    4300088: Vestuario_Taquilla_39
+    4300090: Vestuario_Taquilla_40
+    4300092: Vestuario_Taquilla_41
+    4300094: Vestuario_Taquilla_42
+    4300096: Vestuario_Taquilla_43
+    4300098: Vestuario_Taquilla_44
+    4300100: Vestuario_Taquilla_45
+    4300102: Vestuario_Taquilla_46
+    4300104: Vestuario_Taquilla_47
+    4300106: Vestuario_Taquilla_48
+    4300108: Vestuario_Taquilla_49
+    4300110: Vestuario_Taquilla_50
+    4300112: Vestuario_Taquilla_51
+    4300114: Vestuario_Taquilla_52
+    4300116: Vestuario_Taquilla_53
+    4300118: Vestuario_Taquilla_54
+    4300120: Vestuario_Taquilla_55
+    4300122: Vestuario_Taquilla_56
+    4300124: Vestuario_Taquilla_57
+    4300126: Vestuario_Taquilla_58
+    4300128: Vestuario_Taquilla_59
+    4300130: Vestuario_Taquilla_60
+    4300132: Vestuario_Taquilla_61
+    4300134: Vestuario_Taquilla_62
+    4300136: Vestuario_Banco_Vestirse_03
+    4300138: Vestuario_Banco_Vestirse_02
+    4300140: Vestuario_Banco_Vestirse_00
+    4300142: Vestuario_Banco_01
+    4300144: Vestuario_Taquilla_63
+    4300146: Vestuario_Taquilla_64
+    4300148: Vestuario_Taquilla_65
+    4300150: Vestuario_Taquilla_66
+    4300152: Vestuario_Banco_Vestirse_09
+    4300154: Vestuario_Banco_Vestirse_08
+    4300156: Vestuario_Banco_Vestirse_07
+    4300158: Vestuario_Banco_Vestirse_06
+    4300160: Vestuario_Banco_Vestirse_05
+    4300162: Vestuario_Banco_Vestirse_04
+    4300164: Vestuario_Taquilla_67
+    4300166: Vestuario_Taquilla_68
+    4300168: Hornos_Sala
+    4300170: Despacho_Sala
+    4300172: Hilares_Sala
+    4300174: Carbonera_Rail_10
+    4300176: Carbonera_Rail_12
+    4300178: Carbonera_Rail_13
+    4300180: Carbonera_Rail_14
+    4300182: Carbonera_Rail_15
+    4300184: Carbonera_Rail_11
+    4300186: Carbonera_Rail_09
+    4300188: Carbonera_Rail_08
+    4300190: Carbonera_Rail_03
+    4300192: Carbonera_Rail_02
+    4300194: Carbonera_Rail_00
+    4300196: Carbonera_Rail_01
+    4300198: Carbonera_Rail_04
+    4300200: Carbonera_Rail_05
+    4300202: Carbonera_Rail_06
+    4300204: Carbonera_Rail_07
+    4300206: Carbonera_Vagoneta_01
+    4300208: Carbonera_Vagoneta_02
+    4300210: Carbonera_Vagoneta_03
+    4300212: Hornos_Rail_00
+    4300214: Hornos_Rail_01
+    4300216: Hornos_Rail_02
+    4300218: Hornos_Rail_03
+    4300220: Hornos_Rail_04
+    4300222: Hornos_Rail_05
+    4300224: Hornos_Rail_06
+    4300226: Hornos_Rail_07
+    4300228: Hornos_Rail_08
+    4300230: Hornos_Rail_09
+    4300232: Hornos_Rail_10
+    4300234: Hornos_Rail_11
+    4300236: Carbonera_Sala
+    4300238: Almacen_Sala
+    4300240: Despacho_CajaFuerte_Base_geo
+    4300242: Despacho_CajaFuerte_Sobre_geo
+    4300244: Despacho_CajaFuerte_Inside_geo
+    4300246: Despacho_CajaFuerte_Puerta_geo
+    4300248: Despacho_Cajonera_geo
+    4300250: Despacho_Alfombra_geo
+    4300252: Despacho_Cuadro01_geo
+    4300254: Despacho_Cuadro02_geo
+    4300256: Despacho_Escritorio_Sobre_geo
+    4300258: Despacho_Escritorio_GLASS_Lampara_geo
+    4300260: Despacho_Escritorio_Periodico_geo
+    4300262: Despacho_Escritorio_geo
+    4300264: Despacho_Escritorio_Props_geo
+    4300266: Despacho_Perchero_geo
+    4300268: Despacho_Reloj_geo
+    4300270: Despacho_Silla_geo
+    4300272: Fachada_Edificio
+    4300274: OBJETO ELIMINAR
+    4300276: OBJETO ELIMINAR
+    4300278: OBJETO ELIMINAR
+    4300280: OBJETO ELIMINAR
+    4300282: OBJETO ELIMINAR
+    4300284: OBJETO ELIMINAR
+    4300286: OBJETO ELIMINAR
+    4300288: OBJETO ELIMINAR
+    4300290: OBJETO ELIMINAR
+    4300292: OBJETO ELIMINAR
+    4300294: Hornos_Puerta
+    4300296: Hilares_Selfactina_04
+    4300298: Hilares_Selfactina_02
+    4300300: Hilares_Selfactina_00
+    4300302: Hilares_Taburete_00
+    4300304: Hilares_Taburete_01
+    4300306: Hilares_Taburete_02
+    4300308: Hilares_Taburete_03
+    4300310: Hilares_Selfactina_05
+    4300312: Hilares_Selfactina_03
+    4300314: Hilares_Selfactina_01
+    4300316: Hilares_Taburete_04
+    4300318: Hilares_Taburete_05
+    4300320: Hilares_Taburete_06
+    4300322: Hilares_Taburete_07
+    4300324: Hilares_Taburete_08
+    4300326: Hilares_Taburete_09
+    4300328: Almacen_Puerta_Vestuario
+    4300330: Vestuario_Puerta_Almacen
+    4300332: Almacen_Armario_Industrial_01
+    4300334: Almacen_Armario_Industrial_02
+    4300336: Almacen_Armario_Industrial_03
+    4300338: Almacen_Armario_Industrial_04
+    4300340: Almacen_Banco_Vestirse_01
+    4300342: Fachada_Muro
+    4300344: Almacen_Armario_Industrial_005
+    4300346: Almacen_Armario_Industrial_006
+    4300348: Despacho_Marco_Cristal
+    4300350: Despacho_Marco_Cristal001
+    4300352: Despacho_Cristalera_01
+    4300354: Despacho_Cristalera_00
+    4300356: Fachada_Cristaleras
+    4300358: Fachada_Ventanas_Redondas
+    4300360: Fachada_Puertas_Muro
+    4300362: Vestuario_Ventanas
+    4300364: Vestuario_Techos
+    4300366: Vestuario_Suelos
+    4300368: Carbonera_Suelos
+    4300370: Carbonera_Techo
+    4300372: Hornos_Techo
+    4300374: Hornos_Suelo
+    4300376: Hornos_Ventanas
+    4300378: Hornos_Esclaeras
+    4300380: Hilares_Ventanas
+    4300382: Hilares_Ventanales_Techo
+    4300384: Hilares_Suelo
+    4300386: Almacen_Techos
+    4300388: Almacen_Suelos
+    4300390: Despacho_Techos
+    4300392: Despacho_Suelos
+    4300394: OBJETO ELIMINAR
+    4300396: OBJETO ELIMINAR
+    4300398: OBJETO ELIMINAR
+    4300400: OBJETO ELIMINAR
+    4300402: OBJETO ELIMINAR
+    4300404: OBJETO ELIMINAR
+    4300406: OBJETO ELIMINAR
+    4300408: OBJETO ELIMINAR
+    4300410: OBJETO ELIMINAR
+    4300412: OBJETO ELIMINAR
+    4300414: OBJETO ELIMINAR
+    4300416: OBJETO ELIMINAR
+    4300418: OBJETO ELIMINAR
+    4300420: OBJETO ELIMINAR
+    4300422: OBJETO ELIMINAR
+    4300424: OBJETO ELIMINAR
+    4300426: OBJETO ELIMINAR
+    4300428: OBJETO ELIMINAR
+    4300430: OBJETO ELIMINAR
+    4300432: Fachada_Techo_Entrada
+    4300434: Fachada_Escaleras
+    4300436: Fachada_Bordes_Edificio
+    4300438: OBJETO ELIMINAR
+    4300440: MaquinaVapor_Sala
+    4300442: MaquinaVapor_Techo
+    4300444: MaquinaVapor_Ventanales
+    4300446: MaquinaVapor_Suelo
+    7400000: Take 001
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

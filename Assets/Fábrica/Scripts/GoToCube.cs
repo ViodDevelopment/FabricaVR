@@ -12,15 +12,17 @@ public class GoToCube : MonoBehaviour
     {
         if (m_Going == true)
         {
-            if (Vector3.Distance(this.transform.position, m_Object.transform.position) < 1f && this.tag == "Player" && m_Object.tag == "Taskmaster")
+            if (m_Object == null)
+                StopGoingTo();
+            else if (Vector3.Distance(this.transform.position, m_Object.transform.position) < 1f && this.tag == "Player" && m_Object.tag == "Taskmaster")
             {
                 StopGoingTo();
             }
+
             else
                 transform.position = transform.position + Camera.main.transform.forward * m_Speed * Time.deltaTime;
 
-            if (m_Object == null)
-                StopGoingTo();
+
         }
         else
         {
