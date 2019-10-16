@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: d69ae5a1f68941b4c97363e6b57fe902
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: Bone002
+    100004: Bone003
+    100006: Bone004
+    100008: Box001
+    100010: Cylinder001
+    100012: Cylinder002
+    100014: MaquinaVapor_grp
+    100016: //RootNode
+    100018: MaqVapor_01
+    100020: MaqVapor_010
+    100022: MaqVapor_011
+    100024: MaqVapor_02
+    100026: MaqVapor_03
+    100028: MaqVapor_04
+    100030: MaqVapor_05
+    100032: MaqVapor_06
+    100034: MaqVapor_07
+    100036: MaqVapor_08
+    100038: MaqVapor_09
+    100040: MaqVapor_Correa_geo
+    100042: MaqVapor_Material01_grp
+    100044: MaqVapor_Material02_grp
+    100046: MaqVapor_Motor01_geo
+    100048: MaqVapor_Motor02_geo
+    100050: MaqVapor_Palo_geo
+    100052: MaqVapor_Rueda_geo
+    400000: Bone001
+    400002: Bone002
+    400004: Bone003
+    400006: Bone004
+    400008: Box001
+    400010: Cylinder001
+    400012: Cylinder002
+    400014: MaquinaVapor_grp
+    400016: //RootNode
+    400018: MaqVapor_01
+    400020: MaqVapor_010
+    400022: MaqVapor_011
+    400024: MaqVapor_02
+    400026: MaqVapor_03
+    400028: MaqVapor_04
+    400030: MaqVapor_05
+    400032: MaqVapor_06
+    400034: MaqVapor_07
+    400036: MaqVapor_08
+    400038: MaqVapor_09
+    400040: MaqVapor_Correa_geo
+    400042: MaqVapor_Material01_grp
+    400044: MaqVapor_Material02_grp
+    400046: MaqVapor_Motor01_geo
+    400048: MaqVapor_Motor02_geo
+    400050: MaqVapor_Palo_geo
+    400052: MaqVapor_Rueda_geo
+    2100000: 01 - Default
+    2100002: 02 - Default
+    2100004: 15 - Default
+    2100006: 03 - Default
+    2100008: 05 - Default
+    2100010: 11 - Default
+    2100012: 10 - Default
+    2100014: 21 - Default
+    2100016: 20 - Default
+    2100018: 19 - Default
+    2100020: 16 - Default
+    2100022: 12 - Default
+    2100024: 08 - Default
+    2100026: 14 - Default
+    2100028: 06 - Default
+    2100030: 04 - Default
+    2100032: 09 - Default
+    2100034: 13 - Default
+    2100036: 07 - Default
+    2300000: Box001
+    2300002: MaqVapor_01
+    2300004: MaqVapor_010
+    2300006: MaqVapor_02
+    2300008: MaqVapor_03
+    2300010: MaqVapor_04
+    2300012: MaqVapor_07
+    2300014: MaqVapor_08
+    2300016: MaqVapor_09
+    2300018: MaqVapor_Correa_geo
+    2300020: MaqVapor_Motor01_geo
+    2300022: MaqVapor_Motor02_geo
+    2300024: MaqVapor_Palo_geo
+    2300026: MaqVapor_Rueda_geo
+    3300000: Box001
+    3300002: MaqVapor_01
+    3300004: MaqVapor_010
+    3300006: MaqVapor_02
+    3300008: MaqVapor_03
+    3300010: MaqVapor_04
+    3300012: MaqVapor_07
+    3300014: MaqVapor_08
+    3300016: MaqVapor_09
+    3300018: MaqVapor_Correa_geo
+    3300020: MaqVapor_Motor01_geo
+    3300022: MaqVapor_Motor02_geo
+    3300024: MaqVapor_Palo_geo
+    3300026: MaqVapor_Rueda_geo
+    4300000: MaqVapor_Motor01_geo
+    4300002: MaqVapor_Motor02_geo
+    4300004: MaqVapor_Palo_geo
+    4300006: MaqVapor_Rueda_geo
+    4300008: MaqVapor_Correa_geo
+    4300010: MaqVapor_09
+    4300012: MaqVapor_01
+    4300014: MaqVapor_02
+    4300016: MaqVapor_04
+    4300018: MaqVapor_03
+    4300020: MaqVapor_011
+    4300022: MaqVapor_010
+    4300024: MaqVapor_05
+    4300026: MaqVapor_06
+    4300028: MaqVapor_07
+    4300030: MaqVapor_08
+    4300032: Cylinder002
+    4300034: Cylinder001
+    4300036: Box001
+    9500000: //RootNode
+    13700000: Cylinder001
+    13700002: Cylinder002
+    13700004: MaqVapor_011
+    13700006: MaqVapor_05
+    13700008: MaqVapor_06
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
