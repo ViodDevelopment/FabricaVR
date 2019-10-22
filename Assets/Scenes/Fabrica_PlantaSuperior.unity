@@ -352,6 +352,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1022838814}
     m_Modifications:
+    - target: {fileID: 100004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
+      propertyPath: m_Name
+      value: Holding Idle (8)
+      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.56
@@ -403,10 +407,6 @@ PrefabInstance:
     - target: {fileID: 400004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
-      propertyPath: m_Name
-      value: Holding Idle (8)
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_Controller
@@ -633,6 +633,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1022838814}
     m_Modifications:
+    - target: {fileID: 100004, guid: 7c0bafcaa4e51054fa1bbf9795ddf7a7, type: 3}
+      propertyPath: m_Name
+      value: Idle (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 7c0bafcaa4e51054fa1bbf9795ddf7a7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.87
@@ -685,10 +689,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 7c0bafcaa4e51054fa1bbf9795ddf7a7, type: 3}
-      propertyPath: m_Name
-      value: Idle (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 7c0bafcaa4e51054fa1bbf9795ddf7a7, type: 3}
       propertyPath: m_Controller
       value: 
@@ -702,6 +702,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1022838814}
     m_Modifications:
+    - target: {fileID: 100004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
+      propertyPath: m_Name
+      value: Holding Idle (7)
+      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.28
@@ -754,10 +758,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
-      propertyPath: m_Name
-      value: Holding Idle (7)
-      objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_Controller
       value: 
@@ -771,6 +771,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1022838814}
     m_Modifications:
+    - target: {fileID: 100004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
+      propertyPath: m_Name
+      value: Holding Idle (6)
+      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.362
@@ -822,10 +826,6 @@ PrefabInstance:
     - target: {fileID: 400004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
-      propertyPath: m_Name
-      value: Holding Idle (6)
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_Controller
@@ -1404,6 +1404,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1022838814}
     m_Modifications:
+    - target: {fileID: 100004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
+      propertyPath: m_Name
+      value: Holding Idle (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.231
@@ -1455,10 +1459,6 @@ PrefabInstance:
     - target: {fileID: 400004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
-      propertyPath: m_Name
-      value: Holding Idle (2)
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_Controller
@@ -1840,6 +1840,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1022838814}
     m_Modifications:
+    - target: {fileID: 100004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
+      propertyPath: m_Name
+      value: Holding Idle (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.239
@@ -1891,10 +1895,6 @@ PrefabInstance:
     - target: {fileID: 400004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
-      propertyPath: m_Name
-      value: Holding Idle (3)
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_Controller
@@ -1978,6 +1978,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1022838814}
     m_Modifications:
+    - target: {fileID: 100004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
+      propertyPath: m_Name
+      value: Holding Idle (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.27
@@ -2029,10 +2033,6 @@ PrefabInstance:
     - target: {fileID: 400004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
-      propertyPath: m_Name
-      value: Holding Idle (1)
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_Controller
@@ -2763,6 +2763,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1022838814}
     m_Modifications:
+    - target: {fileID: 100004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
+      propertyPath: m_Name
+      value: Holding Idle (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.56
@@ -2814,10 +2818,6 @@ PrefabInstance:
     - target: {fileID: 400004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
-      propertyPath: m_Name
-      value: Holding Idle (4)
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_Controller
@@ -3473,6 +3473,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1022838814}
     m_Modifications:
+    - target: {fileID: 100004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
+      propertyPath: m_Name
+      value: Holding Idle
+      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.36
@@ -3524,10 +3528,6 @@ PrefabInstance:
     - target: {fileID: 400004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
-      propertyPath: m_Name
-      value: Holding Idle
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_Controller
@@ -4272,6 +4272,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1151934079}
     m_Modifications:
+    - target: {fileID: 100004, guid: 7c0bafcaa4e51054fa1bbf9795ddf7a7, type: 3}
+      propertyPath: m_Name
+      value: Idle
+      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 7c0bafcaa4e51054fa1bbf9795ddf7a7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4315,10 +4319,6 @@ PrefabInstance:
     - target: {fileID: 400004, guid: 7c0bafcaa4e51054fa1bbf9795ddf7a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 7c0bafcaa4e51054fa1bbf9795ddf7a7, type: 3}
-      propertyPath: m_Name
-      value: Idle
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 7c0bafcaa4e51054fa1bbf9795ddf7a7, type: 3}
       propertyPath: m_Controller
@@ -4477,6 +4477,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1022838814}
     m_Modifications:
+    - target: {fileID: 100004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
+      propertyPath: m_Name
+      value: Holding Idle (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.68
@@ -4528,10 +4532,6 @@ PrefabInstance:
     - target: {fileID: 400004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
-      propertyPath: m_Name
-      value: Holding Idle (5)
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_Controller
@@ -4679,6 +4679,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1022838814}
     m_Modifications:
+    - target: {fileID: 100004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
+      propertyPath: m_Name
+      value: Holding Idle (9)
+      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.58
@@ -4730,10 +4734,6 @@ PrefabInstance:
     - target: {fileID: 400004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
-      propertyPath: m_Name
-      value: Holding Idle (9)
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: a5e1ddea841c43440b76baa53b1ed300, type: 3}
       propertyPath: m_Controller
@@ -4942,7 +4942,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 41280c5854a69ca46a20bba05ae99b7a, type: 2}
+  - {fileID: 2100000, guid: 964f6a34e2240bf45940918b112ce7be, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5082,6 +5082,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1022838814}
     m_Modifications:
+    - target: {fileID: 100004, guid: 7c0bafcaa4e51054fa1bbf9795ddf7a7, type: 3}
+      propertyPath: m_Name
+      value: Idle (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 7c0bafcaa4e51054fa1bbf9795ddf7a7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.8353477
@@ -5125,10 +5129,6 @@ PrefabInstance:
     - target: {fileID: 400004, guid: 7c0bafcaa4e51054fa1bbf9795ddf7a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 7c0bafcaa4e51054fa1bbf9795ddf7a7, type: 3}
-      propertyPath: m_Name
-      value: Idle (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c0bafcaa4e51054fa1bbf9795ddf7a7, type: 3}
