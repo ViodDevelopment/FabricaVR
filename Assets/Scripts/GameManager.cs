@@ -7,6 +7,9 @@ public class GameManager : MonoBehaviour
     private static GameManager instance;
 
     public GameObject m_Hornero;
+    public GameObject m_HorneroMobH;
+    public GameObject m_HorneroMobC;
+    public GameObject m_HorneroMobC2;
 
     void Awake()
     {
@@ -19,6 +22,7 @@ public class GameManager : MonoBehaviour
         {
             DestroyImmediate(this);
         }
+
 
 
     }
@@ -45,9 +49,23 @@ public class GameManager : MonoBehaviour
 
     public void HorneroTrigger()
     {
-        print("hola");
-        m_Hornero.GetComponent<Animator>().SetBool("Hablando", true);
-        m_Hornero.GetComponent<AudioSource>().Play();
+            m_Hornero.GetComponent<Animator>().SetBool("Hablando", true);
+            m_Hornero.GetComponent<AudioSource>().Play();
+    }
+
+    public void HorneroTriggerMobHorno()
+    {
+        m_HorneroMobH.GetComponent<AudioSource>().Play();
+    }
+
+    public void HorneroTriggerMobCarbonera()
+    {
+        m_HorneroMobC.GetComponent<AudioSource>().Play();
+    }
+
+    public void HorneroTriggerMobCarbonara()
+    {
+        m_HorneroMobC2.GetComponent<AudioSource>().Play();
     }
 
     public void StopHornero()
