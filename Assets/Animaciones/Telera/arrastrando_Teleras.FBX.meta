@@ -1,0 +1,1500 @@
+fileFormatVersion: 2
+guid: 965bc3d375532374c9246e011be5b397
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bip001
+    100004: Bip001 Footsteps
+    100006: Bip001 Head
+    100008: Bip001 HeadNub
+    100010: Bip001 L Calf
+    100012: Bip001 L Clavicle
+    100014: Bip001 L Finger0
+    100016: Bip001 L Finger01
+    100018: Bip001 L Finger02
+    100020: Bip001 L Finger0Nub
+    100022: Bip001 L Finger1
+    100024: Bip001 L Finger11
+    100026: Bip001 L Finger12
+    100028: Bip001 L Finger1Nub
+    100030: Bip001 L Finger2
+    100032: Bip001 L Finger21
+    100034: Bip001 L Finger22
+    100036: Bip001 L Finger2Nub
+    100038: Bip001 L Finger3
+    100040: Bip001 L Finger31
+    100042: Bip001 L Finger32
+    100044: Bip001 L Finger3Nub
+    100046: Bip001 L Finger4
+    100048: Bip001 L Finger41
+    100050: Bip001 L Finger42
+    100052: Bip001 L Finger4Nub
+    100054: Bip001 L Foot
+    100056: Bip001 L Forearm
+    100058: Bip001 L Hand
+    100060: Bip001 L Thigh
+    100062: Bip001 L Toe0
+    100064: Bip001 L Toe0Nub
+    100066: Bip001 L UpperArm
+    100068: Bip001 Neck
+    100070: Bip001 Pelvis
+    100072: Bip001 R Calf
+    100074: Bip001 R Clavicle
+    100076: Bip001 R Finger0
+    100078: Bip001 R Finger01
+    100080: Bip001 R Finger02
+    100082: Bip001 R Finger0Nub
+    100084: Bip001 R Finger1
+    100086: Bip001 R Finger11
+    100088: Bip001 R Finger12
+    100090: Bip001 R Finger1Nub
+    100092: Bip001 R Finger2
+    100094: Bip001 R Finger21
+    100096: Bip001 R Finger22
+    100098: Bip001 R Finger2Nub
+    100100: Bip001 R Finger3
+    100102: Bip001 R Finger31
+    100104: Bip001 R Finger32
+    100106: Bip001 R Finger3Nub
+    100108: Bip001 R Finger4
+    100110: Bip001 R Finger41
+    100112: Bip001 R Finger42
+    100114: Bip001 R Finger4Nub
+    100116: Bip001 R Foot
+    100118: Bip001 R Forearm
+    100120: Bip001 R Hand
+    100122: Bip001 R Thigh
+    100124: Bip001 R Toe0
+    100126: Bip001 R Toe0Nub
+    100128: Bip001 R UpperArm
+    100130: Bip001 Spine
+    100132: Bip001 Spine1
+    100134: Telera001
+    100136: Telera_All001
+    100138: Telera_Eye_L001
+    100140: Telera_Eye_R001
+    100142: Bobinahilo01
+    100144: Bobinahilo010
+    100146: Bobinahilo011
+    100148: Bobinahilo012
+    100150: Bobinahilo013
+    100152: Bobinahilo014
+    100154: Bobinahilo015
+    100156: Bobinahilo016
+    100158: Bobinahilo017
+    100160: Bobinahilo018
+    100162: Bobinahilo019
+    100164: Bobinahilo02
+    100166: Bobinahilo020
+    100168: Bobinahilo021
+    100170: Bobinahilo022
+    100172: Bobinahilo023
+    100174: Bobinahilo024
+    100176: Bobinahilo025
+    100178: Bobinahilo026
+    100180: Bobinahilo027
+    100182: Bobinahilo028
+    100184: Bobinahilo029
+    100186: Bobinahilo03
+    100188: Bobinahilo030
+    100190: Bobinahilo04
+    100192: Bobinahilo05
+    100194: Bobinahilo06
+    100196: Bobinahilo07
+    100198: Bobinahilo08
+    100200: Bobinahilo09
+    100202: Hilares_Selfactina_Bobinas
+    100204: Hilares_Selfactina_Bobinas_Pequenias
+    100206: Hilares_Selfactina_Carros_geo
+    100208: Hilares_Selfactina_Carros_MATERIAL_grp
+    100210: Hilares_Selfactina_Carros_Rueda01
+    100212: Hilares_Selfactina_Carros_Rueda02
+    100214: Hilares_Selfactina_Carros_Rueda03
+    100216: Hilares_Selfactina_Carros_Rueda04
+    100218: Hilares_Selfactina_Carros_Ruedas_grp
+    100220: Hilares_Selfactina_Estructura
+    100222: Hilares_Selfactina_Estructura_MATERIAL_grp
+    100224: Hilares_Selfactina_Estructura_Rueda01
+    100226: Hilares_Selfactina_Estructura_Rueda02
+    100228: Hilares_Selfactina_Estructura_Ruedas_grp
+    100230: Hilares_Selfactina_Hilos01
+    100232: Hilares_Selfactina_Hilos03
+    100234: Hilares_Selfactina_Hilos04
+    100236: Hilares_Selfactina_Hilos05
+    100238: Hilares_Selfactina_Hilos06
+    100240: Hilares_Selfactina_Hilos07
+    100242: Hilares_Selfactina_Hilos_MATERIAL_grp
+    100244: Hilares_Selfactina_Palanca
+    100246: Hilares_Selfactinas_NEAR_grp
+    100248: Hilares_SizeB_RuedaTransmision07
+    100250: polySurface106
+    100252: polySurface107
+    100254: polySurface108
+    100256: polySurface113
+    100258: polySurface114
+    100260: polySurface116
+    100262: polySurface117
+    100264: polySurface118
+    100266: polySurface120
+    100268: polySurface121
+    100270: polySurface124
+    100272: polySurface125
+    100274: polySurface126
+    100276: polySurface127
+    100278: polySurface129
+    100280: polySurface130
+    100282: polySurface131
+    100284: polySurface132
+    100286: polySurface148
+    100288: polySurface162
+    100290: polySurface163
+    100292: polySurface168
+    100294: polySurface172
+    100296: polySurface173
+    100298: polySurface174
+    100300: polySurface175
+    100302: polySurface179
+    100304: polySurface79
+    100306: polySurface83
+    100308: polySurface84
+    100310: polySurface88
+    100312: polySurface89
+    100314: Telera002
+    100316: Telera_All002
+    100318: Telera_Eye_L002
+    100320: Telera_Eye_R002
+    400000: //RootNode
+    400002: Bip001
+    400004: Bip001 Footsteps
+    400006: Bip001 Head
+    400008: Bip001 HeadNub
+    400010: Bip001 L Calf
+    400012: Bip001 L Clavicle
+    400014: Bip001 L Finger0
+    400016: Bip001 L Finger01
+    400018: Bip001 L Finger02
+    400020: Bip001 L Finger0Nub
+    400022: Bip001 L Finger1
+    400024: Bip001 L Finger11
+    400026: Bip001 L Finger12
+    400028: Bip001 L Finger1Nub
+    400030: Bip001 L Finger2
+    400032: Bip001 L Finger21
+    400034: Bip001 L Finger22
+    400036: Bip001 L Finger2Nub
+    400038: Bip001 L Finger3
+    400040: Bip001 L Finger31
+    400042: Bip001 L Finger32
+    400044: Bip001 L Finger3Nub
+    400046: Bip001 L Finger4
+    400048: Bip001 L Finger41
+    400050: Bip001 L Finger42
+    400052: Bip001 L Finger4Nub
+    400054: Bip001 L Foot
+    400056: Bip001 L Forearm
+    400058: Bip001 L Hand
+    400060: Bip001 L Thigh
+    400062: Bip001 L Toe0
+    400064: Bip001 L Toe0Nub
+    400066: Bip001 L UpperArm
+    400068: Bip001 Neck
+    400070: Bip001 Pelvis
+    400072: Bip001 R Calf
+    400074: Bip001 R Clavicle
+    400076: Bip001 R Finger0
+    400078: Bip001 R Finger01
+    400080: Bip001 R Finger02
+    400082: Bip001 R Finger0Nub
+    400084: Bip001 R Finger1
+    400086: Bip001 R Finger11
+    400088: Bip001 R Finger12
+    400090: Bip001 R Finger1Nub
+    400092: Bip001 R Finger2
+    400094: Bip001 R Finger21
+    400096: Bip001 R Finger22
+    400098: Bip001 R Finger2Nub
+    400100: Bip001 R Finger3
+    400102: Bip001 R Finger31
+    400104: Bip001 R Finger32
+    400106: Bip001 R Finger3Nub
+    400108: Bip001 R Finger4
+    400110: Bip001 R Finger41
+    400112: Bip001 R Finger42
+    400114: Bip001 R Finger4Nub
+    400116: Bip001 R Foot
+    400118: Bip001 R Forearm
+    400120: Bip001 R Hand
+    400122: Bip001 R Thigh
+    400124: Bip001 R Toe0
+    400126: Bip001 R Toe0Nub
+    400128: Bip001 R UpperArm
+    400130: Bip001 Spine
+    400132: Bip001 Spine1
+    400134: Telera001
+    400136: Telera_All001
+    400138: Telera_Eye_L001
+    400140: Telera_Eye_R001
+    400142: Bobinahilo01
+    400144: Bobinahilo010
+    400146: Bobinahilo011
+    400148: Bobinahilo012
+    400150: Bobinahilo013
+    400152: Bobinahilo014
+    400154: Bobinahilo015
+    400156: Bobinahilo016
+    400158: Bobinahilo017
+    400160: Bobinahilo018
+    400162: Bobinahilo019
+    400164: Bobinahilo02
+    400166: Bobinahilo020
+    400168: Bobinahilo021
+    400170: Bobinahilo022
+    400172: Bobinahilo023
+    400174: Bobinahilo024
+    400176: Bobinahilo025
+    400178: Bobinahilo026
+    400180: Bobinahilo027
+    400182: Bobinahilo028
+    400184: Bobinahilo029
+    400186: Bobinahilo03
+    400188: Bobinahilo030
+    400190: Bobinahilo04
+    400192: Bobinahilo05
+    400194: Bobinahilo06
+    400196: Bobinahilo07
+    400198: Bobinahilo08
+    400200: Bobinahilo09
+    400202: Hilares_Selfactina_Bobinas
+    400204: Hilares_Selfactina_Bobinas_Pequenias
+    400206: Hilares_Selfactina_Carros_geo
+    400208: Hilares_Selfactina_Carros_MATERIAL_grp
+    400210: Hilares_Selfactina_Carros_Rueda01
+    400212: Hilares_Selfactina_Carros_Rueda02
+    400214: Hilares_Selfactina_Carros_Rueda03
+    400216: Hilares_Selfactina_Carros_Rueda04
+    400218: Hilares_Selfactina_Carros_Ruedas_grp
+    400220: Hilares_Selfactina_Estructura
+    400222: Hilares_Selfactina_Estructura_MATERIAL_grp
+    400224: Hilares_Selfactina_Estructura_Rueda01
+    400226: Hilares_Selfactina_Estructura_Rueda02
+    400228: Hilares_Selfactina_Estructura_Ruedas_grp
+    400230: Hilares_Selfactina_Hilos01
+    400232: Hilares_Selfactina_Hilos03
+    400234: Hilares_Selfactina_Hilos04
+    400236: Hilares_Selfactina_Hilos05
+    400238: Hilares_Selfactina_Hilos06
+    400240: Hilares_Selfactina_Hilos07
+    400242: Hilares_Selfactina_Hilos_MATERIAL_grp
+    400244: Hilares_Selfactina_Palanca
+    400246: Hilares_Selfactinas_NEAR_grp
+    400248: Hilares_SizeB_RuedaTransmision07
+    400250: polySurface106
+    400252: polySurface107
+    400254: polySurface108
+    400256: polySurface113
+    400258: polySurface114
+    400260: polySurface116
+    400262: polySurface117
+    400264: polySurface118
+    400266: polySurface120
+    400268: polySurface121
+    400270: polySurface124
+    400272: polySurface125
+    400274: polySurface126
+    400276: polySurface127
+    400278: polySurface129
+    400280: polySurface130
+    400282: polySurface131
+    400284: polySurface132
+    400286: polySurface148
+    400288: polySurface162
+    400290: polySurface163
+    400292: polySurface168
+    400294: polySurface172
+    400296: polySurface173
+    400298: polySurface174
+    400300: polySurface175
+    400302: polySurface179
+    400304: polySurface79
+    400306: polySurface83
+    400308: polySurface84
+    400310: polySurface88
+    400312: polySurface89
+    400314: Telera002
+    400316: Telera_All002
+    400318: Telera_Eye_L002
+    400320: Telera_Eye_R002
+    2100000: lambert4
+    2100002: aiStandardSurface1
+    2100004: lambert1
+    2100006: lambert3
+    2300000: Bobinahilo01
+    2300002: Bobinahilo010
+    2300004: Bobinahilo011
+    2300006: Bobinahilo012
+    2300008: Bobinahilo013
+    2300010: Bobinahilo014
+    2300012: Bobinahilo015
+    2300014: Bobinahilo016
+    2300016: Bobinahilo017
+    2300018: Bobinahilo018
+    2300020: Bobinahilo019
+    2300022: Bobinahilo02
+    2300024: Bobinahilo020
+    2300026: Bobinahilo021
+    2300028: Bobinahilo022
+    2300030: Bobinahilo023
+    2300032: Bobinahilo024
+    2300034: Bobinahilo025
+    2300036: Bobinahilo026
+    2300038: Bobinahilo027
+    2300040: Bobinahilo028
+    2300042: Bobinahilo029
+    2300044: Bobinahilo03
+    2300046: Bobinahilo030
+    2300048: Bobinahilo04
+    2300050: Bobinahilo05
+    2300052: Bobinahilo06
+    2300054: Bobinahilo07
+    2300056: Bobinahilo08
+    2300058: Bobinahilo09
+    2300060: Hilares_Selfactina_Carros_geo
+    2300062: Hilares_Selfactina_Carros_Rueda01
+    2300064: Hilares_Selfactina_Carros_Rueda02
+    2300066: Hilares_Selfactina_Carros_Rueda03
+    2300068: Hilares_Selfactina_Carros_Rueda04
+    2300070: Hilares_Selfactina_Estructura
+    2300072: Hilares_Selfactina_Estructura_Rueda01
+    2300074: Hilares_Selfactina_Estructura_Rueda02
+    2300076: Hilares_Selfactina_Hilos01
+    2300078: Hilares_Selfactina_Hilos03
+    2300080: Hilares_Selfactina_Hilos04
+    2300082: Hilares_Selfactina_Hilos05
+    2300084: Hilares_Selfactina_Hilos06
+    2300086: Hilares_Selfactina_Hilos07
+    2300088: Hilares_Selfactina_Palanca
+    2300090: Hilares_SizeB_RuedaTransmision07
+    2300092: polySurface106
+    2300094: polySurface107
+    2300096: polySurface108
+    2300098: polySurface113
+    2300100: polySurface114
+    2300102: polySurface116
+    2300104: polySurface117
+    2300106: polySurface118
+    2300108: polySurface120
+    2300110: polySurface121
+    2300112: polySurface124
+    2300114: polySurface125
+    2300116: polySurface126
+    2300118: polySurface127
+    2300120: polySurface129
+    2300122: polySurface130
+    2300124: polySurface131
+    2300126: polySurface132
+    2300128: polySurface148
+    2300130: polySurface162
+    2300132: polySurface163
+    2300134: polySurface168
+    2300136: polySurface172
+    2300138: polySurface173
+    2300140: polySurface174
+    2300142: polySurface175
+    2300144: polySurface179
+    2300146: polySurface79
+    2300148: polySurface83
+    2300150: polySurface84
+    2300152: polySurface88
+    2300154: polySurface89
+    3300000: Bobinahilo01
+    3300002: Bobinahilo010
+    3300004: Bobinahilo011
+    3300006: Bobinahilo012
+    3300008: Bobinahilo013
+    3300010: Bobinahilo014
+    3300012: Bobinahilo015
+    3300014: Bobinahilo016
+    3300016: Bobinahilo017
+    3300018: Bobinahilo018
+    3300020: Bobinahilo019
+    3300022: Bobinahilo02
+    3300024: Bobinahilo020
+    3300026: Bobinahilo021
+    3300028: Bobinahilo022
+    3300030: Bobinahilo023
+    3300032: Bobinahilo024
+    3300034: Bobinahilo025
+    3300036: Bobinahilo026
+    3300038: Bobinahilo027
+    3300040: Bobinahilo028
+    3300042: Bobinahilo029
+    3300044: Bobinahilo03
+    3300046: Bobinahilo030
+    3300048: Bobinahilo04
+    3300050: Bobinahilo05
+    3300052: Bobinahilo06
+    3300054: Bobinahilo07
+    3300056: Bobinahilo08
+    3300058: Bobinahilo09
+    3300060: Hilares_Selfactina_Carros_geo
+    3300062: Hilares_Selfactina_Carros_Rueda01
+    3300064: Hilares_Selfactina_Carros_Rueda02
+    3300066: Hilares_Selfactina_Carros_Rueda03
+    3300068: Hilares_Selfactina_Carros_Rueda04
+    3300070: Hilares_Selfactina_Estructura
+    3300072: Hilares_Selfactina_Estructura_Rueda01
+    3300074: Hilares_Selfactina_Estructura_Rueda02
+    3300076: Hilares_Selfactina_Hilos01
+    3300078: Hilares_Selfactina_Hilos03
+    3300080: Hilares_Selfactina_Hilos04
+    3300082: Hilares_Selfactina_Hilos05
+    3300084: Hilares_Selfactina_Hilos06
+    3300086: Hilares_Selfactina_Hilos07
+    3300088: Hilares_Selfactina_Palanca
+    3300090: Hilares_SizeB_RuedaTransmision07
+    3300092: polySurface106
+    3300094: polySurface107
+    3300096: polySurface108
+    3300098: polySurface113
+    3300100: polySurface114
+    3300102: polySurface116
+    3300104: polySurface117
+    3300106: polySurface118
+    3300108: polySurface120
+    3300110: polySurface121
+    3300112: polySurface124
+    3300114: polySurface125
+    3300116: polySurface126
+    3300118: polySurface127
+    3300120: polySurface129
+    3300122: polySurface130
+    3300124: polySurface131
+    3300126: polySurface132
+    3300128: polySurface148
+    3300130: polySurface162
+    3300132: polySurface163
+    3300134: polySurface168
+    3300136: polySurface172
+    3300138: polySurface173
+    3300140: polySurface174
+    3300142: polySurface175
+    3300144: polySurface179
+    3300146: polySurface79
+    3300148: polySurface83
+    3300150: polySurface84
+    3300152: polySurface88
+    3300154: polySurface89
+    4300000: Telera001
+    4300002: Telera_Eye_L001
+    4300004: Telera_Eye_R001
+    4300006: Hilares_Selfactina_Estructura
+    4300008: Hilares_Selfactina_Estructura_Rueda01
+    4300010: Hilares_Selfactina_Estructura_Rueda02
+    4300012: polySurface129
+    4300014: polySurface108
+    4300016: polySurface126
+    4300018: polySurface106
+    4300020: polySurface132
+    4300022: polySurface127
+    4300024: polySurface130
+    4300026: polySurface131
+    4300028: polySurface89
+    4300030: polySurface107
+    4300032: polySurface168
+    4300034: polySurface163
+    4300036: polySurface148
+    4300038: polySurface162
+    4300040: polySurface114
+    4300042: polySurface113
+    4300044: polySurface124
+    4300046: polySurface125
+    4300048: polySurface116
+    4300050: polySurface172
+    4300052: polySurface120
+    4300054: polySurface118
+    4300056: polySurface117
+    4300058: polySurface121
+    4300060: polySurface175
+    4300062: polySurface173
+    4300064: polySurface84
+    4300066: polySurface79
+    4300068: polySurface83
+    4300070: polySurface88
+    4300072: polySurface179
+    4300074: polySurface174
+    4300076: Hilares_Selfactina_Palanca
+    4300078: Hilares_Selfactina_Carros_geo
+    4300080: Hilares_Selfactina_Carros_Rueda01
+    4300082: Hilares_Selfactina_Carros_Rueda02
+    4300084: Hilares_Selfactina_Carros_Rueda03
+    4300086: Hilares_Selfactina_Carros_Rueda04
+    4300088: Bobinahilo01
+    4300090: Bobinahilo02
+    4300092: Bobinahilo03
+    4300094: Bobinahilo04
+    4300096: Bobinahilo05
+    4300098: Bobinahilo06
+    4300100: Bobinahilo07
+    4300102: Bobinahilo08
+    4300104: Bobinahilo09
+    4300106: Bobinahilo010
+    4300108: Bobinahilo011
+    4300110: Bobinahilo012
+    4300112: Bobinahilo013
+    4300114: Bobinahilo014
+    4300116: Bobinahilo015
+    4300118: Bobinahilo016
+    4300120: Bobinahilo017
+    4300122: Bobinahilo018
+    4300124: Bobinahilo019
+    4300126: Bobinahilo020
+    4300128: Bobinahilo021
+    4300130: Bobinahilo022
+    4300132: Bobinahilo023
+    4300134: Bobinahilo024
+    4300136: Bobinahilo025
+    4300138: Bobinahilo026
+    4300140: Bobinahilo027
+    4300142: Bobinahilo028
+    4300144: Bobinahilo029
+    4300146: Bobinahilo030
+    4300148: Hilares_Selfactina_Hilos01
+    4300150: Hilares_Selfactina_Hilos03
+    4300152: Hilares_Selfactina_Hilos04
+    4300154: Hilares_Selfactina_Hilos05
+    4300156: Hilares_Selfactina_Hilos06
+    4300158: Hilares_Selfactina_Hilos07
+    4300160: Hilares_SizeB_RuedaTransmision07
+    4300162: Telera002
+    4300164: Telera_Eye_L002
+    4300166: Telera_Eye_R002
+    7400000: arrastrar carro
+    7400002: arrastrarCarro_Telera
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Telera001
+    13700002: Telera_Eye_L001
+    13700004: Telera_Eye_R001
+    13700006: Telera002
+    13700008: Telera_Eye_L002
+    13700010: Telera_Eye_R002
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: arrastrarCarro_Telera
+      takeName: arrastrarCarro_Telera
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton:
+    - name: arrastrando_Teleras(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Telera_All001
+      parentName: arrastrando_Teleras(Clone)
+      position: {x: 5.6952696, y: -1.1368684e-15, z: 0.10229532}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: -1.5799544, y: -1.5799544, z: -1.5799544}
+    - name: Telera001
+      parentName: Telera_All001
+      position: {x: 0.010889587, y: 0.05718412, z: -0.057213515}
+      rotation: {x: -6.123234e-17, y: 1, z: -6.123234e-17, w: -9.308725e-16}
+      scale: {x: 0.569914, y: 0.569914, z: 0.569914}
+    - name: Telera_Eye_L001
+      parentName: Telera_All001
+      position: {x: 0.39245147, y: 1.4177346, z: 1.0652922}
+      rotation: {x: 0, y: 0.062503494, z: -0, w: 0.9980448}
+      scale: {x: 0.6633349, y: 0.6633349, z: 0.6633349}
+    - name: Telera_Eye_R001
+      parentName: Telera_All001
+      position: {x: 0.3370764, y: 1.4177346, z: 1.0652922}
+      rotation: {x: 0, y: -0.13179004, z: -0, w: 0.9912777}
+      scale: {x: 0.6504984, y: 0.65049833, z: 0.6504984}
+    - name: Hilares_Selfactinas_NEAR_grp
+      parentName: arrastrando_Teleras(Clone)
+      position: {x: -1.8548328, y: 0, z: 0.66871536}
+      rotation: {x: 0.000000047078487, y: -0.7071068, z: 0.000000047078487, w: 0.7071068}
+      scale: {x: 1.4000071, y: 1.4000071, z: 1.4000071}
+    - name: Hilares_Selfactina_Estructura_MATERIAL_grp
+      parentName: Hilares_Selfactinas_NEAR_grp
+      position: {x: 1.4147301, y: -0.000000038146954, z: 4.235498}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_Selfactina_Estructura
+      parentName: Hilares_Selfactina_Estructura_MATERIAL_grp
+      position: {x: 0.7717349, y: 1.2511419, z: -7.358273}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_Selfactina_Estructura_Ruedas_grp
+      parentName: Hilares_Selfactina_Estructura_MATERIAL_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_Selfactina_Estructura_Rueda01
+      parentName: Hilares_Selfactina_Estructura_Ruedas_grp
+      position: {x: 2.3047903, y: 1.1235662, z: -6.951096}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_Selfactina_Estructura_Rueda02
+      parentName: Hilares_Selfactina_Estructura_Ruedas_grp
+      position: {x: 2.304791, y: 1.1235664, z: -7.821017}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_Selfactina_Bobinas
+      parentName: Hilares_Selfactina_Estructura_MATERIAL_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface129
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.63937, y: 2.077842, z: -4.583652}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface108
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.63937, y: 2.077842, z: -4.8227887}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface126
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.6393688, y: 2.077842, z: -5.061193}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface106
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.63937, y: 2.077842, z: -5.319851}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface132
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.6393688, y: 1.625278, z: -4.583652}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface127
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.63937, y: 1.625278, z: -4.8227887}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface130
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.6393688, y: 1.625278, z: -5.061193}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface131
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.63937, y: 1.625278, z: -5.31985}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface89
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.6393688, y: 2.077842, z: -5.887937}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface107
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.63937, y: 2.077842, z: -6.127074}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface168
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.6393688, y: 2.077842, z: -6.3654776}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface163
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.63937, y: 2.077842, z: -6.628519}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface148
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.63937, y: 1.625278, z: -6.628519}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface162
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.6393688, y: 1.625278, z: -6.365477}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface114
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.63937, y: 1.625278, z: -6.127073}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface113
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.6393688, y: 1.625278, z: -5.8879356}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface124
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.6393688, y: 2.077842, z: -8.056717}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface125
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.63937, y: 2.077842, z: -8.295853}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface116
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.6393688, y: 2.077842, z: -8.534257}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface172
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.63937, y: 2.077842, z: -8.792913}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface120
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.63937, y: 1.625278, z: -8.792913}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface118
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.6393688, y: 1.625278, z: -8.534257}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface117
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.63937, y: 1.625278, z: -8.295852}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface121
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.6393688, y: 1.625278, z: -8.056716}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface175
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.6393688, y: 2.077842, z: -9.360999}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface173
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.63937, y: 2.077842, z: -9.600137}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface84
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.6393688, y: 2.077842, z: -9.838542}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface79
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.63937, y: 2.077842, z: -10.10158}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface83
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.63937, y: 1.625278, z: -10.10158}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface88
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.6393688, y: 1.625278, z: -9.838541}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface179
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.6393688, y: 1.625278, z: -9.361001}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface174
+      parentName: Hilares_Selfactina_Bobinas
+      position: {x: 2.63937, y: 1.625278, z: -9.600138}
+      rotation: {x: 0, y: 0.6087614, z: -0, w: 0.7933533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_Selfactina_Palanca
+      parentName: Hilares_Selfactina_Estructura_MATERIAL_grp
+      position: {x: -1.1975614, y: 1.1452516, z: -7.5667505}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_Selfactina_Carros_MATERIAL_grp
+      parentName: Hilares_Selfactinas_NEAR_grp
+      position: {x: 0.66958195, y: 0.56611156, z: -3.065848}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_Selfactina_Carros_geo
+      parentName: Hilares_Selfactina_Carros_MATERIAL_grp
+      position: {x: 0.40569568, y: 0.01835876, z: -0.07200745}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_Selfactina_Carros_Ruedas_grp
+      parentName: Hilares_Selfactina_Carros_MATERIAL_grp
+      position: {x: -0.66958237, y: -0.5661111, z: 3.0658488}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_Selfactina_Carros_Rueda01
+      parentName: Hilares_Selfactina_Carros_Ruedas_grp
+      position: {x: 0.8494209, y: 0.18867, z: -0.6597737}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_Selfactina_Carros_Rueda02
+      parentName: Hilares_Selfactina_Carros_Ruedas_grp
+      position: {x: 0.8494209, y: 0.18867, z: -2.305923}
+      rotation: {x: -0.0026593786, y: 0.0026453086, z: 0.0026593786, w: 0.99998945}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_Selfactina_Carros_Rueda03
+      parentName: Hilares_Selfactina_Carros_Ruedas_grp
+      position: {x: 0.8494209, y: 0.18867, z: -3.968846}
+      rotation: {x: -0.0026593786, y: 0.0026453086, z: 0.0026593786, w: 0.99998945}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_Selfactina_Carros_Rueda04
+      parentName: Hilares_Selfactina_Carros_Ruedas_grp
+      position: {x: 0.8494209, y: 0.18867, z: -5.6149955}
+      rotation: {x: -0.0026593786, y: 0.0026453086, z: 0.0026593786, w: 0.99998945}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_Selfactina_Bobinas_Pequenias
+      parentName: Hilares_Selfactina_Carros_MATERIAL_grp
+      position: {x: -0.66958195, y: -0.56611156, z: -4.3411937}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo01
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 7.0540166}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo02
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 6.908043}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo03
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 6.7620697}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo04
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 6.611703}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo05
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 6.4657297}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo06
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 6.3197556}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo07
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 6.17562}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo08
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 6.029646}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo09
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 5.8836718}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo010
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 5.7374215}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo011
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 5.591448}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo012
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 5.4454746}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo013
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 5.299857}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo014
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 5.1591806}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo015
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 5.00791}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo016
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 3.614551}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo017
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 3.468577}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo018
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 3.322604}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo019
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 3.1722379}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo020
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 3.026264}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo021
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 2.880291}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo022
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 2.7361538}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo023
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 2.59018}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo024
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 2.444207}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo025
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 2.297956}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo026
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 2.1519818}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo027
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 2.006009}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo028
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 1.8603909}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo029
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 1.707599}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bobinahilo030
+      parentName: Hilares_Selfactina_Bobinas_Pequenias
+      position: {x: 1.119808, y: 0.8673965, z: 1.568444}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_Selfactina_Hilos_MATERIAL_grp
+      parentName: Hilares_Selfactinas_NEAR_grp
+      position: {x: 2.579255, y: 1.5060295, z: -3.108167}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_Selfactina_Hilos01
+      parentName: Hilares_Selfactina_Hilos_MATERIAL_grp
+      position: {x: 1.1795483, y: -0.3811924, z: -0.55096877}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_Selfactina_Hilos03
+      parentName: Hilares_Selfactina_Hilos_MATERIAL_grp
+      position: {x: -1.1631362, y: -1.5004749, z: 3.9214685}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_Selfactina_Hilos04
+      parentName: Hilares_Selfactina_Hilos_MATERIAL_grp
+      position: {x: 1.3092632, y: 0.061163787, z: 1.7296156}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_Selfactina_Hilos05
+      parentName: Hilares_Selfactina_Hilos_MATERIAL_grp
+      position: {x: -0.15563507, y: -0.48692808, z: 1.7296156}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_Selfactina_Hilos06
+      parentName: Hilares_Selfactina_Hilos_MATERIAL_grp
+      position: {x: 1.3068689, y: -0.13911071, z: 1.7296162}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_Selfactina_Hilos07
+      parentName: Hilares_Selfactina_Hilos_MATERIAL_grp
+      position: {x: -0.15563507, y: -0.48692816, z: -1.7296156}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hilares_SizeB_RuedaTransmision07
+      parentName: Hilares_Selfactinas_NEAR_grp
+      position: {x: 3.8933766, y: 1.8420184, z: -3.0636542}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Telera_All002
+      parentName: arrastrando_Teleras(Clone)
+      position: {x: -0.25910643, y: 0.00000078997704, z: 0.102296114}
+      rotation: {x: 0.00000006657903, y: -0, z: -0, w: 1}
+      scale: {x: 1.5799544, y: 1.5799544, z: 1.5799544}
+    - name: Telera002
+      parentName: Telera_All002
+      position: {x: 3.2406325, y: 0.76003236, z: 1.0929272}
+      rotation: {x: -6.123234e-17, y: 1, z: -6.123234e-17, w: -9.308725e-16}
+      scale: {x: 0.569914, y: 0.569914, z: 0.569914}
+    - name: Telera_Eye_L002
+      parentName: Telera_All002
+      position: {x: 3.2122545, y: 1.4151781, z: 1.2427858}
+      rotation: {x: 0, y: 0.062503494, z: -0, w: 0.9980448}
+      scale: {x: 0.6633349, y: 0.6633349, z: 0.6633349}
+    - name: Telera_Eye_R002
+      parentName: Telera_All002
+      position: {x: 3.2676294, y: 1.4151776, z: 1.2427858}
+      rotation: {x: 0, y: -0.13179004, z: -0, w: 0.9912777}
+      scale: {x: 0.6504984, y: 0.65049833, z: 0.6504984}
+    - name: Bip001
+      parentName: arrastrando_Teleras(Clone)
+      position: {x: 0.57577515, y: 1.2770218, z: 1.3589082}
+      rotation: {x: -0.5000004, y: 0.49999967, z: 0.49999964, w: 0.5000003}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Bip001 Footsteps
+      parentName: Bip001
+      position: {x: -0, y: 0, z: -1.2593557}
+      rotation: {x: 0, y: -0, z: -0.7071063, w: 0.70710725}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 Pelvis
+      parentName: Bip001
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 1.0000004, y: 1, z: 1.0000004}
+    - name: Bip001 Spine
+      parentName: Bip001 Pelvis
+      position: {x: -0.13804778, y: -0.00014907836, z: 0.00000019073485}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000017, z: 1.0000005}
+    - name: Bip001 Spine1
+      parentName: Bip001 Spine
+      position: {x: -0.19641967, y: -0.00031555176, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000008, z: 1.0000005}
+    - name: Bip001 Neck
+      parentName: Bip001 Spine1
+      position: {x: -0.4229135, y: -0.024516677, z: -0.000000076293944}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000011}
+    - name: Bip001 R Clavicle
+      parentName: Bip001 Neck
+      position: {x: 0.01335205, y: 0.002568817, z: -0.041953772}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: 0.7071068, w: -0.000000030908623}
+      scale: {x: 1.0000017, y: 1.0000011, z: 1.0000014}
+    - name: Bip001 R UpperArm
+      parentName: Bip001 R Clavicle
+      position: {x: -0.13590652, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.000002, y: 1.0000012, z: 1.000001}
+    - name: Bip001 R Forearm
+      parentName: Bip001 R UpperArm
+      position: {x: -0.36000258, y: 0.000000114440915, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.000001, y: 1, z: 1.0000005}
+    - name: Bip001 R Hand
+      parentName: Bip001 R Forearm
+      position: {x: -0.32615417, y: 0.000000076293944, z: 0.00000015258789}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1.0000021, y: 1.0000014, z: 1.0000024}
+    - name: Bip001 R Finger2
+      parentName: Bip001 R Hand
+      position: {x: -0.13063323, y: -0.01829834, z: 0.00867157}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000007}
+    - name: Bip001 R Finger21
+      parentName: Bip001 R Finger2
+      position: {x: -0.038938064, y: 0.00000015258789, z: 0.00000015258789}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 0.9999999, z: 1.0000005}
+    - name: Bip001 R Finger22
+      parentName: Bip001 R Finger21
+      position: {x: -0.038937986, y: 0.00000015258789, z: -0.00000015258789}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.000001}
+    - name: Bip001 R Finger2Nub
+      parentName: Bip001 R Finger22
+      position: {x: -0.03893814, y: 0, z: -0.00000015258789}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -1, y: -1.0000001, z: -1.0000001}
+    - name: Bip001 R Finger3
+      parentName: Bip001 R Hand
+      position: {x: -0.124978326, y: -0.010411834, z: -0.015694274}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000005}
+    - name: Bip001 R Finger31
+      parentName: Bip001 R Finger3
+      position: {x: -0.035313033, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999995, y: 0.9999996, z: 0.99999905}
+    - name: Bip001 R Finger32
+      parentName: Bip001 R Finger31
+      position: {x: -0.035312958, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000012, y: 1.000001, z: 1.0000008}
+    - name: Bip001 R Finger3Nub
+      parentName: Bip001 R Finger32
+      position: {x: -0.035312805, y: -0.000000076293944, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -1.0000001, y: -1.0000001, z: -1.0000001}
+    - name: Bip001 R Finger0
+      parentName: Bip001 R Hand
+      position: {x: -0.059369657, y: 0.010087128, z: 0.04087326}
+      rotation: {x: 0, y: 0.38268346, z: 0, w: 0.9238795}
+      scale: {x: 0.99999964, y: 0.9999991, z: 0.9999999}
+    - name: Bip001 R Finger01
+      parentName: Bip001 R Finger0
+      position: {x: -0.03711456, y: -0.000000085830685, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.000001, z: 1.0000008}
+    - name: Bip001 R Finger02
+      parentName: Bip001 R Finger01
+      position: {x: -0.03711456, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: Bip001 R Finger0Nub
+      parentName: Bip001 R Finger02
+      position: {x: -0.03711464, y: 0.000000076293944, z: 0.00000030517577}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -1, y: -1, z: -1}
+    - name: Bip001 R Finger1
+      parentName: Bip001 R Hand
+      position: {x: -0.12235626, y: -0.016365966, z: 0.035387266}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999976, y: 1.0000002, z: 1.0000004}
+    - name: Bip001 R Finger11
+      parentName: Bip001 R Finger1
+      position: {x: -0.03838768, y: 0, z: -0.00000015258789}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000008, y: 0.99999994, z: 1.0000005}
+    - name: Bip001 R Finger12
+      parentName: Bip001 R Finger11
+      position: {x: -0.038388062, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.000001, y: 1, z: 1.000001}
+    - name: Bip001 R Finger1Nub
+      parentName: Bip001 R Finger12
+      position: {x: -0.038387757, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -1, y: -1.0000001, z: -1.0000001}
+    - name: Bip001 R Finger4
+      parentName: Bip001 R Hand
+      position: {x: -0.12223724, y: -0.0011199951, z: -0.041362915}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000004, y: 0.9999999, z: 1}
+    - name: Bip001 R Finger41
+      parentName: Bip001 R Finger4
+      position: {x: -0.02506279, y: -0.00000015258789, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999964, y: 0.99999946, z: 0.99999976}
+    - name: Bip001 R Finger42
+      parentName: Bip001 R Finger41
+      position: {x: -0.025062714, y: 0, z: 0.00000015258789}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999992, y: 1.0000004, z: 1.0000007}
+    - name: Bip001 R Finger4Nub
+      parentName: Bip001 R Finger42
+      position: {x: -0.025063017, y: -0.00000015258789, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -1.0000001, y: -1.0000001, z: -1.0000001}
+    - name: Bip001 L Clavicle
+      parentName: Bip001 Neck
+      position: {x: 0.01335205, y: 0.002568512, z: 0.041953925}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: -0.7071068, w: 0.000000030908623}
+      scale: {x: 0.99999994, y: 1.0000006, z: 1.000001}
+    - name: Bip001 L UpperArm
+      parentName: Bip001 L Clavicle
+      position: {x: -0.13590656, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000011, y: 1.0000001, z: 1.0000005}
+    - name: Bip001 L Forearm
+      parentName: Bip001 L UpperArm
+      position: {x: -0.36000243, y: 0, z: -0.00000015258789}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.000001}
+    - name: Bip001 L Hand
+      parentName: Bip001 L Forearm
+      position: {x: -0.32615417, y: 0, z: -0.00000030517577}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+    - name: Bip001 L Finger3
+      parentName: Bip001 L Hand
+      position: {x: -0.12497818, y: -0.010411682, z: 0.015694123}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000011, z: 1.0000006}
+    - name: Bip001 L Finger31
+      parentName: Bip001 L Finger3
+      position: {x: -0.035312958, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999976, y: 0.99999994, z: 1.0000005}
+    - name: Bip001 L Finger32
+      parentName: Bip001 L Finger31
+      position: {x: -0.035312958, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: Bip001 L Finger3Nub
+      parentName: Bip001 L Finger32
+      position: {x: -0.035312805, y: 0, z: 0.000000038146972}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Bip001 L Finger2
+      parentName: Bip001 L Hand
+      position: {x: -0.13063309, y: -0.01829834, z: -0.008671684}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000014, z: 1.0000007}
+    - name: Bip001 L Finger21
+      parentName: Bip001 L Finger2
+      position: {x: -0.038937986, y: -0.00000015258789, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000005}
+    - name: Bip001 L Finger22
+      parentName: Bip001 L Finger21
+      position: {x: -0.038937986, y: -0.000000076293944, z: 0.000000038146972}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 0.99999946, z: 1.0000001}
+    - name: Bip001 L Finger2Nub
+      parentName: Bip001 L Finger22
+      position: {x: -0.038937986, y: -0.000000076293944, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Bip001 L Finger0
+      parentName: Bip001 L Hand
+      position: {x: -0.059369657, y: 0.010087128, z: -0.040873412}
+      rotation: {x: 0, y: 0.3826835, z: 0, w: -0.9238795}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000011}
+    - name: Bip001 L Finger01
+      parentName: Bip001 L Finger0
+      position: {x: -0.03711456, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000011}
+    - name: Bip001 L Finger02
+      parentName: Bip001 L Finger01
+      position: {x: -0.037114713, y: 0, z: -0.00000015258789}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 0.9999992, z: 0.99999964}
+    - name: Bip001 L Finger0Nub
+      parentName: Bip001 L Finger02
+      position: {x: -0.03711456, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: Bip001 L Finger1
+      parentName: Bip001 L Hand
+      position: {x: -0.12235626, y: -0.016365966, z: -0.035387382}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999964, y: 1.0000004, z: 1.0000012}
+    - name: Bip001 L Finger11
+      parentName: Bip001 L Finger1
+      position: {x: -0.038387984, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999998, y: 0.9999997, z: 0.9999995}
+    - name: Bip001 L Finger12
+      parentName: Bip001 L Finger11
+      position: {x: -0.038387604, y: 0.00000015258789, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000014, y: 1.0000017, z: 1}
+    - name: Bip001 L Finger1Nub
+      parentName: Bip001 L Finger12
+      position: {x: -0.038387757, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Bip001 L Finger4
+      parentName: Bip001 L Hand
+      position: {x: -0.12223709, y: -0.0011198425, z: 0.0413628}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1.0000008, z: 1.0000008}
+    - name: Bip001 L Finger41
+      parentName: Bip001 L Finger4
+      position: {x: -0.025062714, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 0.99999964, z: 1.0000005}
+    - name: Bip001 L Finger42
+      parentName: Bip001 L Finger41
+      position: {x: -0.025063017, y: 0.00000022888183, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999997, y: 0.99999976, z: 1.0000001}
+    - name: Bip001 L Finger4Nub
+      parentName: Bip001 L Finger42
+      position: {x: -0.025062714, y: -0.000000076293944, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 Head
+      parentName: Bip001 Neck
+      position: {x: -0.12806702, y: -0.000000076293944, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.000005, y: 1.000005, z: 1.0000045}
+    - name: Bip001 HeadNub
+      parentName: Bip001 Head
+      position: {x: -0.3068788, y: 0.00000015258789, z: 0.000000038146972}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 R Thigh
+      parentName: Bip001 Spine
+      position: {x: 0.13164383, y: 0.041559525, z: -0.15216258}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1.0000002, y: 1.0000008, z: 0.99999976}
+    - name: Bip001 R Calf
+      parentName: Bip001 R Thigh
+      position: {x: -0.6000038, y: -0.00000015258789, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000008, y: 1.0000012, z: 1.0000013}
+    - name: Bip001 R Foot
+      parentName: Bip001 R Calf
+      position: {x: -0.6334237, y: -0.000000076293944, z: -0.000000076293944}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.000001, y: 1.0000008, z: 1.0000007}
+    - name: Bip001 R Toe0
+      parentName: Bip001 R Foot
+      position: {x: -0.096142754, y: 0.1559703, z: -0.000000076293944}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1.0000013, y: 1.0000007, z: 1.000001}
+    - name: Bip001 R Toe0Nub
+      parentName: Bip001 R Toe0
+      position: {x: -0.070352174, y: 0.0000000011920929, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip001 L Thigh
+      parentName: Bip001 Spine
+      position: {x: 0.13164383, y: 0.04155876, z: 0.15216285}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1.0000002, y: 0.99999976, z: 0.99999994}
+    - name: Bip001 L Calf
+      parentName: Bip001 L Thigh
+      position: {x: -0.60000366, y: -0.00000015258789, z: 0.000000019073486}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000008, y: 1.0000011, z: 1.0000012}
+    - name: Bip001 L Foot
+      parentName: Bip001 L Calf
+      position: {x: -0.6334235, y: 0, z: -0.000000019073486}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000008, z: 1.0000007}
+    - name: Bip001 L Toe0
+      parentName: Bip001 L Foot
+      position: {x: -0.09614275, y: 0.15597038, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1.0000013, y: 1.0000007, z: 1.0000011}
+    - name: Bip001 L Toe0Nub
+      parentName: Bip001 L Toe0
+      position: {x: -0.070352174, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -1, y: -1, z: -1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

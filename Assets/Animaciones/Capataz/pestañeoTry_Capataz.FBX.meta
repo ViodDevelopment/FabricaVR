@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: 9285f1f5299ad4e40810d7420a618bd8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Capataz_Body
+    100002: Capataz_Eye_L
+    100004: Capataz_Eye_R
+    100006: LowerTeeth
+    100008: //RootNode
+    100010: Teeth_All
+    100012: UpperTeeth
+    400000: Capataz_Body
+    400002: Capataz_Eye_L
+    400004: Capataz_Eye_R
+    400006: LowerTeeth
+    400008: //RootNode
+    400010: Teeth_All
+    400012: UpperTeeth
+    2100000: lambert5
+    2100002: lambert6
+    2100004: lambert2
+    2300000: Capataz_Eye_L
+    2300002: Capataz_Eye_R
+    2300004: LowerTeeth
+    2300006: UpperTeeth
+    3300000: Capataz_Eye_L
+    3300002: Capataz_Eye_R
+    3300004: LowerTeeth
+    3300006: UpperTeeth
+    4300000: Capataz_Body
+    4300002: Capataz_Eye_R
+    4300004: Capataz_Eye_L
+    4300006: UpperTeeth
+    4300008: LowerTeeth
+    7400000: "Pesta\xF1eo_recover"
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Capataz_Body
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 0
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton:
+    - name: "pesta\xF1eoTry_Capataz(Clone)"
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.00000006657903, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Capataz_Body
+      parentName: "pesta\xF1eoTry_Capataz(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Capataz_Eye_R
+      parentName: "pesta\xF1eoTry_Capataz(Clone)"
+      position: {x: -0.033934634, y: 1.8352029, z: 0.024602601}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Capataz_Eye_L
+      parentName: "pesta\xF1eoTry_Capataz(Clone)"
+      position: {x: 0.03588953, y: 1.8352029, z: 0.024602601}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Teeth_All
+      parentName: "pesta\xF1eoTry_Capataz(Clone)"
+      position: {x: -0.002706151, y: 1.742362, z: 0.041324347}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperTeeth
+      parentName: Teeth_All
+      position: {x: 0.0025521165, y: 0.01563568, z: -0.014959795}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.4840199, y: 1.4840199, z: 1.4840199}
+    - name: LowerTeeth
+      parentName: Teeth_All
+      position: {x: 0.0026693856, y: -0.00047058106, z: -0.022785937}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.4840199, y: 1.4840199, z: 1.4840199}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
