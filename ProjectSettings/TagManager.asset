@@ -8,6 +8,9 @@ TagManager:
   - Waiting
   - Taskmaster
   - Wall
+  - Taquilla
+  - MasCarbon
+  - C_4_3
   layers:
   - Default
   - TransparentFX

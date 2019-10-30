@@ -4,24 +4,31 @@ using UnityEngine;
 
 public class GoToCube : MonoBehaviour
 {
-    public float m_Speed = 1;
+    public float m_Speed = 0.75f;
     private bool m_Going = false;
     private GameObject m_Object;
-
+    public CharacterController characterController;
     void FixedUpdate()
     {
         if (m_Going == true)
         {
             if (m_Object == null)
                 StopGoingTo();
-            else if (Vector3.Distance(this.transform.position, m_Object.transform.position) < 1f && this.tag == "Player" && m_Object.tag == "Taskmaster")
+            else if (Vector3.Distance(this.transform.position, m_Object.transform.position) < 2f && this.tag == "Player" && m_Object.tag == "Taskmaster")
             {
+                print("parar");
                 StopGoingTo();
             }
 
             else
-                transform.position = transform.position + Camera.main.transform.forward * m_Speed * Time.deltaTime;
-
+            {
+                if (characterController != null)
+                {
+                    characterController.Move(Camera.main.transform.forward * m_Speed * Time.deltaTime);
+                }
+                else
+                    transform.position = transform.position + Camera.main.transform.forward * m_Speed * Time.deltaTime;
+            }
 
         }
         else

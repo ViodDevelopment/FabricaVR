@@ -25,13 +25,15 @@ public class TaskmasterMovement : MonoBehaviour
     {
         m_Player = GameObject.FindGameObjectWithTag("Player");
         l_Point = 0;
-        m_Speed = 1f;
+        m_Speed = 0.5f;
         m_MovingBack = false;
         l_MoveAgain = false;
     }
 
     void Update()
     {
+        this.gameObject.transform.LookAt(m_Player.transform);
+
         if (m_Player.GetComponent<PlayerBehaviour>().m_MoveToNextPoint)
         {
             MoveTaskmaster();
@@ -51,7 +53,6 @@ public class TaskmasterMovement : MonoBehaviour
                 l_Point++;
                 m_Player.GetComponent<PlayerBehaviour>().m_MoveToNextPoint = false;
                 m_Animator.SetBool("Walking", false);
-
             }
             else
                 l_MovingCounter += Time.deltaTime;
@@ -60,8 +61,12 @@ public class TaskmasterMovement : MonoBehaviour
 
     public void MoveTaskmaster()
     {
+
+        this.gameObject.transform.LookAt(m_MovePoints[l_Point].transform);
+
         if (m_MovingBack)
         {
+            this.gameObject.transform.LookAt(m_MovePoints[l_Point-1].transform);
             m_PlayerDetection.SetActive(true);
 
             if ((transform.position - m_MovePoints[l_Point - 1].transform.position).magnitude > 0.1f)
@@ -71,8 +76,6 @@ public class TaskmasterMovement : MonoBehaviour
             }
             else
                 m_Animator.SetBool("Walking", false);
-
-
 
             if (l_MoveAgain)
             {
@@ -91,12 +94,10 @@ public class TaskmasterMovement : MonoBehaviour
                     transform.position = Vector3.MoveTowards(this.transform.position, m_MovePoints[l_Point].transform.position, m_Speed * Time.deltaTime);
                     m_Animator.SetBool("Walking", true);
                     m_MovingBack = false;
-                    Debug.Log("HitPlayer");
                 }
                 else
                 {
                     m_MovingBack = true;
-                    Debug.Log("notHitplayer" + m_Hit.transform.name);
                 }
             }
         }            
