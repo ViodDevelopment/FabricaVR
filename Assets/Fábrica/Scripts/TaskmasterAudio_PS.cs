@@ -2,13 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TaskmasterAudio : MonoBehaviour
+public class TaskmasterAudio_PS : MonoBehaviour
 {
     public AudioClip[] m_Audio;
     private AudioSource m_Capataz_AS;
     private int m_ActualAudio = 1;
-    public bool m_Taquilla = false;
-    public bool m_MasCarbon = false;
     public int m_AudiosPlayed = 0;
 
     void Start()
@@ -34,12 +32,9 @@ public class TaskmasterAudio : MonoBehaviour
                     m_AudiosPlayed++;
                     break;
                 case 2:
-                    if (m_Taquilla)
-                    {
                         PlayAudio();
                         m_ActualAudio++;
                         m_AudiosPlayed++;
-                    }
                     break;
                 case 3:
                     PlayAudio();
@@ -47,12 +42,11 @@ public class TaskmasterAudio : MonoBehaviour
                     m_AudiosPlayed++;
                     break;
                 case 4:
-                    if (m_MasCarbon)
-                    {
+
                         PlayAudio();
                         m_ActualAudio++;
                         m_AudiosPlayed++;
-                    }
+
                     break;
             }
         }

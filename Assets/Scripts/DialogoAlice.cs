@@ -12,7 +12,7 @@ public class DialogoAlice : MonoBehaviour
     private float currentTime = 0;
     private int currentClip = 0;
     public bool acabado = false;
-    // Update is called once per frame
+
     void Update()
     {
         if (!acabado)
@@ -70,7 +70,6 @@ public class DialogoAlice : MonoBehaviour
                 }
             }
 
-
             if (currentClip == 5 && !audioAlice.isPlaying)
             {
                 currentTime += Time.deltaTime;
@@ -106,7 +105,6 @@ public class DialogoAlice : MonoBehaviour
                     acabado = true;
                 }
             }
-
         }
     }
 }

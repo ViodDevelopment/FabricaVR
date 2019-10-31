@@ -7,7 +7,9 @@ public class Alice : MonoBehaviour
     public bool action = false;
     public bool finish = false;
     public Transform positionToGo;
-    // Update is called once per frame
+
+    //Movimiento de volver al punto
+
     void Update()
     {
         if(action && !finish)
