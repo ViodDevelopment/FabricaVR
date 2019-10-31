@@ -32,14 +32,14 @@ public class TaskmasterMovement : MonoBehaviour
 
     void Update()
     {
-        this.gameObject.transform.LookAt(m_Player.transform);
+        this.gameObject.transform.LookAt(new Vector3(m_Player.transform.position.x, gameObject.transform.position.y, m_Player.transform.position.z));
 
         if (m_Player.GetComponent<PlayerBehaviour>().m_MoveToNextPoint)
         {
             MoveTaskmaster();
         }
         else
-            m_Animator.SetBool("Walking", false);
+            m_Animator.SetBool("Mover", false);
 
         if (Vector3.Distance(this.transform.position, m_MovePoints[l_Point].transform.position) < 1f)
         {
@@ -52,7 +52,7 @@ public class TaskmasterMovement : MonoBehaviour
             {
                 l_Point++;
                 m_Player.GetComponent<PlayerBehaviour>().m_MoveToNextPoint = false;
-                m_Animator.SetBool("Walking", false);
+                m_Animator.SetBool("Mover", false);
             }
             else
                 l_MovingCounter += Time.deltaTime;
@@ -72,10 +72,10 @@ public class TaskmasterMovement : MonoBehaviour
             if ((transform.position - m_MovePoints[l_Point - 1].transform.position).magnitude > 0.1f)
             {
                 transform.position = Vector3.MoveTowards(this.transform.position, m_MovePoints[l_Point - 1].transform.position, m_Speed * Time.deltaTime);
-                m_Animator.SetBool("Walking", true);
+                m_Animator.SetBool("Mover", true);
             }
             else
-                m_Animator.SetBool("Walking", false);
+                m_Animator.SetBool("Mover", false);
 
             if (l_MoveAgain)
             {
@@ -92,7 +92,7 @@ public class TaskmasterMovement : MonoBehaviour
                 if (m_Hit.transform.gameObject.tag == ("Player"))
                 {
                     transform.position = Vector3.MoveTowards(this.transform.position, m_MovePoints[l_Point].transform.position, m_Speed * Time.deltaTime);
-                    m_Animator.SetBool("Walking", true);
+                    m_Animator.SetBool("Mover", true);
                     m_MovingBack = false;
                 }
                 else
