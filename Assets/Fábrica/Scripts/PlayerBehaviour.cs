@@ -57,7 +57,7 @@ public class PlayerBehaviour : MonoBehaviour
                     l_Room++;
                 }
                 break;
-            case 3:
+            case 3://4.1
                 if (l_ActiveCubes == 1)
                 {
                     m_MoveToNextPoint = true;
