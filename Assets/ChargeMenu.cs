@@ -33,6 +33,8 @@ public class ChargeMenu : MonoBehaviour
     bool FemSelected;
     bool MaleSelected;
 
+    bool genreSelected=false;
+
     void Start()
     {
        
@@ -63,7 +65,7 @@ public class ChargeMenu : MonoBehaviour
         else if (currentTimerMale > 0 && !MaleSelected)
             currentTimerMale = 0;
 
-        if (activateTimer)
+        if (activateTimer && genreSelected)
         {
             currentTimer += Time.deltaTime;
             if (currentTimer >= maxTimer)
@@ -98,11 +100,14 @@ public class ChargeMenu : MonoBehaviour
         else if (currentTimerExit > 0)
             currentTimerExit = 0;
 
-        m_FEm.fillAmount = currentTimerFem / maxTimer;
-        m_Male.fillAmount = currentTimerMale/ maxTimer;
-        m_Start.fillAmount = currentTimer/ maxTimer;
-        m_Credits.fillAmount = currentTimerCred/ maxTimer;
-        m_Exit.fillAmount = currentTimerExit/ maxTimer;
+        if (m_FEm != null)
+        {
+            m_FEm.fillAmount = currentTimerFem / maxTimer;
+            m_Male.fillAmount = currentTimerMale / maxTimer;
+            m_Start.fillAmount = currentTimer / maxTimer;
+            m_Credits.fillAmount = currentTimerCred / maxTimer;
+            m_Exit.fillAmount = currentTimerExit / maxTimer;
+        }
     }
     
     public void ChargeScene()
@@ -120,12 +125,16 @@ public class ChargeMenu : MonoBehaviour
         numScene = 2;
         FemSelected = false;
         MaleSelected = true;
+        if (!genreSelected)
+            genreSelected = true;
     }
     public void ChargeGameFemale()
     {
         numScene = 3;
         MaleSelected = false;
         FemSelected = true;
+        if (!genreSelected)
+            genreSelected = true;
     }
 
     void ChangeGameLow()

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6876066, g: 0.5657842, b: 0.45568871, a: 1}
+  m_IndirectSpecularColor: {r: 0.67426217, g: 0.5567471, b: 0.43751234, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -412,6 +412,7 @@ GameObject:
   - component: {fileID: 580812688}
   - component: {fileID: 580812687}
   - component: {fileID: 580812690}
+  - component: {fileID: 580812691}
   m_Layer: 5
   m_Name: Start
   m_TagString: Untagged
@@ -479,7 +480,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 660073004}
-        m_MethodName: ChargeGameFemOrMale
+        m_MethodName: ActivateStart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -576,6 +577,19 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!65 &580812691
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580812685}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 350.9992, y: 227.30104, z: 94.148155}
+  m_Center: {x: 1.1497487, y: 5.1108985, z: -46.574444}
 --- !u!1 &660073003
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,6 +651,7 @@ GameObject:
   - component: {fileID: 764100549}
   - component: {fileID: 764100548}
   - component: {fileID: 764100551}
+  - component: {fileID: 764100552}
   m_Layer: 5
   m_Name: Fem
   m_TagString: Untagged
@@ -801,6 +816,19 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!65 &764100552
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764100546}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 246.8688, y: 339.94925, z: 62.00335}
+  m_Center: {x: 7.2552013, y: -1.5092041, z: 8.993056}
 --- !u!1 &851472648
 GameObject:
   m_ObjectHideFlags: 0
@@ -923,6 +951,7 @@ GameObject:
   - component: {fileID: 860570831}
   - component: {fileID: 860570830}
   - component: {fileID: 860570833}
+  - component: {fileID: 860570834}
   m_Layer: 5
   m_Name: Mal
   m_TagString: Untagged
@@ -1087,6 +1116,19 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!65 &860570834
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860570828}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 217.20616, y: 324.89725, z: 64.34413}
+  m_Center: {x: -6.0495253, y: 8.951229, z: -21.912458}
 --- !u!1 &879850965
 GameObject:
   m_ObjectHideFlags: 0
@@ -1100,6 +1142,7 @@ GameObject:
   - component: {fileID: 879850968}
   - component: {fileID: 879850967}
   - component: {fileID: 879850970}
+  - component: {fileID: 879850971}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -1264,6 +1307,19 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!65 &879850971
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879850965}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 372.56317, y: 256.30103, z: 24.959047}
+  m_Center: {x: 1.1643044, y: -5.384183, z: -12.979517}
 --- !u!1001 &880552462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1656,7 +1712,7 @@ PrefabInstance:
     - target: {fileID: 4495024780770574477, guid: 5bc66895ba3978940b58334a4a4867b8,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bc66895ba3978940b58334a4a4867b8, type: 3}
@@ -1952,6 +2008,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.08663769
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 89854ca2fdd7a0c4885e7069ca8c201b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5aba78539cd04de479da58e174e19095, type: 2}
+    - target: {fileID: 2300002, guid: 89854ca2fdd7a0c4885e7069ca8c201b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5aba78539cd04de479da58e174e19095, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89854ca2fdd7a0c4885e7069ca8c201b, type: 3}
 --- !u!1 &1559640837
@@ -1967,6 +2031,7 @@ GameObject:
   - component: {fileID: 1559640840}
   - component: {fileID: 1559640839}
   - component: {fileID: 1559640842}
+  - component: {fileID: 1559640843}
   m_Layer: 5
   m_Name: Credits
   m_TagString: Untagged
@@ -2131,6 +2196,19 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!65 &1559640843
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559640837}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 376.09406, y: 232.46489, z: 59.390366}
+  m_Center: {x: 11.755133, y: 1.7364025, z: -30.195265}
 --- !u!1001 &1626952363
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2144,7 +2222,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7cc8e1c5e612d8c4fa35df243d26f4bd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -29.23
+      value: -27.4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7cc8e1c5e612d8c4fa35df243d26f4bd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2152,7 +2230,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7cc8e1c5e612d8c4fa35df243d26f4bd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.01
+      value: -2.1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7cc8e1c5e612d8c4fa35df243d26f4bd, type: 3}
       propertyPath: m_LocalRotation.x
@@ -7069,7 +7147,7 @@ GameObject:
   - component: {fileID: 8527292603571343101}
   - component: {fileID: 8527292603571343097}
   - component: {fileID: 8527292603571343099}
-  m_Layer: 10
+  m_Layer: 2
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -7085,7 +7163,7 @@ BoxCollider:
   m_GameObject: {fileID: 8527292603571343090}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.75, y: 2, z: 0.75}
   m_Center: {x: 0, y: 0, z: 0}
@@ -7170,7 +7248,7 @@ GameObject:
   - component: {fileID: 8527292603629913461}
   - component: {fileID: 8527292604248498489}
   - component: {fileID: 8527292603627536979}
-  m_Layer: 10
+  m_Layer: 2
   m_Name: GvrReticlePointer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7262,8 +7340,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   raycasterEventMask:
     serializedVersion: 2
-    m_Bits: 4294967295
-  maxRaycastHits: 64
+    m_Bits: 32
+  maxRaycastHits: 512
 --- !u!81 &8527292603720686936
 AudioListener:
   m_ObjectHideFlags: 0
@@ -7302,13 +7380,30 @@ GameObject:
   - component: {fileID: 8527292603720686939}
   - component: {fileID: 8527292603720686936}
   - component: {fileID: 8527292603720686919}
-  m_Layer: 10
+  - component: {fileID: 8527292603720686943}
+  m_Layer: 2
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8527292603720686943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8527292603720686942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 668fb7bd9748dfd4f9fa17d0e47d2e54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 32
+  holder: {fileID: 660073004}
 --- !u!114 &8527292604248498489
 MonoBehaviour:
   m_ObjectHideFlags: 0
