@@ -517,7 +517,7 @@ namespace Gvr.Internal
                 // Early outs if set to install but the apk can't be found.
                 if (InstantPreviewApk == null)
                 {
-                    Debug.LogError("Trying to install Instant Preview apk but reference to InstantPreview.apk is broken.");
+                    //Debug.LogError("Trying to install Instant Preview apk but reference to InstantPreview.apk is broken.");
                     return;
                 }
 

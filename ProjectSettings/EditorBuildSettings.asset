@@ -23,10 +23,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fachada.unity
     guid: eac01fef16bb599428fd6ae07b987ce7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Fabrica_PlantaInferior.unity
     guid: 098db2a1fe7ca8d4da3ba61fc06a6879
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Fabrica_PlantaSuperior.unity
     guid: 958c218d7d35dc244977b1a8348fe06f
+  - enabled: 0
+    path: Assets/Scenes/FinalAnim.unity
+    guid: cdab06e51293c6f4a92266b772b8efeb
   m_configObjects: {}
