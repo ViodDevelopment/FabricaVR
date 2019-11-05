@@ -2193,11 +2193,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 762491044}
     m_Modifications:
-    - target: {fileID: 7826238164520672247, guid: cca8fd00428937b4a9cb07526ce8bc11,
-        type: 3}
-      propertyPath: m_Name
-      value: armario_FBX (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 7656285538607462482, guid: cca8fd00428937b4a9cb07526ce8bc11,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2267,6 +2262,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.055986
+      objectReference: {fileID: 0}
+    - target: {fileID: 7826238164520672247, guid: cca8fd00428937b4a9cb07526ce8bc11,
+        type: 3}
+      propertyPath: m_Name
+      value: armario_FBX (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cca8fd00428937b4a9cb07526ce8bc11, type: 3}
@@ -7398,11 +7398,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 762491044}
     m_Modifications:
-    - target: {fileID: 7826238164520672247, guid: cca8fd00428937b4a9cb07526ce8bc11,
-        type: 3}
-      propertyPath: m_Name
-      value: armario_FBX (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 7656285538607462482, guid: cca8fd00428937b4a9cb07526ce8bc11,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7472,6 +7467,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.0559864
+      objectReference: {fileID: 0}
+    - target: {fileID: 7826238164520672247, guid: cca8fd00428937b4a9cb07526ce8bc11,
+        type: 3}
+      propertyPath: m_Name
+      value: armario_FBX (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cca8fd00428937b4a9cb07526ce8bc11, type: 3}
@@ -9126,14 +9126,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 959308593}
     m_Modifications:
-    - target: {fileID: 171526, guid: 60270cf52a5e94998a5a335989159738, type: 3}
-      propertyPath: m_Name
-      value: GvrReticlePointer
-      objectReference: {fileID: 0}
-    - target: {fileID: 171526, guid: 60270cf52a5e94998a5a335989159738, type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 482300, guid: 60270cf52a5e94998a5a335989159738, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -9177,6 +9169,14 @@ PrefabInstance:
     - target: {fileID: 482300, guid: 60270cf52a5e94998a5a335989159738, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 171526, guid: 60270cf52a5e94998a5a335989159738, type: 3}
+      propertyPath: m_Name
+      value: GvrReticlePointer
+      objectReference: {fileID: 0}
+    - target: {fileID: 171526, guid: 60270cf52a5e94998a5a335989159738, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60270cf52a5e94998a5a335989159738, type: 3}
@@ -9680,6 +9680,7 @@ GameObject:
   - component: {fileID: 907292812}
   - component: {fileID: 907292814}
   - component: {fileID: 907292813}
+  - component: {fileID: 907292815}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -9794,6 +9795,20 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &907292815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907292807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42906fcfd0b94b343a17cfb2a65f896f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 2053796846}
+  speedToClear: 0.4
 --- !u!1 &908129339
 GameObject:
   m_ObjectHideFlags: 0
@@ -16348,11 +16363,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 762491044}
     m_Modifications:
-    - target: {fileID: 6481331027299018083, guid: cd85c61328ac32d4397ddec6fc26b8fd,
-        type: 3}
-      propertyPath: m_Name
-      value: Cartel_03
-      objectReference: {fileID: 0}
     - target: {fileID: 4110942953265689306, guid: cd85c61328ac32d4397ddec6fc26b8fd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16417,6 +16427,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.025262015
+      objectReference: {fileID: 0}
+    - target: {fileID: 6481331027299018083, guid: cd85c61328ac32d4397ddec6fc26b8fd,
+        type: 3}
+      propertyPath: m_Name
+      value: Cartel_03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd85c61328ac32d4397ddec6fc26b8fd, type: 3}
@@ -25249,11 +25264,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 762491044}
     m_Modifications:
-    - target: {fileID: 7826238164520672247, guid: cca8fd00428937b4a9cb07526ce8bc11,
-        type: 3}
-      propertyPath: m_Name
-      value: armario_FBX
-      objectReference: {fileID: 0}
     - target: {fileID: 7656285538607462482, guid: cca8fd00428937b4a9cb07526ce8bc11,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25323,6 +25333,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.055986
+      objectReference: {fileID: 0}
+    - target: {fileID: 7826238164520672247, guid: cca8fd00428937b4a9cb07526ce8bc11,
+        type: 3}
+      propertyPath: m_Name
+      value: armario_FBX
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cca8fd00428937b4a9cb07526ce8bc11, type: 3}
