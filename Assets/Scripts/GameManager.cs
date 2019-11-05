@@ -38,10 +38,10 @@ public class GameManager : MonoBehaviour
 
     public void Update()
     {
-        if(m_Hornero.GetComponent<Animator>().GetBool("Hablando")&&!m_Hornero.GetComponent<AudioSource>().isPlaying)
-        {
-            StopHornero();
-        }
+        //if(m_Hornero.GetComponent<Animator>().GetBool("Hablando")&&!m_Hornero.GetComponent<AudioSource>().isPlaying)
+        //{
+        //    StopHornero();
+        //}
     }
 
     public void HorneroTrigger()

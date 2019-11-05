@@ -9,6 +9,7 @@ public class TaskmasterAudio : MonoBehaviour
     private int m_ActualAudio = 1;
     public bool m_Taquilla = false;
     public bool m_MasCarbon = false;
+    public bool m_CarbonInfo = false;
     public int m_AudiosPlayed = 0;
 
     void Start()
@@ -32,6 +33,7 @@ public class TaskmasterAudio : MonoBehaviour
                     PlayAudio();
                     m_ActualAudio++;
                     m_AudiosPlayed++;
+                    coll.gameObject.GetComponent<ActivateCubes>().m_CubesList[coll.gameObject.GetComponent<ActivateCubes>().l_ActionsCubes].SetActive(true);
                     break;
                 case 2:
                     if (m_Taquilla)
@@ -42,9 +44,12 @@ public class TaskmasterAudio : MonoBehaviour
                     }
                     break;
                 case 3:
-                    PlayAudio();
-                    m_ActualAudio++;
-                    m_AudiosPlayed++;
+                    if(m_CarbonInfo)
+                    {
+                        PlayAudio();
+                        m_ActualAudio++;
+                        m_AudiosPlayed++;
+                    }
                     break;
                 case 4:
                     if (m_MasCarbon)

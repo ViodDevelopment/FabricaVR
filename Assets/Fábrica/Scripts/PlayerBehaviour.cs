@@ -18,7 +18,7 @@ public class PlayerBehaviour : MonoBehaviour
                 l_Room++;
                 break;
             case 1:
-                if(l_ActiveCubes == 2 && m_Taskmaster.GetComponent<TaskmasterAudio>().m_AudiosPlayed == 2)
+                if(l_ActiveCubes == 1 && m_Taskmaster.GetComponent<TaskmasterAudio>().m_AudiosPlayed == 2)
                 {
                     m_MoveToNextPoint = true;
                     l_ActiveCubes = 0;
@@ -27,6 +27,13 @@ public class PlayerBehaviour : MonoBehaviour
                 }
                 break;
             case 2:
+                if(m_Taskmaster.GetComponent<TaskmasterAudio>().m_AudiosPlayed == 3)
+                {
+                    m_MoveToNextPoint = true;
+                    l_Room++;
+                }
+                break;
+            case 3:
                 if (l_ActiveCubes == 1 && m_Taskmaster.GetComponent<TaskmasterAudio>().m_AudiosPlayed == 4)
                 {
                     m_MoveToNextPoint = true;
@@ -48,6 +55,10 @@ public class PlayerBehaviour : MonoBehaviour
         if (other.tag == "MasCarbon")
         {
             m_Taskmaster.GetComponent<TaskmasterAudio>().m_MasCarbon = true;
+        }
+        if (other.name == "TriggerCansado")
+        {
+            m_Taskmaster.GetComponent<TaskmasterAudio>().m_CarbonInfo = true;
         }
     }
 }

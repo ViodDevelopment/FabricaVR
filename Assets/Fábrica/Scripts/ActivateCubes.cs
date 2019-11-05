@@ -17,12 +17,18 @@ public class ActivateCubes : MonoBehaviour
 
     void Update()
     {
-        if (Vector3.Distance(m_Player.transform.position, m_CubesList[l_Cube].transform.position) < 1.5f)
+        if (l_Cube < m_CubesList.Length && m_CubesList[l_Cube] != null)
         {
-            Destroy(m_CubesList[l_Cube]);
-            l_ActionsCubes++;
-            l_Cube++;
-            m_CubesList[l_Cube].SetActive(true);            
+            if (Vector3.Distance(m_Player.transform.position, m_CubesList[l_Cube].transform.position) < 1.5f)
+            {
+                Destroy(m_CubesList[l_Cube]);
+                l_ActionsCubes++;
+                l_Cube++;
+                if (l_Cube < m_CubesList.Length)
+                {
+                    m_CubesList[l_Cube].SetActive(true);
+                }
+            }
         }
     }
 }
