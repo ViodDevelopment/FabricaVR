@@ -12,6 +12,13 @@ public class DialogoAlice : MonoBehaviour
     private float currentTime = 0;
     private int currentClip = 0;
     public bool acabado = false;
+    public Animator animator;
+    public Transform rotateAlice;
+
+    void Start()
+    {
+        animator.SetBool("Idle", true);
+    }
 
     void Update()
     {
@@ -21,6 +28,7 @@ public class DialogoAlice : MonoBehaviour
             {
                 audioCapataz.clip = clips[currentClip];
                 audioCapataz.Play();
+                points[1].SetActive(true);
                 currentClip++;
             }
 
@@ -37,12 +45,17 @@ public class DialogoAlice : MonoBehaviour
             }
 
             if (currentClip == 2 && !audioCapataz.isPlaying && !alice.action)
+            {
                 alice.action = true;
+                animator.SetBool("Idle", false);
+
+            }
 
             if (currentClip == 2 && alice.finish)
             {
                 audioAlice.clip = clips[currentClip];
                 audioAlice.Play();
+                animator.SetBool("Idle", true);
                 currentClip++;
             }
 
@@ -79,6 +92,10 @@ public class DialogoAlice : MonoBehaviour
                     audioCapataz.clip = clips[currentClip];
                     audioCapataz.Play();
                     currentClip++;
+                    animator.SetBool("Idle", false);
+                    animator.SetBool("Agacha", true);
+                    gameObject.transform.forward = (rotateAlice.transform.position - gameObject.transform.position).normalized;
+
                 }
             }
 
@@ -87,6 +104,9 @@ public class DialogoAlice : MonoBehaviour
                 currentTime += Time.deltaTime;
                 if (currentTime >= 12f)
                 {
+                    animator.SetBool("Agacha", false);
+                    animator.SetBool("Idle", true);
+                    gameObject.transform.forward = (GameObject.FindGameObjectWithTag("Player").transform.position - gameObject.transform.position).normalized;
                     currentTime = 0;
                     audioAlice.clip = clips[currentClip];
                     audioAlice.Play();

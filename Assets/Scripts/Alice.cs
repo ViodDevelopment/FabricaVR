@@ -10,6 +10,8 @@ public class Alice : MonoBehaviour
 
     //Movimiento de volver al punto
 
+
+
     void Update()
     {
         if(action && !finish)

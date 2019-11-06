@@ -16,7 +16,11 @@ public class PlayerDetection : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            m_Taskmaster.GetComponent<TaskmasterMovement>().l_MoveAgain = true;
+            if(m_Taskmaster.GetComponent<TaskmasterMovement>() != null)
+                m_Taskmaster.GetComponent<TaskmasterMovement>().l_MoveAgain = true;
+            else if(m_Taskmaster.GetComponent<TaskmasterMovement_PS>() != null)
+                m_Taskmaster.GetComponent<TaskmasterMovement_PS>().l_MoveAgain = true;
+
         }
     }
 }

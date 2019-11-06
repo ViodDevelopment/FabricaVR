@@ -26,7 +26,8 @@ public class ActivateCubes : MonoBehaviour
                 l_Cube++;
                 if (l_Cube < m_CubesList.Length)
                 {
-                    m_CubesList[l_Cube].SetActive(true);
+                    if(m_Player.GetComponent<PlayerBehaviour>() != null)
+                        m_CubesList[l_Cube].SetActive(true);
                 }
             }
         }
