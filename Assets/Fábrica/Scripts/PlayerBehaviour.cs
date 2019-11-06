@@ -8,9 +8,14 @@ public class PlayerBehaviour : MonoBehaviour
     public int l_ActiveCubes = 0;
     public int l_Room = 0;
     public GameObject m_Taskmaster;
+    public Animation m_Animation;
+    public GameObject m_Ropa;
+    public bool m_Activated=false;
 
     void Update()
     {
+        if (!m_Animation.isPlaying && m_Activated)
+            m_Ropa.SetActive(false);
         switch (l_Room)
         {
             case 0:
@@ -51,6 +56,9 @@ public class PlayerBehaviour : MonoBehaviour
         if (other.tag == "Taquilla")
         {
             m_Taskmaster.GetComponent<TaskmasterAudio>().m_Taquilla = true;
+            m_Animation.Play();
+            m_Activated = true;
+
         }
         if (other.tag == "MasCarbon")
         {
