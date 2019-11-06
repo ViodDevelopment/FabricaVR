@@ -14,9 +14,12 @@ public class DialogoAlice : MonoBehaviour
     public bool acabado = false;
     public Animator animator;
     public Transform rotateAlice;
+    private int lastLayer = 0;
+    private float timerAlice;
 
     void Start()
     {
+        lastLayer = audioCapataz.gameObject.layer;
         animator.SetBool("Idle", true);
     }
 
@@ -47,8 +50,8 @@ public class DialogoAlice : MonoBehaviour
             if (currentClip == 2 && !audioCapataz.isPlaying && !alice.action)
             {
                 alice.action = true;
+                audioCapataz.gameObject.layer = 5;
                 animator.SetBool("Idle", false);
-
             }
 
             if (currentClip == 2 && alice.finish)
@@ -102,15 +105,25 @@ public class DialogoAlice : MonoBehaviour
             if (currentClip == 6 && !audioCapataz.isPlaying)
             {
                 currentTime += Time.deltaTime;
-                if (currentTime >= 12f)
+                if (currentTime >= 8f)
                 {
                     animator.SetBool("Agacha", false);
                     animator.SetBool("Idle", true);
-                    gameObject.transform.forward = (GameObject.FindGameObjectWithTag("Player").transform.position - gameObject.transform.position).normalized;
                     currentTime = 0;
                     audioAlice.clip = clips[currentClip];
                     audioAlice.Play();
                     currentClip++;
+                    timerAlice = 0.2f;
+                }
+            }
+
+            if(timerAlice > 0)
+            {
+                timerAlice -= Time.deltaTime;
+                if(timerAlice <= 0)
+                {
+                    timerAlice = 0;
+                    gameObject.transform.forward = (GameObject.FindGameObjectWithTag("Player").transform.position - gameObject.transform.position).normalized;
                 }
             }
 
@@ -124,6 +137,15 @@ public class DialogoAlice : MonoBehaviour
                     audioCapataz.Play();
                     acabado = true;
                 }
+            }
+        }
+        else
+        {
+            if(!audioCapataz.isPlaying)
+            {
+                audioCapataz.gameObject.layer = lastLayer;
+                GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerBehabioursPlanta2>().m_MoveToNextPoint = true;
+                gameObject.GetComponent<DialogoAlice>().enabled = false;
             }
         }
     }

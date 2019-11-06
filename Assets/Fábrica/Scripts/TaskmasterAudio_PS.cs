@@ -18,7 +18,7 @@ public class TaskmasterAudio_PS : MonoBehaviour
 
     void Update()
     {
-        if(timer > 0)
+        if (timer > 0)
         {
             timer -= Time.deltaTime;
             if (timer < 0)
@@ -27,12 +27,19 @@ public class TaskmasterAudio_PS : MonoBehaviour
         switch (m_ActualAudio)
         {
             case 0:
-                if(!m_Capataz_AS.isPlaying && timer <= 0)
+                if (!m_Capataz_AS.isPlaying && timer <= 0)
                 {
                     PlayAudio();
                     m_ActualAudio++;
                     m_AudiosPlayed++;
                     timer = m_Capataz_AS.clip.length + 0.2f;
+                }
+                break;
+            case 4:
+                if (!m_Capataz_AS.isPlaying && timer <= 0 && m_Capataz_AS.GetComponent<TaskmasterMovement_PS>().numCubos == 1)
+                {
+                    m_Capataz_AS.GetComponent<TaskmasterMovement_PS>().cubosPlayer[m_Capataz_AS.GetComponent<TaskmasterMovement_PS>().numCubos].SetActive(true);
+                    m_Capataz_AS.GetComponent<TaskmasterMovement_PS>().numCubos++;
                 }
                 break;
         }
@@ -44,12 +51,17 @@ public class TaskmasterAudio_PS : MonoBehaviour
         m_ActualAudio++;
         m_AudiosPlayed++;
         timer = m_Capataz_AS.clip.length + 0.2f;
+        if (m_ActualAudio == 3)
+            timer += 5;
     }
 
     private void PlayAudio()
     {
-        m_Capataz_AS.clip = m_Audio[m_ActualAudio];
-        m_Capataz_AS.Play();
+        if (m_Audio.Length > m_ActualAudio)
+        {
+            m_Capataz_AS.clip = m_Audio[m_ActualAudio];
+            m_Capataz_AS.Play();
+        }
     }
 
     private void OnTriggerEnter(Collider coll)
@@ -65,12 +77,12 @@ public class TaskmasterAudio_PS : MonoBehaviour
 
                     break;
                 case 3:
-
+                    if (timer == 0)
+                    {
+                        PlayNextAudio();
+                    }
                     break;
                 case 4:
-                    PlayNextAudio();
-                    m_Capataz_AS.GetComponent<TaskmasterMovement_PS>().cubosPlayer[m_Capataz_AS.GetComponent<TaskmasterMovement_PS>().numCubos].SetActive(true);
-                    m_Capataz_AS.GetComponent<TaskmasterMovement_PS>().numCubos++;
 
                     break;
             }
