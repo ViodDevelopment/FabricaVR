@@ -3211,7 +3211,7 @@ GameObject:
   - component: {fileID: 458663504}
   m_Layer: 0
   m_Name: CuboObjetivo (32)
-  m_TagString: Untagged
+  m_TagString: CuboObjetivo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4006,7 +4006,7 @@ GameObject:
   - component: {fileID: 545343684}
   m_Layer: 0
   m_Name: CuboObjetivo (25)
-  m_TagString: Untagged
+  m_TagString: CuboObjetivo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5747,7 +5747,7 @@ GameObject:
   - component: {fileID: 950511186}
   m_Layer: 0
   m_Name: CuboObjetivo (26)
-  m_TagString: Untagged
+  m_TagString: CuboObjetivo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5887,7 +5887,7 @@ GameObject:
   - component: {fileID: 984214869}
   m_Layer: 0
   m_Name: CuboObjetivo (35)
-  m_TagString: Untagged
+  m_TagString: CuboObjetivo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6107,7 +6107,7 @@ GameObject:
   - component: {fileID: 997419022}
   m_Layer: 0
   m_Name: CuboObjetivo (28)
-  m_TagString: Untagged
+  m_TagString: CuboObjetivo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7362,7 +7362,7 @@ GameObject:
   - component: {fileID: 1551897661}
   m_Layer: 0
   m_Name: CuboObjetivo (21)
-  m_TagString: Untagged
+  m_TagString: CuboObjetivo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7774,7 +7774,7 @@ GameObject:
   - component: {fileID: 1730259161}
   m_Layer: 0
   m_Name: CuboObjetivo (18)
-  m_TagString: Untagged
+  m_TagString: CuboObjetivo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

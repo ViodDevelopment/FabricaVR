@@ -11,6 +11,7 @@ TagManager:
   - Taquilla
   - MasCarbon
   - C_4_3
+  - CuboObjetivo
   layers:
   - Default
   - TransparentFX
