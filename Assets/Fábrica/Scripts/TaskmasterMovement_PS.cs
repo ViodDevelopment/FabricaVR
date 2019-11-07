@@ -6,6 +6,7 @@ public class TaskmasterMovement_PS : MonoBehaviour
 {
     public GameObject[] m_MovePoints;
     public TaskmasterAudio_PS audio_PS;
+    public DialogoDirector director;
     public int l_Point;
 
     private float m_Speed;
@@ -136,6 +137,10 @@ public class TaskmasterMovement_PS : MonoBehaviour
                     break;
                 case 3:
 
+                    break;
+
+                case 5:
+                    director.startScene = true;
                     break;
             }
         }
