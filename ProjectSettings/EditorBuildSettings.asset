@@ -8,31 +8,31 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Fabrica.unity
     guid: bb36d2905dc634f1c9eecb35beecaca8
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/FirstAnimation.unity
     guid: b4a07f9f6f37b3843be734a1ff1bc0be
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 92209277701f06c42bfb8b951eaa467c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/NarradorMale.unity
     guid: 2a210d180ec13624c9de770e5343f6de
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/NarradorFem.unity
     guid: fc8d7665d42159346b571599ebc82969
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Fabrica_Fachada.unity
     guid: 8d3b9a7a059960642ab49d1018588eeb
   - enabled: 0
     path: Assets/Scenes/Fachada.unity
     guid: eac01fef16bb599428fd6ae07b987ce7
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Fabrica_PlantaInferior.unity
     guid: 098db2a1fe7ca8d4da3ba61fc06a6879
   - enabled: 1
     path: Assets/Scenes/Fabrica_PlantaSuperior.unity
     guid: 958c218d7d35dc244977b1a8348fe06f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/FinalAnim.unity
     guid: cdab06e51293c6f4a92266b772b8efeb
   m_configObjects: {}

@@ -24,6 +24,7 @@ public class GoToCube : MonoBehaviour
                 if (characterController != null)
                 {
                     characterController.Move(Camera.main.transform.forward * m_Speed * Time.deltaTime);
+                    characterController.Move(Vector3.down * Time.deltaTime * 3);
                 }
                 else
                     transform.position = transform.position + Camera.main.transform.forward * m_Speed * Time.deltaTime;
