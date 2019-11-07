@@ -8,6 +8,7 @@ public class DialogoDirector : MonoBehaviour
     public AudioSource directorAudioSource;
     public AudioSource efectosAmbiente;
     public GameObject periodico;
+    public GameObject cubo;
     public bool startScene;
     public bool tiene;
     public bool algoMas;
@@ -19,6 +20,7 @@ public class DialogoDirector : MonoBehaviour
     public bool acabado;
     public List<AudioClip> audios = new List<AudioClip>();
     public List<AudioClip> audiosAmbientes = new List<AudioClip>();
+    public List<Animation> animations = new List<Animation>();
     // Start is called before the first frame update
     void Start()
     {
@@ -52,6 +54,7 @@ public class DialogoDirector : MonoBehaviour
                 directorAudioSource.Play();
                 numOfAudios++;
                 pasos++;
+                cubo.SetActive(true);
                 animator.speed = firstSpeed;
             }
             else
@@ -75,6 +78,11 @@ public class DialogoDirector : MonoBehaviour
             {
                 animator.SetBool("Pide", true);
                 pasos++;
+                timer = 3.5f;
+            }
+            else if(pasos == 4 && timer == 0 && !tiene && !animations[0].isPlaying)
+            {
+                animations[0].Play();
             }
             else if (pasos == 4 && tiene)
             {
@@ -107,6 +115,7 @@ public class DialogoDirector : MonoBehaviour
                 numOfAudios++;
                 algoMas = true;
                 animator.SetBool("AlgoMas", true);
+                animations[1].Play();
                 //dar el sobre
                 pasos++;
                 timer = 5f;
@@ -124,6 +133,7 @@ public class DialogoDirector : MonoBehaviour
             else if(pasos == 8 && !directorAudioSource.isPlaying)
             {
                 acabado = true;
+                GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerBehabioursPlanta2>().m_MoveToNextPoint = true;
                 gameObject.GetComponent<DialogoDirector>().enabled = false;
             }
         }

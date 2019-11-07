@@ -29,6 +29,7 @@ public class DialogoAlice : MonoBehaviour
         {
             if (points[0] == null && currentClip == 0)
             {
+                audioCapataz.gameObject.layer = 5;
                 audioCapataz.clip = clips[currentClip];
                 audioCapataz.Play();
                 points[1].SetActive(true);
@@ -50,7 +51,6 @@ public class DialogoAlice : MonoBehaviour
             if (currentClip == 2 && !audioCapataz.isPlaying && !alice.action)
             {
                 alice.action = true;
-                audioCapataz.gameObject.layer = 5;
                 animator.SetBool("Idle", false);
             }
 
@@ -105,7 +105,7 @@ public class DialogoAlice : MonoBehaviour
             if (currentClip == 6 && !audioCapataz.isPlaying)
             {
                 currentTime += Time.deltaTime;
-                if (currentTime >= 8f)
+                if (currentTime >= 8.5f)
                 {
                     animator.SetBool("Agacha", false);
                     animator.SetBool("Idle", true);

@@ -58,12 +58,12 @@ public class CogerCosas : MonoBehaviour
                 }
             }
         }
-        if(director.pasos >= 3)
+        if(director.pasos >= 4)
         {
             RaycastHit raycastHit;
             if(Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward,out raycastHit, 200))
             {
-                if(raycastHit.collider.gameObject.name == "Despacho_Escritorio_Periodico_geo")
+                if(raycastHit.collider.gameObject.name == "Despacho_Escritorio_Periodico_geo" && director.animations[0].isPlaying && director.cubo == null)
                 {
                     periodico = true;
                     image.sprite = textures[0];
