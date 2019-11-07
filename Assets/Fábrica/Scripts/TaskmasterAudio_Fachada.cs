@@ -51,7 +51,7 @@ public class TaskmasterAudio_Fachada : MonoBehaviour
                     m_Image.gameObject.SetActive(true);
                     m_Image.color = m_Image.color + new Color(0, 0, 0, Time.deltaTime * 0.5f);
                     if (m_Image.color.a >= 0.9f)
-                        SceneManager.LoadScene(5); 
+                        SceneManager.LoadScene(4); 
             }
         }
     }

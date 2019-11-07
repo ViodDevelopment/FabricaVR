@@ -13,7 +13,15 @@ public class MirarYAndar : MonoBehaviour
         RaycastHit rayhit;
         if(Physics.Raycast(camera.transform.position, camera.transform.forward,out rayhit, 200, layer))
         {
-
+            if(rayhit.collider.gameObject.tag == "Taskmaster" || rayhit.collider.gameObject.tag == "CuboObjetivo")
+            {
+                goToCube.GoingTo(rayhit.collider.gameObject);
+            }
+            else
+                goToCube.StopGoingTo();
         }
+        else
+            goToCube.StopGoingTo();
+
     }
 }
