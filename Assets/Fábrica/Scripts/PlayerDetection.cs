@@ -9,7 +9,6 @@ public class PlayerDetection : MonoBehaviour
 
     void Start()
     {
-        m_Taskmaster = GameObject.FindGameObjectWithTag("Taskmaster");
     }
 
     private void OnTriggerEnter(Collider other)
