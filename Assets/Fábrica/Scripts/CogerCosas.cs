@@ -100,7 +100,7 @@ public class CogerCosas : MonoBehaviour
         else if(mozo.empieza)
         {
             RaycastHit raycastHit;
-            if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out raycastHit, 3.5f))
+            if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out raycastHit, 5f))
             {
                 if (mozo.objetosQueActivas[0] == null && raycastHit.collider.gameObject.name == "1505Mapa")
                 {
