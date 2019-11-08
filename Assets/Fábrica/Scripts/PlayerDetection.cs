@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerDetection : MonoBehaviour
 {
 
-    GameObject m_Taskmaster;
+    public GameObject m_Taskmaster;
 
     void Start()
     {
@@ -16,10 +16,11 @@ public class PlayerDetection : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            if(m_Taskmaster.GetComponent<TaskmasterMovement>() != null)
+            if (m_Taskmaster.GetComponent<TaskmasterMovement>() != null)
                 m_Taskmaster.GetComponent<TaskmasterMovement>().l_MoveAgain = true;
-            else if(m_Taskmaster.GetComponent<TaskmasterMovement_PS>() != null)
+            else if (m_Taskmaster.GetComponent<TaskmasterMovement_PS>() != null)
                 m_Taskmaster.GetComponent<TaskmasterMovement_PS>().l_MoveAgain = true;
+            
 
         }
     }

@@ -11,83 +11,100 @@ public class CogerCosas : MonoBehaviour
     private float timer = 0;
     public List<Sprite> textures = new List<Sprite>();
     public DialogoDirector director;
+    public MozoDeAlmacen mozo;
+    private bool terminado1;
     // Start is called before the first frame update
     void Start()
     {
         periodico = false;
         sobre = false;
+        terminado1 = true;//CAMBIAR 
         image.color = new Color(image.color.r, image.color.g, image.color.b, 0);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(timer > 0)
+        if (timer > 0)
         {
             timer -= Time.deltaTime;
-            if(timer <= 0)
+            if (timer <= 0)
             {
                 timer = 0;
             }
         }
-
-        if(sobre || periodico)
+        if (!terminado1)
         {
-            if(timer >= 1)
+            if (sobre || periodico)
             {
-                image.color = image.color + new Color(0, 0, 0, Time.deltaTime);
-            }
-            else
-            {
-                image.color = image.color - new Color(0, 0, 0, Time.deltaTime);
-                if(image.color.a <= 0.05 && timer == 0)
+                if (timer >= 1)
                 {
-                    image.color = new Color(image.color.r, image.color.g, image.color.b, 0);
-                    image.gameObject.SetActive(false);
-                    if (periodico)
+                    image.color = image.color + new Color(0, 0, 0, Time.deltaTime);
+                }
+                else
+                {
+                    image.color = image.color - new Color(0, 0, 0, Time.deltaTime);
+                    if (image.color.a <= 0.05 && timer == 0)
                     {
-                        periodico = false;
-                        director.tiene = true;
+                        image.color = new Color(image.color.r, image.color.g, image.color.b, 0);
+                        image.gameObject.SetActive(false);
+                        if (periodico)
+                        {
+                            periodico = false;
+                            director.tiene = true;
+                        }
+                        else if (sobre)
+                        {
+                            sobre = false;
+                            director.algoMas = false;
+                            terminado1 = true;
+                        }
                     }
-                    else if (sobre)
+                }
+            }
+            if (director.pasos >= 4)
+            {
+                RaycastHit raycastHit;
+                if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out raycastHit, 50))
+                {
+                    if (raycastHit.collider.gameObject.name == "Despacho_Escritorio_Periodico_geo" && director.animations[0].isPlaying && director.cubo == null)
                     {
-                        sobre = false;
-                        director.algoMas = false;
-                        gameObject.GetComponent<CogerCosas>().enabled = false;
+                        periodico = true;
+                        image.sprite = textures[0];
+                        image.gameObject.SetActive(true);
+                        raycastHit.collider.gameObject.SetActive(false);
+                        timer = 10;
+                        director.NextSoundAmbiente();
+                    }
+
+                    if (director.algoMas && raycastHit.collider.gameObject.name == "Despacho_Escritorio_Sobre_geo")
+                    {
+                        timer = 5;
+                        sobre = true;
+                        if (SingletoneGender.GetInstance().GetGender() == SingletoneGender.Gender.MALE)
+                        {
+                            image.sprite = textures[1];
+                        }
+                        else
+                        {
+                            image.sprite = textures[2];
+                        }
+                        image.gameObject.SetActive(true);
+                        director.NextSoundAmbiente();
+                        raycastHit.collider.gameObject.SetActive(false);
                     }
                 }
             }
         }
-        if(director.pasos >= 4)
+        else if(mozo.empieza)
         {
             RaycastHit raycastHit;
-            if(Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward,out raycastHit, 200))
+            if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out raycastHit, 50))
             {
-                if(raycastHit.collider.gameObject.name == "Despacho_Escritorio_Periodico_geo" && director.animations[0].isPlaying && director.cubo == null)
+                if (mozo.objetosQueActivas[0] == null && raycastHit.collider.gameObject.name == "1505Mapa")
                 {
-                    periodico = true;
-                    image.sprite = textures[0];
-                    image.gameObject.SetActive(true);
-                    raycastHit.collider.gameObject.SetActive(false);
-                    timer = 10;
-                    director.NextSoundAmbiente();
-                }
-
-                if (director.algoMas && raycastHit.collider.gameObject.name == "Despacho_Escritorio_Sobre_geo")
-                {
-                    timer = 5;
-                    sobre = true;
-                    if (SingletoneGender.GetInstance().GetGender() == SingletoneGender.Gender.MALE)
-                    {
-                        image.sprite = textures[1];
-                    }
-                    else
-                    {
-                        image.sprite = textures[2];
-                    }
-                    image.gameObject.SetActive(true);
-                    director.NextSoundAmbiente();
-                    raycastHit.collider.gameObject.SetActive(false);
+                    raycastHit.collider.gameObject.GetComponent<BoxCollider>().enabled = false;
+                    mozo.mapa = true;
                 }
             }
         }

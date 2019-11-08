@@ -77,7 +77,7 @@ public class TaskmasterAudio_PS : MonoBehaviour
 
                     break;
                 case 3:
-                    if (timer == 0)
+                    if (timer == 0 && !m_Capataz_AS.isPlaying)
                     {
                         PlayNextAudio();
                     }

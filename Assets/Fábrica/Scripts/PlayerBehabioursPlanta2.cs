@@ -8,6 +8,7 @@ public class PlayerBehabioursPlanta2 : MonoBehaviour
     public int l_ActiveCubes = 0;
     public int l_Room = 0;
     public GameObject m_Taskmaster;
+    public MozoDeAlmacen mozo;
     private bool almacen;
     private bool bajado;
     private float timer = 0;
@@ -44,6 +45,11 @@ public class PlayerBehabioursPlanta2 : MonoBehaviour
 
                 break;
             case 2:
+                if (mozo.objetosQueActivas[1] == null)
+                {
+                    mozo.saco = true;
+                    l_Room++;
+                }
 
                 break;
             case 3:
@@ -69,21 +75,21 @@ public class PlayerBehabioursPlanta2 : MonoBehaviour
 
 
 
-private void OnTriggerEnter(Collider other)
-{
-    if (other.gameObject.name == "Trigger_C_4_3")
+    private void OnTriggerEnter(Collider other)
     {
-        m_Taskmaster.GetComponent<TaskmasterAudio_PS>().PlayNextAudio();
-    }
-    if (other.gameObject.name == "TriggerAlmacen2")
-    {
-        almacen = true;
-        gameObject.GetComponent<FadeIn>().enabled = true;
-        gameObject.GetComponent<FadeIn>().switchInverso(true);
+        if (other.gameObject.name == "Trigger_C_4_3")
+        {
+            m_Taskmaster.GetComponent<TaskmasterAudio_PS>().PlayNextAudio();
+        }
+        if (other.gameObject.name == "TriggerAlmacen2")
+        {
+            almacen = true;
+            gameObject.GetComponent<FadeIn>().enabled = true;
+            gameObject.GetComponent<FadeIn>().switchInverso(true);
             gameObject.GetComponent<FadeIn>().speedToClear = 1.2f;
             timer = 0.2f;
+        }
     }
-}
 }
 
 
