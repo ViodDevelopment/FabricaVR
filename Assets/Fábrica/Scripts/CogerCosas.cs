@@ -65,7 +65,7 @@ public class CogerCosas : MonoBehaviour
             if (director.pasos >= 4)
             {
                 RaycastHit raycastHit;
-                if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out raycastHit, 50))
+                if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out raycastHit, 5f))
                 {
                     if (raycastHit.collider.gameObject.name == "Despacho_Escritorio_Periodico_geo" && director.animations[0].isPlaying && director.cubo == null)
                     {
@@ -93,18 +93,24 @@ public class CogerCosas : MonoBehaviour
                         director.NextSoundAmbiente();
                         raycastHit.collider.gameObject.SetActive(false);
                     }
+
                 }
             }
         }
         else if(mozo.empieza)
         {
             RaycastHit raycastHit;
-            if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out raycastHit, 50))
+            if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out raycastHit, 3.5f))
             {
                 if (mozo.objetosQueActivas[0] == null && raycastHit.collider.gameObject.name == "1505Mapa")
                 {
                     raycastHit.collider.gameObject.GetComponent<BoxCollider>().enabled = false;
                     mozo.mapa = true;
+                }
+
+                if (raycastHit.collider.gameObject.name == "Saco1505")
+                {
+                    Destroy(raycastHit.collider.gameObject);
                 }
             }
         }

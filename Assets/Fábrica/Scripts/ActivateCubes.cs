@@ -11,44 +11,53 @@ public class ActivateCubes : MonoBehaviour
     public GameObject CuboPalanca;
     public Animation AceiteAnimation;
     public Animation PalancaAnimation;
+    private PlayerBehabioursPlanta2 pbP2;
+    private PlayerBehaviour pb;
 
     public int l_ActionsCubes;
 
     void Start()
     {
         m_Player = GameObject.FindGameObjectWithTag("Player");
+        pb = m_Player.GetComponent<PlayerBehaviour>();
+        pbP2 = m_Player.GetComponent<PlayerBehabioursPlanta2>();
     }
 
     void Update()
     {
         if (l_Cube < m_CubesList.Length && m_CubesList[l_Cube] != null)
         {
-            if (Vector3.Distance(m_Player.transform.position, m_CubesList[l_Cube].transform.position) < 0.9f && m_CubesList[l_Cube].activeSelf)
+            if (pbP2 == null || l_Cube != m_CubesList.Length - 1)
             {
-                Destroy(m_CubesList[l_Cube]);
-                l_ActionsCubes++;
-                l_Cube++;
-                if (l_Cube < m_CubesList.Length)
+
+                if (Vector3.Distance(m_Player.transform.position, m_CubesList[l_Cube].transform.position) < 0.9f && m_CubesList[l_Cube].activeSelf)
                 {
-                    if(m_Player.GetComponent<PlayerBehaviour>() != null)
-                        m_CubesList[l_Cube].SetActive(true);
-                    else
+                    Destroy(m_CubesList[l_Cube]);
+                    l_ActionsCubes++;
+                    l_Cube++;
+                    if (l_Cube < m_CubesList.Length)
                     {
-                        if(CuboAceite ==null && AceiteAnimation != null)
+                        if (pb != null)
+                            m_CubesList[l_Cube].SetActive(true);
+                        else
                         {
-                            AceiteAnimation.Play();
+                            if (CuboAceite == null && AceiteAnimation != null)
+                            {
+                                AceiteAnimation.Play();
+                            }
                         }
                     }
                 }
             }
         }
-        if (m_Player.GetComponent<PlayerBehabioursPlanta2>() != null) { 
+        if (pbP2 != null)
+        {
             if (CuboAceite == null && AceiteAnimation != null)
-            {              
+            {
                 AceiteAnimation.Play();
             }
             if (CuboPalanca == null && PalancaAnimation != null)
-            {              
+            {
                 PalancaAnimation.Play();
             }
         }
