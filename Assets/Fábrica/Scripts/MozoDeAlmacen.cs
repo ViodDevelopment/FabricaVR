@@ -9,8 +9,10 @@ public class MozoDeAlmacen : MonoBehaviour
     private int currentAudio;
     public AudioSource audioSource;
     public List<GameObject> objetosQueActivas = new List<GameObject>();
+    public PlayerBehabioursPlanta2 player;
     private int currentObjetosAActivar;
     private int pasos;
+    public Transform transformMozo;
 
     // Start is called before the first frame update
     void Start()
@@ -33,8 +35,15 @@ public class MozoDeAlmacen : MonoBehaviour
                     audioSource.Play();
                     currentAudio++;
                     pasos++;
+                    transformMozo.forward = new Vector3(transformMozo.position.x - player.transform.position.x,0, transformMozo.position.z - player.transform.position.z).normalized;
                     break;
                 case 1:
+                    if(!audioSource.isPlaying)
+                    {
+                        objetosQueActivas[currentObjetosAActivar].SetActive(true);
+                        currentObjetosAActivar++;
+                        pasos++;
+                    }
                     break;
                 case 2:
                     break;
