@@ -31886,6 +31886,11 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: 0.46077403
       objectReference: {fileID: 0}
+    - target: {fileID: 1715420843066548809, guid: 890d0ad6667c84c458b134968fa2b159,
+        type: 3}
+      propertyPath: m_Taskmaster
+      value: 
+      objectReference: {fileID: 3214641224851857743}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 890d0ad6667c84c458b134968fa2b159, type: 3}
 --- !u!95 &4314865467309903007
