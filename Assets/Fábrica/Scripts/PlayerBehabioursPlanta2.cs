@@ -53,6 +53,10 @@ public class PlayerBehabioursPlanta2 : MonoBehaviour
         {
             m_Taskmaster.GetComponent<TaskmasterAudio_PS>().PlayNextAudio();
         }
+        if (other.gameObject.name == "TriggerAlmacen2")
+        {
+
+        }
     }
 }
 

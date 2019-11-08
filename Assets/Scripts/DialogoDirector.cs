@@ -16,6 +16,7 @@ public class DialogoDirector : MonoBehaviour
     public int pasos;
     private int numOfAudios;
     private int numOfAudiosAmbiente;
+    public GameObject capataz;
     private float timer;
     public bool acabado;
     public List<AudioClip> audios = new List<AudioClip>();
@@ -86,6 +87,7 @@ public class DialogoDirector : MonoBehaviour
             }
             else if (pasos == 4 && tiene)
             {
+                capataz.layer = 5;
                 directorAudioSource.clip = audios[numOfAudios];
                 directorAudioSource.Play();
                 numOfAudios++;
@@ -127,7 +129,6 @@ public class DialogoDirector : MonoBehaviour
                 directorAudioSource.Play();
                 animator.SetBool("AlgoMas", false);
                 numOfAudios++;
-                gameObject.GetComponent<DialogoDirector>().enabled = false;
                 pasos++;
             }
             else if(pasos == 8 && !directorAudioSource.isPlaying)
@@ -135,6 +136,7 @@ public class DialogoDirector : MonoBehaviour
                 acabado = true;
                 GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerBehabioursPlanta2>().m_MoveToNextPoint = true;
                 gameObject.GetComponent<DialogoDirector>().enabled = false;
+
             }
         }
 
@@ -148,5 +150,11 @@ public class DialogoDirector : MonoBehaviour
             efectosAmbiente.Play();
             numOfAudiosAmbiente++;
         }
+    }
+
+    private void OnTriggerEnter(Collider coll)
+    {
+        if(coll.gameObject.tag == "Player")
+            startScene = true;
     }
 }

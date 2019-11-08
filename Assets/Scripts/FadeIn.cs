@@ -17,11 +17,12 @@ public class FadeIn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
         image.color = image.color - new Color(0, 0, 0, speedToClear * Time.deltaTime);
         if (image.color.a <= 0.05)
         {
             image.gameObject.SetActive(false);
+            image.color = image.color + new Color(0, 0, 0, 1);
             gameObject.GetComponent<FadeIn>().enabled = false;
         }
 
