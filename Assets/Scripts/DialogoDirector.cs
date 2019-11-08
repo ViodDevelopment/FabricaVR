@@ -17,6 +17,7 @@ public class DialogoDirector : MonoBehaviour
     private int numOfAudios;
     private int numOfAudiosAmbiente;
     public GameObject capataz;
+    private int layer;
     private float timer;
     public bool acabado;
     public List<AudioClip> audios = new List<AudioClip>();
@@ -32,6 +33,7 @@ public class DialogoDirector : MonoBehaviour
         firstSpeed = animator.speed;
         animator.speed = 0;
         pasos = 0;
+        layer = capataz.layer;
         numOfAudios = 0;
         numOfAudiosAmbiente = 0;
         timer = 0;
@@ -87,7 +89,6 @@ public class DialogoDirector : MonoBehaviour
             }
             else if (pasos == 4 && tiene)
             {
-                capataz.layer = 5;
                 directorAudioSource.clip = audios[numOfAudios];
                 directorAudioSource.Play();
                 numOfAudios++;
@@ -134,6 +135,7 @@ public class DialogoDirector : MonoBehaviour
             else if(pasos == 8 && !directorAudioSource.isPlaying)
             {
                 acabado = true;
+                capataz.layer = layer;
                 GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerBehabioursPlanta2>().m_MoveToNextPoint = true;
                 gameObject.GetComponent<DialogoDirector>().enabled = false;
 
@@ -154,7 +156,10 @@ public class DialogoDirector : MonoBehaviour
 
     private void OnTriggerEnter(Collider coll)
     {
-        if(coll.gameObject.tag == "Player")
+        if (coll.gameObject.tag == "Player" && !startScene)
+        {
             startScene = true;
+            capataz.layer = 5;
+        }
     }
 }

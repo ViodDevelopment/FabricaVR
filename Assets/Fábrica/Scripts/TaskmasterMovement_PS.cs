@@ -10,7 +10,6 @@ public class TaskmasterMovement_PS : MonoBehaviour
     public int l_Point;
 
     private float m_Speed;
-    private int lastLayer;
     public float l_MovingCounter;
 
     private GameObject m_Player;
@@ -29,7 +28,6 @@ public class TaskmasterMovement_PS : MonoBehaviour
     {
         m_Player = GameObject.FindGameObjectWithTag("Player");
         l_Point = 0;
-        lastLayer = gameObject.layer;
         m_Speed = 0.6f;
         l_MovingCounter = 0;
         numCubos = 0;
@@ -79,8 +77,6 @@ public class TaskmasterMovement_PS : MonoBehaviour
             }
         }
 
-        if (l_Point == 6 && gameObject.layer != lastLayer)
-            gameObject.layer = lastLayer;
     }
 
     public void MoveTaskmaster()

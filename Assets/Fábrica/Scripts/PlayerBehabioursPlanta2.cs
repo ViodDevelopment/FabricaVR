@@ -60,7 +60,7 @@ public class PlayerBehabioursPlanta2 : MonoBehaviour
 
         if (almacen && !gameObject.GetComponent<FadeIn>().enabled && !bajado)
         {
-
+            m_MoveToNextPoint = true;
             gameObject.GetComponent<CharacterController>().enabled = false;
             gameObject.transform.position = transformPlayerAlmacen.position;
             m_Taskmaster.transform.position = transformCapatazAlmacen.position;

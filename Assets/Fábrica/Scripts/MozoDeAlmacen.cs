@@ -17,6 +17,7 @@ public class MozoDeAlmacen : MonoBehaviour
     public bool mapa;
     public bool saco;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -74,9 +75,9 @@ public class MozoDeAlmacen : MonoBehaviour
                         audioSource.Play();
                         currentAudio++;
                         pasos++;
+                        capataz.GetComponent<TaskmasterAudio_PS>().acabarEscena = true;
                     }
                     break;
-
 
             }
         }

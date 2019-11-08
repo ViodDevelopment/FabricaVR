@@ -34,7 +34,7 @@ public class ActivateCubes : MonoBehaviour
                         m_CubesList[l_Cube].SetActive(true);
                     else
                     {
-                        if(CuboAceite ==null)
+                        if(CuboAceite ==null && AceiteAnimation != null)
                         {
                             AceiteAnimation.Play();
                         }
@@ -43,11 +43,11 @@ public class ActivateCubes : MonoBehaviour
             }
         }
         if (m_Player.GetComponent<PlayerBehabioursPlanta2>() != null) { 
-            if (CuboAceite == null )
+            if (CuboAceite == null && AceiteAnimation != null)
             {              
                 AceiteAnimation.Play();
             }
-            if (CuboPalanca == null )
+            if (CuboPalanca == null && PalancaAnimation != null)
             {              
                 PalancaAnimation.Play();
             }
