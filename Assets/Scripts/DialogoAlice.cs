@@ -97,7 +97,7 @@ public class DialogoAlice : MonoBehaviour
                     currentClip++;
                     animator.SetBool("Idle", false);
                     animator.SetBool("Agacha", true);
-                    gameObject.transform.forward = (rotateAlice.transform.position - gameObject.transform.position).normalized;
+                    gameObject.transform.forward = (new Vector3(rotateAlice.transform.position.x - gameObject.transform.position.x, 0 , rotateAlice.transform.position.z - gameObject.transform.position.z)).normalized;
 
                 }
             }
@@ -123,7 +123,7 @@ public class DialogoAlice : MonoBehaviour
                 if(timerAlice <= 0)
                 {
                     timerAlice = 0;
-                    gameObject.transform.forward = (GameObject.FindGameObjectWithTag("Player").transform.position - gameObject.transform.position).normalized;
+                    gameObject.transform.forward = (new Vector3(GameObject.FindGameObjectWithTag("Player").transform.position.x - gameObject.transform.position.x, 0, GameObject.FindGameObjectWithTag("Player").transform.position.z - gameObject.transform.position.z)).normalized;
                 }
             }
 

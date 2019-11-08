@@ -18,7 +18,7 @@ public class CogerCosas : MonoBehaviour
     {
         periodico = false;
         sobre = false;
-        terminado1 = true;//CAMBIAR 
+        terminado1 = false; 
         image.color = new Color(image.color.r, image.color.g, image.color.b, 0);
     }
 
