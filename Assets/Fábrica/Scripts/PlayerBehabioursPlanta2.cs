@@ -8,10 +8,16 @@ public class PlayerBehabioursPlanta2 : MonoBehaviour
     public int l_ActiveCubes = 0;
     public int l_Room = 0;
     public GameObject m_Taskmaster;
-
+    private bool almacen;
+    private bool bajado;
+    private float timer = 0;
+    public Transform transformPlayerAlmacen;
+    public Transform transformCapatazAlmacen;
     void Start()
     {
         m_MoveToNextPoint = true;
+        almacen = false;
+        bajado = false;
     }
 
     void Update()
@@ -45,19 +51,39 @@ public class PlayerBehabioursPlanta2 : MonoBehaviour
                 break;
         }
         l_ActiveCubes = this.gameObject.GetComponent<ActivateCubes>().l_ActionsCubes;
+
+        if (almacen && !gameObject.GetComponent<FadeIn>().enabled && !bajado)
+        {
+
+            gameObject.GetComponent<CharacterController>().enabled = false;
+            gameObject.transform.position = transformPlayerAlmacen.position;
+            m_Taskmaster.transform.position = transformCapatazAlmacen.position;
+            gameObject.transform.forward = (new Vector3(m_Taskmaster.transform.position.x - gameObject.transform.position.x, 0, m_Taskmaster.transform.position.z - gameObject.transform.position.z)).normalized;
+            bajado = true;
+            gameObject.GetComponent<CharacterController>().enabled = true;
+            gameObject.GetComponent<FadeIn>().enabled = true;
+            gameObject.GetComponent<FadeIn>().speedToClear = 1.2f;
+            gameObject.GetComponent<FadeIn>().switchInverso(false);
+        }
     }
 
-    private void OnTriggerEnter(Collider other)
+
+
+private void OnTriggerEnter(Collider other)
+{
+    if (other.gameObject.name == "Trigger_C_4_3")
     {
-        if(other.gameObject.name == "Trigger_C_4_3")
-        {
-            m_Taskmaster.GetComponent<TaskmasterAudio_PS>().PlayNextAudio();
-        }
-        if (other.gameObject.name == "TriggerAlmacen2")
-        {
-
-        }
+        m_Taskmaster.GetComponent<TaskmasterAudio_PS>().PlayNextAudio();
     }
+    if (other.gameObject.name == "TriggerAlmacen2")
+    {
+        almacen = true;
+        gameObject.GetComponent<FadeIn>().enabled = true;
+        gameObject.GetComponent<FadeIn>().switchInverso(true);
+            gameObject.GetComponent<FadeIn>().speedToClear = 1.2f;
+            timer = 0.2f;
+    }
+}
 }
 
 
