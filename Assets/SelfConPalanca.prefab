@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2036881840790508657}
   - component: {fileID: 2036881840783358523}
   m_Layer: 0
-  m_Name: selfectina (1)
+  m_Name: SelfConPalanca
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

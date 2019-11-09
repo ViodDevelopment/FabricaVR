@@ -9,8 +9,10 @@ public class ActivateCubes : MonoBehaviour
     private int l_Cube = 0;
     public GameObject CuboAceite;
     public GameObject CuboPalanca;
+    public GameObject CuboTelar;
     public Animation AceiteAnimation;
     public Animation PalancaAnimation;
+    public Animator TelarAnimatior;
     private PlayerBehabioursPlanta2 pbP2;
     private PlayerBehaviour pb;
 
@@ -67,6 +69,10 @@ public class ActivateCubes : MonoBehaviour
             if (CuboPalanca == null && PalancaAnimation != null)
             {
                 PalancaAnimation.Play();
+            }
+            if (CuboTelar == null && PalancaAnimation != null)
+            {
+                TelarAnimatior.SetBool("Telar", true);
             }
         }
     }
