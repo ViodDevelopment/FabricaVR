@@ -7,6 +7,7 @@ public class TaskmasterAudio_PS : MonoBehaviour
 {
     public AudioClip[] m_Audio;
     private AudioSource m_Capataz_AS;
+    private Animator m_Animator;
     public FadeIn player;
     private int m_ActualAudio = 0;
     public int m_AudiosPlayed = 0;
@@ -18,12 +19,27 @@ public class TaskmasterAudio_PS : MonoBehaviour
     {
         timer = 0.2f;
         m_Capataz_AS = GetComponent<AudioSource>();
+        m_Animator = transform.GetChild(0).GetComponent<Animator>();
         acabarEscena = false;
         firstTime = true;
     }
 
     void Update()
     {
+        m_Animator.SetLayerWeight(3, Mathf.Clamp(Mathf.Sin(Time.time), 0, 1));
+
+        if (m_Capataz_AS.isPlaying)
+        {
+            m_Animator.SetLayerWeight(1, 1);
+            if (m_ActualAudio == 2)
+                m_Animator.SetLayerWeight(2, Mathf.Clamp(m_Animator.GetLayerWeight(2) + Time.deltaTime, 0, 1));
+            
+        }
+        else
+        {
+            m_Animator.SetLayerWeight(2, Mathf.Clamp(m_Animator.GetLayerWeight(2) - Time.deltaTime, 0, 1));
+            m_Animator.SetLayerWeight(1, 0);
+        }
         if (timer > 0)
         {
             timer -= Time.deltaTime;

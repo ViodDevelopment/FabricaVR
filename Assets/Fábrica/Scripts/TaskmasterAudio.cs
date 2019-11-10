@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TaskmasterAudio : MonoBehaviour
 {
+    private Animator m_Animator;
     public AudioClip[] m_Audio;
     private AudioSource m_Capataz_AS;
     private int m_ActualAudio = 1;
@@ -14,9 +15,31 @@ public class TaskmasterAudio : MonoBehaviour
 
     void Start()
     {
+        m_Animator = transform.GetChild(0).GetComponent<Animator>();
+
         m_Capataz_AS = GetComponent<AudioSource>();
     }
 
+    private void Update()
+    {
+        m_Animator.SetLayerWeight(3, Mathf.Clamp(Mathf.Sin(Time.time), 0, 1));
+
+        if (m_Capataz_AS.isPlaying)
+        {
+            m_Animator.SetLayerWeight(1, 1);
+
+            if (m_ActualAudio==2 || m_ActualAudio == 5)
+            {
+                m_Animator.SetLayerWeight(2, Mathf.Clamp(m_Animator.GetLayerWeight(2) + Time.deltaTime, 0, 1));
+
+            }
+        }
+        else
+        {
+            m_Animator.SetLayerWeight(2, Mathf.Clamp(m_Animator.GetLayerWeight(2) - Time.deltaTime, 0, 1));
+            m_Animator.SetLayerWeight(1, 0);
+        }
+    }
     private void PlayAudio()
     {
         m_Capataz_AS.clip = m_Audio[m_AudiosPlayed];

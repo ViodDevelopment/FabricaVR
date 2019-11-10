@@ -25,6 +25,14 @@ public class DialogoAlice : MonoBehaviour
 
     void Update()
     {
+        if(audioAlice.isPlaying)
+        {
+            animator.SetLayerWeight(1, 1);
+        }
+        else
+        {
+            animator.SetLayerWeight(1, 0);
+        }
         if (!acabado)
         {
             if (points[0] == null && currentClip == 0)

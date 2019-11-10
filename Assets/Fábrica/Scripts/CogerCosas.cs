@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class CogerCosas : MonoBehaviour
 {
+    public FadeIn fader;
     public Image image;
     public bool periodico;
     public bool sobre;
@@ -13,7 +14,7 @@ public class CogerCosas : MonoBehaviour
     public DialogoDirector director;
     public MozoDeAlmacen mozo;
     private bool terminado1;
-    // Start is called before the first frame update
+
     void Start()
     {
         periodico = false;
@@ -40,14 +41,18 @@ public class CogerCosas : MonoBehaviour
                 if (timer >= 1)
                 {
                     image.color = image.color + new Color(0, 0, 0, Time.deltaTime);
+                    fader.image.color = fader.image.color + new Color(0, 0, 0, Time.deltaTime);
                 }
                 else
                 {
                     image.color = image.color - new Color(0, 0, 0, Time.deltaTime);
+                    fader.image.color = fader.image.color - new Color(0, 0, 0, Time.deltaTime);
                     if (image.color.a <= 0.05 && timer == 0)
                     {
                         image.color = new Color(image.color.r, image.color.g, image.color.b, 0);
+                        fader.image.color = new Color(fader.image.color.r, fader.image.color.g, fader.image.color.b, 0);
                         image.gameObject.SetActive(false);
+                        fader.image.gameObject.SetActive(false);
                         if (periodico)
                         {
                             periodico = false;
@@ -75,6 +80,7 @@ public class CogerCosas : MonoBehaviour
                         raycastHit.collider.gameObject.SetActive(false);
                         timer = 10;
                         director.NextSoundAmbiente();
+                        fader.enabled = true;
                     }
 
                     if (director.algoMas && raycastHit.collider.gameObject.name == "Despacho_Escritorio_Sobre_geo")
@@ -92,6 +98,7 @@ public class CogerCosas : MonoBehaviour
                         image.gameObject.SetActive(true);
                         director.NextSoundAmbiente();
                         raycastHit.collider.gameObject.SetActive(false);
+                        fader.enabled = true;
                     }
 
                 }

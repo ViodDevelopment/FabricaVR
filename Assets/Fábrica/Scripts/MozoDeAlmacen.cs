@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MozoDeAlmacen : MonoBehaviour
 {
+    private Animator m_Animator;
     public bool empieza;
     public List<AudioClip> audiosMozo = new List<AudioClip>();
     private int currentAudio;
@@ -21,6 +22,7 @@ public class MozoDeAlmacen : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        m_Animator = GetComponent<Animator>();
         empieza = false;
         saco = false;
         mapa = false;
@@ -32,7 +34,10 @@ public class MozoDeAlmacen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (empieza)
+        if (audioSource.isPlaying)
+            m_Animator.SetLayerWeight(1, 1);
+        else m_Animator.SetLayerWeight(1, 0);
+            if (empieza)
         {
             gameObject.transform.forward = (new Vector3(player.transform.position.x - gameObject.transform.position.x, 0, player.transform.position.z - gameObject.transform.position.z)).normalized;
             switch (pasos)

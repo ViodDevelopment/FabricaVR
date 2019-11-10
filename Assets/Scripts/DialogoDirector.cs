@@ -42,6 +42,12 @@ public class DialogoDirector : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        animator.SetLayerWeight(2, Mathf.Clamp(Mathf.Sin(Time.time), 0, 1));
+
+        if (directorAudioSource.isPlaying)
+            animator.SetLayerWeight(1, 1);
+        else animator.SetLayerWeight(1, 0);
+
         if (startScene)
         {
             if (timer > 0)

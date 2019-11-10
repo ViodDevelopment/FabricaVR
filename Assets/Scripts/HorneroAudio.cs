@@ -17,12 +17,20 @@ public class HorneroAudio : MonoBehaviour
 
     void Start()
     {
+        m_Animator = GetComponent<Animator>();
+
         m_Hornero_AS = GetComponent<AudioSource>();
     }
 
 
     void Update()
     {
+        m_Animator.SetLayerWeight(2, Mathf.Clamp(Mathf.Sin(Time.time), 0, 1));
+        if (m_Hornero_AS.isPlaying)
+        {
+            m_Animator.SetLayerWeight(1, 1);
+        }
+        else m_Animator.SetLayerWeight(1, 0);
         if (m_HorneroActive)
         {
             if (!m_Hornero_AS.isPlaying && m_Audio.Length > m_ActualAudio)

@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class TaskmasterAudio_Fachada : MonoBehaviour
 {
+    private Animator m_Animator;
     public Image m_Image;
     public AudioClip[] m_Audio;
     private AudioSource m_Capataz_AS;
@@ -16,10 +17,19 @@ public class TaskmasterAudio_Fachada : MonoBehaviour
     void Start()
     {
         m_Capataz_AS = GetComponent<AudioSource>();
+        m_Animator = transform.GetChild(0).GetComponent<Animator>();
+
     }
 
     void Update()
     {
+        m_Animator.SetLayerWeight(3, Mathf.Clamp(Mathf.Sin(Time.time), 0, 1));
+        if (m_Capataz_AS.isPlaying)
+            m_Animator.SetLayerWeight(1, 1);
+
+        else
+            m_Animator.SetLayerWeight(1, 0);
+        
         if (m_Reproduce)
         {
             if (m_AudiosPlayed == 0)
