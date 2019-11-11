@@ -25,6 +25,7 @@ public class ActivateCubes : MonoBehaviour
         pb = m_Player.GetComponent<PlayerBehaviour>();
         pbP2 = m_Player.GetComponent<PlayerBehabioursPlanta2>();
         animationAceiteDone = false;
+
     }
 
     void Update()

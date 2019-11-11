@@ -3054,12 +3054,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 495688248}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &497317900 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2004270208526615574, guid: 75523105456315b4c8cb9cc96cd01cce,
-    type: 3}
-  m_PrefabInstance: {fileID: 1962216436971520057}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &499984510 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100132, guid: 18fdb10ea68a75c4e965190d7a8a094d,
@@ -4843,9 +4837,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2036881840783358523, guid: f8e800d2eca391042a6ad7a4c98ce1e4, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8e800d2eca391042a6ad7a4c98ce1e4, type: 3}
+--- !u!95 &698711785 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2036881840783358523, guid: f8e800d2eca391042a6ad7a4c98ce1e4,
+    type: 3}
+  m_PrefabInstance: {fileID: 698711784}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &712114777
 GameObject:
   m_ObjectHideFlags: 0
@@ -6159,7 +6158,7 @@ MonoBehaviour:
   CuboTelar: {fileID: 545343705}
   AceiteAnimation: {fileID: 7850307309683928272}
   PalancaAnimation: {fileID: 1806123830}
-  TelarAnimatior: {fileID: 0}
+  TelarAnimatior: {fileID: 698711785}
   l_ActionsCubes: 0
 --- !u!65 &1039584252
 BoxCollider:
@@ -7120,7 +7119,7 @@ MonoBehaviour:
   - {fileID: 984214871}
   - {fileID: 458663509}
   player: {fileID: 1039584256}
-  transformMozo: {fileID: 497317900}
+  transformMozo: {fileID: 1901959366}
   capataz: {fileID: 1715420844778897431}
   mapa: 0
   saco: 0
@@ -8136,8 +8135,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1730259162}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.813, y: 3.771, z: 14.12}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_LocalPosition: {x: -11.813, y: 3.29, z: 14.12}
+  m_LocalScale: {x: 1.5270703, y: 1.3890047, z: 0.25}
   m_Children: []
   m_Father: {fileID: 1641540113}
   m_RootOrder: 0
@@ -13387,6 +13386,26 @@ PrefabInstance:
       propertyPath: m_BlendShapeWeights.Array.data[6]
       value: 32.1
       objectReference: {fileID: 0}
+    - target: {fileID: 4314865468727030866, guid: 75523105456315b4c8cb9cc96cd01cce,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2004270208526615574, guid: 75523105456315b4c8cb9cc96cd01cce,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6248808480107807659, guid: 75523105456315b4c8cb9cc96cd01cce,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6248808480107807659, guid: 75523105456315b4c8cb9cc96cd01cce,
+        type: 3}
+      propertyPath: m_TagString
+      value: Taskmaster
+      objectReference: {fileID: 0}
     - target: {fileID: 5678278336866386431, guid: 75523105456315b4c8cb9cc96cd01cce,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -13432,21 +13451,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4314865468727030866, guid: 75523105456315b4c8cb9cc96cd01cce,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6248808480107807659, guid: 75523105456315b4c8cb9cc96cd01cce,
-        type: 3}
-      propertyPath: m_Layer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6248808480107807659, guid: 75523105456315b4c8cb9cc96cd01cce,
-        type: 3}
-      propertyPath: m_TagString
-      value: Taskmaster
-      objectReference: {fileID: 0}
     - target: {fileID: 8923700319936283861, guid: 75523105456315b4c8cb9cc96cd01cce,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -13481,11 +13485,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.70710677
-      objectReference: {fileID: 0}
-    - target: {fileID: 2004270208526615574, guid: 75523105456315b4c8cb9cc96cd01cce,
-        type: 3}
-      propertyPath: m_Layer
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7909846422160315784, guid: 75523105456315b4c8cb9cc96cd01cce,
         type: 3}

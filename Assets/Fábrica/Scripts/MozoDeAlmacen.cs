@@ -58,8 +58,16 @@ public class MozoDeAlmacen : MonoBehaviour
                     }
                     break;
                 case 2:
+                    if(gameObject.layer != 5)
+                    {
+                        transformMozo.gameObject.layer = 5;
+                        capataz.layer = 5;
+                    }
+
                     if (mapa)
                     {
+                        transformMozo.gameObject.layer = 2;
+                        capataz.layer = 2;
                         audioSource.clip = audiosMozo[currentAudio];
                         audioSource.Play();
                         currentAudio++;

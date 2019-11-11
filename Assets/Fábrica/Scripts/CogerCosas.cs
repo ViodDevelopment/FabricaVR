@@ -15,6 +15,7 @@ public class CogerCosas : MonoBehaviour
     public MozoDeAlmacen mozo;
     private bool terminado1;
     private GameObject objetoCogido;
+  
 
     void Start()
     {
@@ -22,6 +23,7 @@ public class CogerCosas : MonoBehaviour
         sobre = false;
         terminado1 = false;
         image.color = new Color(image.color.r, image.color.g, image.color.b, 0);
+
     }
 
     // Update is called once per frame
