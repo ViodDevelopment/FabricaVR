@@ -17,6 +17,7 @@ public class MozoDeAlmacen : MonoBehaviour
     public GameObject capataz;
     public bool mapa;
     public bool saco;
+    public Animator animator;
 
 
     // Start is called before the first frame update
@@ -26,7 +27,7 @@ public class MozoDeAlmacen : MonoBehaviour
         empieza = false;
         saco = false;
         mapa = false;
-        currentAudio = 0; 
+        currentAudio = 0;
         currentObjetosAActivar = 0;
         pasos = 0;
     }
@@ -37,9 +38,9 @@ public class MozoDeAlmacen : MonoBehaviour
         if (audioSource.isPlaying)
             m_Animator.SetLayerWeight(1, 1);
         else m_Animator.SetLayerWeight(1, 0);
-            if (empieza)
+        if (empieza)
         {
-            gameObject.transform.forward = (new Vector3(player.transform.position.x - gameObject.transform.position.x, 0, player.transform.position.z - gameObject.transform.position.z)).normalized;
+            animator.SetTrigger("Detected");
             switch (pasos)
             {
                 case 0:
@@ -49,7 +50,7 @@ public class MozoDeAlmacen : MonoBehaviour
                     pasos++;
                     break;
                 case 1:
-                    if(!audioSource.isPlaying)
+                    if (!audioSource.isPlaying)
                     {
                         objetosQueActivas[currentObjetosAActivar].SetActive(true);
                         currentObjetosAActivar++;
@@ -57,7 +58,7 @@ public class MozoDeAlmacen : MonoBehaviour
                     }
                     break;
                 case 2:
-                    if(mapa)
+                    if (mapa)
                     {
                         audioSource.clip = audiosMozo[currentAudio];
                         audioSource.Play();
@@ -74,13 +75,19 @@ public class MozoDeAlmacen : MonoBehaviour
                     }
                     break;
                 case 4:
-                    if(saco)
+                    if (saco)
                     {
                         audioSource.clip = audiosMozo[currentAudio];
                         audioSource.Play();
                         currentAudio++;
                         pasos++;
+                    }
+                    break;
+                case 5:
+                    if(!audioSource.isPlaying)
+                    {
                         capataz.GetComponent<TaskmasterAudio_PS>().acabarEscena = true;
+                        pasos++;
                     }
                     break;
 

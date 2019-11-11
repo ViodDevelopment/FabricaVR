@@ -15,6 +15,7 @@ public class ActivateCubes : MonoBehaviour
     public Animator TelarAnimatior;
     private PlayerBehabioursPlanta2 pbP2;
     private PlayerBehaviour pb;
+    private bool animationAceiteDone;
 
     public int l_ActionsCubes;
 
@@ -23,6 +24,7 @@ public class ActivateCubes : MonoBehaviour
         m_Player = GameObject.FindGameObjectWithTag("Player");
         pb = m_Player.GetComponent<PlayerBehaviour>();
         pbP2 = m_Player.GetComponent<PlayerBehabioursPlanta2>();
+        animationAceiteDone = false;
     }
 
     void Update()
@@ -51,9 +53,10 @@ public class ActivateCubes : MonoBehaviour
                             m_CubesList[l_Cube].SetActive(true);
                         else
                         {
-                            if (CuboAceite == null && AceiteAnimation != null)
+                            if (CuboAceite == null && AceiteAnimation != null && !animationAceiteDone)
                             {
                                 AceiteAnimation.Play();
+                                animationAceiteDone = true;
                             }
                         }
                     }
@@ -62,15 +65,16 @@ public class ActivateCubes : MonoBehaviour
         }
         if (pbP2 != null)
         {
-            if (CuboAceite == null && AceiteAnimation != null)
+            if (CuboAceite == null && AceiteAnimation != null && !animationAceiteDone)
             {
                 AceiteAnimation.Play();
+                animationAceiteDone = true;
             }
             if (CuboPalanca == null && PalancaAnimation != null)
             {
                 PalancaAnimation.Play();
             }
-            if (CuboTelar == null && PalancaAnimation != null)
+            if (CuboTelar == null && PalancaAnimation != null && TelarAnimatior != null)
             {
                 TelarAnimatior.SetBool("Telar", true);
             }
