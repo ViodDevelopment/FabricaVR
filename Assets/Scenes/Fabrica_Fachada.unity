@@ -2119,7 +2119,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 907292807}
   m_LocalRotation: {x: -0, y: 0.6087609, z: -0, w: 0.79335374}
-  m_LocalPosition: {x: 8.87, y: -1, z: 4.76}
+  m_LocalPosition: {x: 8.87, y: -0.8840208, z: 4.76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 959308593}
@@ -5502,6 +5502,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fachada
       objectReference: {fileID: 0}
+    - target: {fileID: 6956344293212523526, guid: 6a277495604b91a468c053d71b2e5f1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6956344293212034550, guid: 6a277495604b91a468c053d71b2e5f1e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5562,11 +5567,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 303f5855eea76ea499fcc1559986873e, type: 2}
-    - target: {fileID: 6956344293212523526, guid: 6a277495604b91a468c053d71b2e5f1e,
-        type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a277495604b91a468c053d71b2e5f1e, type: 3}
 --- !u!4 &4048211281489105923 stripped
@@ -5838,6 +5838,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 53588513d65fdbd468a68c9a8e103cdf, type: 3}
   m_Movement: 0
   m_Reproduce: 0
+  player: {fileID: 907292815}
   m_AudiosPlayed: 0
 --- !u!82 &8480911482283735108
 AudioSource:

@@ -11,14 +11,15 @@ public class TaskmasterAudio_Fachada : MonoBehaviour
     public AudioClip[] m_Audio;
     private AudioSource m_Capataz_AS;
     public bool m_Movement = false;
-    public bool m_Reproduce = false;
+    public bool m_Reproduce = false;public FadeIn player;
     public int m_AudiosPlayed = 0;
 
     void Start()
     {
         m_Capataz_AS = GetComponent<AudioSource>();
         m_Animator = transform.GetChild(0).GetComponent<Animator>();
-
+        PlayAudio();
+        m_AudiosPlayed++;
     }
 
     void Update()
@@ -34,8 +35,7 @@ public class TaskmasterAudio_Fachada : MonoBehaviour
         {
             if (m_AudiosPlayed == 0)
             {
-                PlayAudio();
-                m_AudiosPlayed++;
+
             }
             else if (!m_Capataz_AS.isPlaying && m_AudiosPlayed == 1)
             {
@@ -58,9 +58,13 @@ public class TaskmasterAudio_Fachada : MonoBehaviour
             }
             else if (m_AudiosPlayed == 4 && !m_Capataz_AS.isPlaying && m_Image != null)
             {
-                    m_Image.gameObject.SetActive(true);
-                    m_Image.color = m_Image.color + new Color(0, 0, 0, Time.deltaTime * 0.5f);
-                    if (m_Image.color.a >= 0.9f)
+                if (!player.enabled)
+                {
+                    player.enabled = true;
+                    player.switchInverso(true);
+                }
+
+                if (m_Image.color.a >= 0.9f)
                         SceneManager.LoadScene(5); 
             }
         }
