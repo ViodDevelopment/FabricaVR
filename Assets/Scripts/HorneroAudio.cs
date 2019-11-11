@@ -43,13 +43,13 @@ public class HorneroAudio : MonoBehaviour
                 m_Animator.SetBool("Girar", false);
                 m_Animator.SetBool("Palea", true);
                 m_HorneroActive = false;
+                GameObject.FindGameObjectWithTag("Player").GetComponent<FadeIn>().enabled = true;
+                GameObject.FindGameObjectWithTag("Player").GetComponent<FadeIn>().switchInverso(true);
                 acabado = true;
             }
         }
         else if(acabado && image != null)
         {
-            image.gameObject.SetActive(true);
-            image.color = image.color + new Color(0, 0, 0, Time.deltaTime * 0.5f);
             if (image.color.a >= 0.9f)
                 SceneManager.LoadScene(6); //cambiar depende de tio o tia
             
