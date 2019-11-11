@@ -55,6 +55,20 @@ public class RayCastSustitute : MonoBehaviour
             else
                 holder.DesacativateExit();
 
+            if (rayhit.collider.gameObject.name == "PS")
+            {
+                holder.ActivatePS();
+            }
+            else
+                holder.DesacativatePS();
+
+            if (rayhit.collider.gameObject.name == "PI")
+            {
+                holder.ActivatePI();
+            }
+            else
+                holder.DesacativatePI();
+
 
         }
         else
@@ -64,6 +78,8 @@ public class RayCastSustitute : MonoBehaviour
             holder.DesacativateCred();
             holder.DesactivateFem();
             holder.DesacativateMale();
+            holder.DesacativatePS();
+            holder.DesacativatePI();
 
         }
     }

@@ -14,6 +14,7 @@ public class CogerCosas : MonoBehaviour
     public DialogoDirector director;
     public MozoDeAlmacen mozo;
     private bool terminado1;
+    private GameObject objetoCogido;
 
     void Start()
     {
@@ -38,21 +39,27 @@ public class CogerCosas : MonoBehaviour
         {
             if (sobre || periodico)
             {
+                if (objetoCogido != null)
+                {
+                    objetoCogido.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 0.5f;
+                    objetoCogido.transform.forward = -Camera.main.transform.forward;
+                }
                 if (timer >= 1)
                 {
-                    image.color = image.color + new Color(0, 0, 0, Time.deltaTime);
-                    fader.image.color = fader.image.color + new Color(0, 0, 0, Time.deltaTime);
+                    //image.color = image.color + new Color(0, 0, 0, Time.deltaTime);
+                    //fader.image.color = fader.image.color + new Color(0, 0, 0, Time.deltaTime);
                 }
                 else
                 {
-                    image.color = image.color - new Color(0, 0, 0, Time.deltaTime);
-                    fader.image.color = fader.image.color - new Color(0, 0, 0, Time.deltaTime);
-                    if (image.color.a <= 0.05 && timer == 0)
+                    //.color = image.color - new Color(0, 0, 0, Time.deltaTime);
+                    //fader.image.color = fader.image.color - new Color(0, 0, 0, Time.deltaTime);
+                    if (timer == 0)
                     {
-                        image.color = new Color(image.color.r, image.color.g, image.color.b, 0);
-                        fader.image.color = new Color(fader.image.color.r, fader.image.color.g, fader.image.color.b, 0);
-                        image.gameObject.SetActive(false);
-                        fader.image.gameObject.SetActive(false);
+                        //image.color = new Color(image.color.r, image.color.g, image.color.b, 0);
+                        //fader.image.color = new Color(fader.image.color.r, fader.image.color.g, fader.image.color.b, 0);
+                        //image.gameObject.SetActive(false);
+                        //fader.image.gameObject.SetActive(false);
+                        Destroy(objetoCogido);
                         if (periodico)
                         {
                             periodico = false;
@@ -75,9 +82,9 @@ public class CogerCosas : MonoBehaviour
                     if (raycastHit.collider.gameObject.name == "Despacho_Escritorio_Periodico_geo" && director.animations[0].isPlaying && director.cubo == null)
                     {
                         periodico = true;
-                        image.sprite = textures[0];
-                        image.gameObject.SetActive(true);
-                        raycastHit.collider.gameObject.SetActive(false);
+                        //image.sprite = textures[0];
+                        //image.gameObject.SetActive(true);
+                        objetoCogido = raycastHit.collider.gameObject;
                         timer = 10;
                         director.NextSoundAmbiente();
                         fader.enabled = true;

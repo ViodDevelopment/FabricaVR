@@ -13,6 +13,8 @@ public class ChargeMenu : MonoBehaviour
     public Image m_Start;
     public Image m_Credits;
     public Image m_Exit;
+    public Image m_PlantaSup;
+    public Image m_PlantaBaja;
 
     float currentTimer=0;
     float maxTimer=2;
@@ -30,10 +32,15 @@ public class ChargeMenu : MonoBehaviour
     float currentTimerExit = 0;
     bool activateTimerExit = false;
 
+    float currentTimerPS = 0;
+    bool activateTimerPS = false;
+
+    float currentTimerPI = 0;
+    bool activateTimerPI = false;
+
     bool FemSelected;
     bool MaleSelected;
-
-    bool genreSelected=false;
+    bool genreSelected = false;
 
     void Start()
     {
@@ -100,6 +107,28 @@ public class ChargeMenu : MonoBehaviour
         else if (currentTimerExit > 0)
             currentTimerExit = 0;
 
+        if (activateTimerPS)
+        {
+            currentTimerPS += Time.deltaTime;
+            if (currentTimerPS >= maxTimer)
+            {
+                ChangePS();
+            }
+        }
+        else if (currentTimerPS > 0)
+            currentTimerPS = 0;
+
+        if (activateTimerPI)
+        {
+            currentTimerPI += Time.deltaTime;
+            if (currentTimerPI>= maxTimer)
+            {
+                ChangePI();
+            }
+        }
+        else if (currentTimerPI> 0)
+            currentTimerPI = 0;
+
         if (m_FEm != null)
         {
             m_FEm.fillAmount = currentTimerFem / maxTimer;
@@ -107,6 +136,8 @@ public class ChargeMenu : MonoBehaviour
             m_Start.fillAmount = currentTimer / maxTimer;
             m_Credits.fillAmount = currentTimerCred / maxTimer;
             m_Exit.fillAmount = currentTimerExit / maxTimer;
+            m_PlantaSup.fillAmount = currentTimerPS/ maxTimer;
+            m_PlantaBaja.fillAmount = currentTimerPI/ maxTimer;
         }
     }
     
@@ -203,5 +234,33 @@ public class ChargeMenu : MonoBehaviour
     public void DesacativateExit()
     {
         activateTimerExit = false;
+    }
+
+    public void ActivatePS()
+    {
+        activateTimerPS = true;
+    }
+    public void DesacativatePS()
+    {
+        activateTimerPS = false;
+    }
+    
+    public void ActivatePI()
+    {
+        activateTimerPI = true;
+    }
+    public void DesacativatePI()
+    {
+        activateTimerPI = false;
+    }
+
+    public void ChangePS()
+    {
+        SceneManager.LoadScene(6);
+    }
+
+    public void ChangePI()
+    {
+        SceneManager.LoadScene(5);
     }
 }
