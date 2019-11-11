@@ -61,16 +61,16 @@ public class DialogoDirector : MonoBehaviour
             {
                 directorAudioSource.clip = audios[numOfAudios];
                 directorAudioSource.Play();
+                animator.speed = firstSpeed;
                 numOfAudios++;
                 pasos++;
                 cubo.SetActive(true);
-                animator.speed = firstSpeed;
             }
             else
             if (pasos == 1)
             {
                 pasos++;
-                timer = 5.5f;
+                timer = 5f;
             }
             else if (pasos == 2 && timer == 0)
             {
@@ -81,7 +81,7 @@ public class DialogoDirector : MonoBehaviour
                 numOfAudiosAmbiente++;
                 numOfAudios++;
                 pasos++;
-                timer = 1f;
+                timer = 1.75f;
             }
             else if (pasos == 3 && timer == 0)
             {

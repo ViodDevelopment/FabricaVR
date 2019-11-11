@@ -20,7 +20,7 @@ public class CogerCosas : MonoBehaviour
     {
         periodico = false;
         sobre = false;
-        terminado1 = false; 
+        terminado1 = false;
         image.color = new Color(image.color.r, image.color.g, image.color.b, 0);
     }
 
@@ -39,79 +39,83 @@ public class CogerCosas : MonoBehaviour
         {
             if (sobre || periodico)
             {
-                if (objetoCogido != null)
+
+                if (objetoCogido != null && objetoCogido.GetComponentInChildren<Animation>() != null)
                 {
-                    objetoCogido.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 0.5f;
-                    objetoCogido.transform.forward = -Camera.main.transform.forward;
+                    if(objetoCogido.GetComponentInChildren<Animation>().isPlaying)
+                        objetoCogido.GetComponentInChildren<Animation>().Stop();
                 }
-                if (timer >= 1)
+                //.color = image.color - new Color(0, 0, 0, Time.deltaTime);
+                //fader.image.color = fader.image.color - new Color(0, 0, 0, Time.deltaTime);
+                if (timer == 0)
                 {
-                    //image.color = image.color + new Color(0, 0, 0, Time.deltaTime);
-                    //fader.image.color = fader.image.color + new Color(0, 0, 0, Time.deltaTime);
-                }
-                else
-                {
-                    //.color = image.color - new Color(0, 0, 0, Time.deltaTime);
-                    //fader.image.color = fader.image.color - new Color(0, 0, 0, Time.deltaTime);
-                    if (timer == 0)
+                    //image.color = new Color(image.color.r, image.color.g, image.color.b, 0);
+                    //fader.image.color = new Color(fader.image.color.r, fader.image.color.g, fader.image.color.b, 0);
+                    //image.gameObject.SetActive(false);
+                    //fader.image.gameObject.SetActive(false);
+                    Destroy(objetoCogido);
+                    objetoCogido = null;
+                    if (periodico)
                     {
-                        //image.color = new Color(image.color.r, image.color.g, image.color.b, 0);
-                        //fader.image.color = new Color(fader.image.color.r, fader.image.color.g, fader.image.color.b, 0);
-                        //image.gameObject.SetActive(false);
-                        //fader.image.gameObject.SetActive(false);
-                        Destroy(objetoCogido);
-                        if (periodico)
-                        {
-                            periodico = false;
-                            director.tiene = true;
-                        }
-                        else if (sobre)
-                        {
-                            sobre = false;
-                            director.algoMas = false;
-                            terminado1 = true;
-                        }
+                        periodico = false;
+                        director.tiene = true;
+                    }
+                    else if (sobre)
+                    {
+                        sobre = false;
+                        director.algoMas = false;
+                        terminado1 = true;
                     }
                 }
+
             }
             if (director.pasos >= 4)
             {
                 RaycastHit raycastHit;
                 if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out raycastHit, 5f))
                 {
-                    if (raycastHit.collider.gameObject.name == "Despacho_Escritorio_Periodico_geo" && director.animations[0].isPlaying && director.cubo == null)
+                    if (raycastHit.collider.gameObject.name == "Despacho_Escritorio_Periodico_geo" && director.animations[0].isPlaying && director.cubo == null && !periodico)
                     {
                         periodico = true;
                         //image.sprite = textures[0];
                         //image.gameObject.SetActive(true);
+                        raycastHit.collider.gameObject.GetComponentInChildren<Animation>().Stop();
                         objetoCogido = raycastHit.collider.gameObject;
-                        timer = 10;
+                        objetoCogido.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 0.5f;
+                        objetoCogido.transform.forward = -Camera.main.transform.forward;
+                        objetoCogido.transform.parent = Camera.main.transform;
+                        timer = 6;
                         director.NextSoundAmbiente();
-                        fader.enabled = true;
+                        //fader.enabled = true;
                     }
 
-                    if (director.algoMas && raycastHit.collider.gameObject.name == "Despacho_Escritorio_Sobre_geo")
+                    if (director.algoMas && raycastHit.collider.gameObject.name == "Despacho_Escritorio_Sobre_geo" && !sobre)
                     {
                         timer = 5;
                         sobre = true;
-                        if (SingletoneGender.GetInstance().GetGender() == SingletoneGender.Gender.MALE)
+                        /*if (SingletoneGender.GetInstance().GetGender() == SingletoneGender.Gender.MALE)
                         {
                             image.sprite = textures[1];
                         }
                         else
                         {
                             image.sprite = textures[2];
-                        }
-                        image.gameObject.SetActive(true);
+                        }*/
+                        // image.gameObject.SetActive(true);
+                        raycastHit.collider.gameObject.GetComponentInChildren<Animation>().Stop();
+                        objetoCogido = raycastHit.collider.gameObject;
+                        objetoCogido.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 0.5f;
+                        objetoCogido.transform.forward = -Camera.main.transform.forward;
+                        objetoCogido.transform.parent = Camera.main.transform;
                         director.NextSoundAmbiente();
-                        raycastHit.collider.gameObject.SetActive(false);
-                        fader.enabled = true;
+                        //raycastHit.collider.gameObject.SetActive(false);
+                        //fader.enabled = true;
                     }
 
                 }
             }
         }
-        else if(mozo.empieza)
+        else if (mozo.empieza)
         {
             RaycastHit raycastHit;
             if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out raycastHit, 5f))
