@@ -25,6 +25,14 @@ public class DialogoAlice : MonoBehaviour
 
     void Update()
     {
+        if(audioAlice.isPlaying)
+        {
+            animator.SetLayerWeight(1, 1);
+        }
+        else
+        {
+            animator.SetLayerWeight(1, 0);
+        }
         if (!acabado)
         {
             if (points[0] == null && currentClip == 0)
@@ -39,7 +47,7 @@ public class DialogoAlice : MonoBehaviour
             if (points[1] == null && !audioCapataz.isPlaying && currentClip == 1)
             {
                 currentTime += Time.deltaTime;
-                if (currentTime >= 0.1f)
+                if (currentTime >= 0.01f)
                 {
                     currentTime = 0;
                     audioCapataz.clip = clips[currentClip];
@@ -65,7 +73,7 @@ public class DialogoAlice : MonoBehaviour
             if (currentClip == 3 && !audioAlice.isPlaying)
             {
                 currentTime += Time.deltaTime;
-                if (currentTime >= 0.1f)
+                if (currentTime >= 0.01f)
                 {
                     currentTime = 0;
                     audioCapataz.clip = clips[currentClip];
@@ -77,7 +85,7 @@ public class DialogoAlice : MonoBehaviour
             if (currentClip == 4 && !audioCapataz.isPlaying)
             {
                 currentTime += Time.deltaTime;
-                if (currentTime >= 0.1f)
+                if (currentTime >= 0.01f)
                 {
                     currentTime = 0;
                     audioAlice.clip = clips[currentClip];
@@ -89,7 +97,7 @@ public class DialogoAlice : MonoBehaviour
             if (currentClip == 5 && !audioAlice.isPlaying)
             {
                 currentTime += Time.deltaTime;
-                if (currentTime >= 0.1f)
+                if (currentTime >= 0.01f)
                 {
                     currentTime = 0;
                     audioCapataz.clip = clips[currentClip];
@@ -97,7 +105,7 @@ public class DialogoAlice : MonoBehaviour
                     currentClip++;
                     animator.SetBool("Idle", false);
                     animator.SetBool("Agacha", true);
-                    gameObject.transform.forward = (rotateAlice.transform.position - gameObject.transform.position).normalized;
+                    gameObject.transform.forward = (new Vector3(rotateAlice.transform.position.x - gameObject.transform.position.x, 0 , rotateAlice.transform.position.z - gameObject.transform.position.z)).normalized;
 
                 }
             }
@@ -123,7 +131,7 @@ public class DialogoAlice : MonoBehaviour
                 if(timerAlice <= 0)
                 {
                     timerAlice = 0;
-                    gameObject.transform.forward = (GameObject.FindGameObjectWithTag("Player").transform.position - gameObject.transform.position).normalized;
+                    gameObject.transform.forward = (new Vector3(GameObject.FindGameObjectWithTag("Player").transform.position.x - gameObject.transform.position.x, 0, GameObject.FindGameObjectWithTag("Player").transform.position.z - gameObject.transform.position.z)).normalized;
                 }
             }
 

@@ -40,6 +40,36 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
+  - serializedVersion: 5
+    m_Name: Boca
+    m_StateMachine: {fileID: 1107479851292117146}
+    m_Mask: {fileID: 31900000, guid: 57feb7c6b7b54504383ca85f5e881bd4, type: 2}
+    m_Motions:
+    - serializedVersion: 2
+      m_State: {fileID: 1102480385149789458}
+      m_Motion: {fileID: 7400000, guid: c43e76124545775418d5056634698929, type: 2}
+    m_Behaviours: []
+    m_BlendingMode: 0
+    m_SyncedLayerIndex: 0
+    m_DefaultWeight: 0
+    m_IKPass: 0
+    m_SyncedLayerAffectsTiming: 1
+    m_Controller: {fileID: 9100000}
+  - serializedVersion: 5
+    m_Name: "Pesta\xF1eo"
+    m_StateMachine: {fileID: 1107010733626831246}
+    m_Mask: {fileID: 31900000, guid: 57feb7c6b7b54504383ca85f5e881bd4, type: 2}
+    m_Motions:
+    - serializedVersion: 2
+      m_State: {fileID: 1102480385149789458}
+      m_Motion: {fileID: 7400000, guid: f5849fc5ce8c4ab4e94de9ade4fff28b, type: 2}
+    m_Behaviours: []
+    m_BlendingMode: 0
+    m_SyncedLayerIndex: 0
+    m_DefaultWeight: 0
+    m_IKPass: 0
+    m_SyncedLayerAffectsTiming: 1
+    m_Controller: {fileID: 9100000}
 --- !u!1101 &1101189332891027746
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -300,6 +330,25 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1107 &1107010733626831246
+AnimatorStateMachine:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "Pesta\xF1eo"
+  m_ChildStates: []
+  m_ChildStateMachines: []
+  m_AnyStateTransitions: []
+  m_EntryTransitions: []
+  m_StateMachineTransitions: {}
+  m_StateMachineBehaviours: []
+  m_AnyStatePosition: {x: 50, y: 20, z: 0}
+  m_EntryPosition: {x: 50, y: 120, z: 0}
+  m_ExitPosition: {x: 800, y: 120, z: 0}
+  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+  m_DefaultState: {fileID: 0}
 --- !u!1107 &1107248591015677838
 AnimatorStateMachine:
   serializedVersion: 5
@@ -320,10 +369,10 @@ AnimatorStateMachine:
     m_Position: {x: 504, y: 0, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102987120607669030}
-    m_Position: {x: 539, y: 65, z: 0}
+    m_Position: {x: 396, y: 72, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102006064614748598}
-    m_Position: {x: 574, y: 130, z: 0}
+    m_Position: {x: 576, y: 168, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -334,3 +383,22 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 408, y: 192, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 1102494791132398432}
+--- !u!1107 &1107479851292117146
+AnimatorStateMachine:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Boca
+  m_ChildStates: []
+  m_ChildStateMachines: []
+  m_AnyStateTransitions: []
+  m_EntryTransitions: []
+  m_StateMachineTransitions: {}
+  m_StateMachineBehaviours: []
+  m_AnyStatePosition: {x: 50, y: 20, z: 0}
+  m_EntryPosition: {x: 50, y: 120, z: 0}
+  m_ExitPosition: {x: 800, y: 120, z: 0}
+  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+  m_DefaultState: {fileID: 0}
