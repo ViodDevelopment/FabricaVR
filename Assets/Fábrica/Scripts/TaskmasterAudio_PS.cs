@@ -46,15 +46,15 @@ public class TaskmasterAudio_PS : MonoBehaviour
             if (timer < 0)
                 timer = 0;
         }
-        if (acabarEscena && !firstTime)
+        if (acabarEscena && !firstTime && !m_Capataz_AS.isPlaying)
         {
             if(!m_Capataz_AS.isPlaying && timer == 0)
             {
                 player.switchInverso(true);
                 player.speedToClear = 0.5f;
-                timer = 10f;
+                timer = 12f;
             }
-            if (timer >= 8f)
+            if (timer <= 8f)
                 SceneManager.LoadScene(7);
         }
         else
@@ -86,7 +86,7 @@ public class TaskmasterAudio_PS : MonoBehaviour
         PlayAudio();
         m_ActualAudio++;
         m_AudiosPlayed++;
-        timer = m_Capataz_AS.clip.length + 0.2f;
+        timer = m_Capataz_AS.clip.length + 0.05f;
         if (m_ActualAudio == 3)
             timer += 5;
     }

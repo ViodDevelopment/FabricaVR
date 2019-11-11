@@ -123,7 +123,7 @@ public class ChargeMenu : MonoBehaviour
     public void ChargeGameMale()
     {
         SingletoneGender.GetInstance().SetGender(SingletoneGender.Gender.MALE);
-        print(SingletoneGender.GetInstance().GetGender());
+
         numScene = 2;
         FemSelected = false;
         MaleSelected = true;
@@ -133,7 +133,6 @@ public class ChargeMenu : MonoBehaviour
     public void ChargeGameFemale()
     {
         SingletoneGender.GetInstance().SetGender(SingletoneGender.Gender.FAMALE);
-        print(SingletoneGender.GetInstance().GetGender());
         numScene = 3;
         MaleSelected = false;
         FemSelected = true;

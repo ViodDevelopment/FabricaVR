@@ -70,7 +70,7 @@ public class DialogoDirector : MonoBehaviour
             if (pasos == 1)
             {
                 pasos++;
-                timer = 5.75f;
+                timer = 5.5f;
             }
             else if (pasos == 2 && timer == 0)
             {

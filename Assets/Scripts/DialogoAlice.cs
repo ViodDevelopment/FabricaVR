@@ -47,7 +47,7 @@ public class DialogoAlice : MonoBehaviour
             if (points[1] == null && !audioCapataz.isPlaying && currentClip == 1)
             {
                 currentTime += Time.deltaTime;
-                if (currentTime >= 0.1f)
+                if (currentTime >= 0.01f)
                 {
                     currentTime = 0;
                     audioCapataz.clip = clips[currentClip];
@@ -73,7 +73,7 @@ public class DialogoAlice : MonoBehaviour
             if (currentClip == 3 && !audioAlice.isPlaying)
             {
                 currentTime += Time.deltaTime;
-                if (currentTime >= 0.1f)
+                if (currentTime >= 0.01f)
                 {
                     currentTime = 0;
                     audioCapataz.clip = clips[currentClip];
@@ -85,7 +85,7 @@ public class DialogoAlice : MonoBehaviour
             if (currentClip == 4 && !audioCapataz.isPlaying)
             {
                 currentTime += Time.deltaTime;
-                if (currentTime >= 0.1f)
+                if (currentTime >= 0.01f)
                 {
                     currentTime = 0;
                     audioAlice.clip = clips[currentClip];
@@ -97,7 +97,7 @@ public class DialogoAlice : MonoBehaviour
             if (currentClip == 5 && !audioAlice.isPlaying)
             {
                 currentTime += Time.deltaTime;
-                if (currentTime >= 0.1f)
+                if (currentTime >= 0.01f)
                 {
                     currentTime = 0;
                     audioCapataz.clip = clips[currentClip];
