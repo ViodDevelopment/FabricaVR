@@ -64,7 +64,7 @@ public class TaskmasterAudio_Fachada : MonoBehaviour
                     player.switchInverso(true);
                 }
 
-                if (m_Image.color.a >= 0.9f)
+                if (m_Image.color.a >= 0.95f)
                         SceneManager.LoadScene(5); 
             }
         }
