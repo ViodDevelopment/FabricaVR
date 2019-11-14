@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Fabrica.unity
-    guid: bb36d2905dc634f1c9eecb35beecaca8
   - enabled: 1
     path: Assets/Scenes/FirstAnimation.unity
     guid: b4a07f9f6f37b3843be734a1ff1bc0be
@@ -23,9 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fabrica_Fachada.unity
     guid: 8d3b9a7a059960642ab49d1018588eeb
-  - enabled: 0
-    path: Assets/Scenes/Fachada.unity
-    guid: eac01fef16bb599428fd6ae07b987ce7
   - enabled: 1
     path: Assets/Scenes/Fabrica_PlantaInferior.unity
     guid: 098db2a1fe7ca8d4da3ba61fc06a6879
