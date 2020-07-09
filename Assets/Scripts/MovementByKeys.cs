@@ -25,6 +25,11 @@ public class MovementByKeys : MonoBehaviour
             m_CharacterController.Move(gameObject.transform.forward * m_Speed * Time.deltaTime);
         }
 
+        if (Input.GetKey(KeyCode.S))
+        {
+            m_CharacterController.Move(gameObject.transform.forward * m_Speed * Time.deltaTime * -1f);
+        }
+
         if (Input.GetKey(KeyCode.D))
         {
             m_CharacterController.Move(gameObject.transform.right * m_Speed * Time.deltaTime);
@@ -38,5 +43,6 @@ public class MovementByKeys : MonoBehaviour
         float rotateHorizontal = Input.GetAxis("Mouse X");
         float rotateVertical = Input.GetAxis("Mouse Y");
         transform.RotateAround(gameObject.transform.position, -Vector3.up, rotateHorizontal * m_Sensitivity * -1f);
+        transform.RotateAround(gameObject.transform.position, gameObject.transform.right, rotateVertical * m_Sensitivity * -1f);
     }
 }

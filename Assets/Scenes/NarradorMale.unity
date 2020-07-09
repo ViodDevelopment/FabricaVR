@@ -226,6 +226,8 @@ MonoBehaviour:
   m_Start: {fileID: 0}
   m_Credits: {fileID: 0}
   m_Exit: {fileID: 0}
+  m_PlantaSup: {fileID: 0}
+  m_PlantaBaja: {fileID: 0}
 --- !u!111 &794096030
 Animation:
   m_ObjectHideFlags: 0
@@ -260,6 +262,8 @@ MonoBehaviour:
   m_Start: {fileID: 0}
   m_Credits: {fileID: 0}
   m_Exit: {fileID: 0}
+  m_PlantaSup: {fileID: 0}
+  m_PlantaBaja: {fileID: 0}
 --- !u!1 &849771769
 GameObject:
   m_ObjectHideFlags: 0
@@ -806,6 +810,12 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  CuboAceite: {fileID: 0}
+  CuboPalanca: {fileID: 0}
+  CuboTelar: {fileID: 0}
+  AceiteAnimation: {fileID: 0}
+  PalancaAnimation: {fileID: 0}
+  TelarAnimatior: {fileID: 0}
   l_ActionsCubes: 0
 --- !u!23 &1378880845226037587
 MeshRenderer:
@@ -1163,7 +1173,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8c2c7f7c59a453a4b82c7e8f3c96fef9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 698960cd6bcca334f9b9d374573eec67, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

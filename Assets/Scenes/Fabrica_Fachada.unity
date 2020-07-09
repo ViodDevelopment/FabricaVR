@@ -5832,10 +5832,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Image: {fileID: 616487840}
   m_Audio:
-  - {fileID: 8300000, guid: cd1168804e008be409fdab30313def43, type: 3}
-  - {fileID: 8300000, guid: 40b43348a13f6634896a7089f2831fac, type: 3}
-  - {fileID: 8300000, guid: 5af87c6e9c2f0934a9b7280b45a208f8, type: 3}
-  - {fileID: 8300000, guid: 53588513d65fdbd468a68c9a8e103cdf, type: 3}
+  - {fileID: 8300000, guid: 56e24c83486a9e74f80c49be5dc54c4e, type: 3}
+  - {fileID: 8300000, guid: be1bd5f7a7263dd4ab7959fd98d1b28e, type: 3}
+  - {fileID: 8300000, guid: 938af1c792477b54a8a4c7dad0aea450, type: 3}
+  - {fileID: 8300000, guid: f4e22c208a4f81648b968b975a392611, type: 3}
   m_Movement: 0
   m_Reproduce: 0
   player: {fileID: 907292815}
