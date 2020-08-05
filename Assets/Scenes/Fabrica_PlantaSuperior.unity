@@ -716,12 +716,11 @@ MonoBehaviour:
   capataz: {fileID: 1715420844778897431}
   acabado: 0
   audios:
-  - {fileID: 8300000, guid: b0b2fa64c4432af498626b6bc6be9fe9, type: 3}
-  - {fileID: 8300000, guid: 9b31411ecc28b8e4999752f089c38673, type: 3}
-  - {fileID: 8300000, guid: 614d5708234fd6a48aa121dffd6e230f, type: 3}
-  - {fileID: 8300000, guid: 697e641ea5003564a83333d53f96fc5d, type: 3}
-  - {fileID: 8300000, guid: 45c85733f5d45e3419c9d9970d78be26, type: 3}
-  - {fileID: 8300000, guid: af80e30192813c14bb01518cf3da2e14, type: 3}
+  - {fileID: 8300000, guid: 3efb9c67a78aa304f8bc1d8cf183f717, type: 3}
+  - {fileID: 8300000, guid: a512cbd418cfaef4493a73b9a0b8dc3c, type: 3}
+  - {fileID: 8300000, guid: c3881fdf0b124b6428f7eadbee446256, type: 3}
+  - {fileID: 8300000, guid: c59fed944a41f294ba93c344ce712cc4, type: 3}
+  - {fileID: 8300000, guid: 1a1b5ea32ec445a43b8a7bf76346e55b, type: 3}
   audiosAmbientes:
   - {fileID: 8300000, guid: 7b732cf7d0e8a7b4ba358f4f41e5c080, type: 3}
   - {fileID: 8300000, guid: 4a01eec86f9040240b69764b03ff4a5c, type: 3}
@@ -7253,9 +7252,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   empieza: 0
   audiosMozo:
-  - {fileID: 8300000, guid: 58ecf5da1d0d6ca46a1a28721fb0d8b9, type: 3}
-  - {fileID: 8300000, guid: 5a026216edc8b534e834a9dd3eca6210, type: 3}
-  - {fileID: 8300000, guid: d44af5b2b1862184dafbf4e75a8af0fe, type: 3}
+  - {fileID: 8300000, guid: e4e7a258f2901e945b47d7a870d06b49, type: 3}
+  - {fileID: 8300000, guid: acb16c86b237c1243adf52877bc4a0fb, type: 3}
+  - {fileID: 8300000, guid: 3410daa3c02dd4d4db645ae2e6109005, type: 3}
   audioSource: {fileID: 1332878546}
   objetosQueActivas:
   - {fileID: 984214871}
@@ -13576,6 +13575,21 @@ PrefabInstance:
       propertyPath: m_BlendShapeWeights.Array.data[6]
       value: 32.1
       objectReference: {fileID: 0}
+    - target: {fileID: 4314865468727030866, guid: 75523105456315b4c8cb9cc96cd01cce,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6248808480107807659, guid: 75523105456315b4c8cb9cc96cd01cce,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6248808480107807659, guid: 75523105456315b4c8cb9cc96cd01cce,
+        type: 3}
+      propertyPath: m_TagString
+      value: Taskmaster
+      objectReference: {fileID: 0}
     - target: {fileID: 5678278336866386431, guid: 75523105456315b4c8cb9cc96cd01cce,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -13620,21 +13634,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4314865468727030866, guid: 75523105456315b4c8cb9cc96cd01cce,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6248808480107807659, guid: 75523105456315b4c8cb9cc96cd01cce,
-        type: 3}
-      propertyPath: m_Layer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6248808480107807659, guid: 75523105456315b4c8cb9cc96cd01cce,
-        type: 3}
-      propertyPath: m_TagString
-      value: Taskmaster
       objectReference: {fileID: 0}
     - target: {fileID: 8923700319936283861, guid: 75523105456315b4c8cb9cc96cd01cce,
         type: 3}

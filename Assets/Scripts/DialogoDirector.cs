@@ -74,12 +74,12 @@ public class DialogoDirector : MonoBehaviour
             }
             else if (pasos == 2 && timer == 0)
             {
-                directorAudioSource.clip = audios[numOfAudios];
-                directorAudioSource.Play();
+                //directorAudioSource.clip = audios[numOfAudios];
+                //directorAudioSource.Play();
                 efectosAmbiente.clip = audiosAmbientes[numOfAudiosAmbiente];
                 efectosAmbiente.Play();
                 numOfAudiosAmbiente++;
-                numOfAudios++;
+                //numOfAudios++;
                 pasos++;
                 timer = 1.75f;
             }

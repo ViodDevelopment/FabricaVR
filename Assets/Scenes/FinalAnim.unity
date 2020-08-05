@@ -261,9 +261,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Animador / Modelador Personajes - Adri\xE1n Ca\xF1as Vera\nModeladora Personajes
-    - Patricia Garc\xEDa Velasco \nModeladora 3D / Texturizaci\xF3n - Sarah G\xFCell
-    de Lacoste\nConcept Artist / Modelador 3D - Mart\xED Zamora Merino"
+  m_Text: "Animator / 3D Artist - Adri\xE1n Ca\xF1as Vera\n3D Artist - Patricia Garc\xEDa
+    Velasco \n3D Artist / Texturing - Sarah G\xFCell de Lacoste\nConcept Artist /
+    3D Artist - Mart\xED Zamora Merino"
 --- !u!222 &141555434
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -525,10 +525,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Ana Rodr\xEDguez Gonz\xE1lez - Alice/Teleras\nDaniel Blanco - Narrador/Obreros\nSarah
-    G\xFCell de Lacoste- Narradora/Teleras\nSergio Rodr\xEDguez Gonz\xE1lez - Capataz\nMart\xED
-    Zamora Merino - Hornero/Obreros\nEnric Tena Brossa - Director\nAdri\xE1n Ca\xF1as
-    Vera - Mozo/Obreros\nSergio Torres Rodr\xEDguez - Obreros\n\n"
+  m_Text: "Pablo Dom\xEDnguez Garc\xEDa - Narrator (male)\nAlice Tapiol Breeze - Narrator
+    (female)/Spinners\nEric Mart\xEDnez Dodas - Foreman/Workers\nAlberto Garc\xEDa
+    Delgado - Managee/Workers\nMauro Ferreiro \xC1vila - Will/Warehouse boy\nGrace
+    Livengood - Alice/Spinners"
 --- !u!222 &432259981
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -585,6 +585,8 @@ MonoBehaviour:
   m_Start: {fileID: 0}
   m_Credits: {fileID: 0}
   m_Exit: {fileID: 0}
+  m_PlantaSup: {fileID: 0}
+  m_PlantaBaja: {fileID: 0}
 --- !u!1 &599567132
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,7 +658,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Voces:
+  m_Text: 'Voices:
 
 '
 --- !u!222 &599567135
@@ -682,7 +684,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &676560769
 RectTransform:
   m_ObjectHideFlags: 0
@@ -816,6 +818,8 @@ MonoBehaviour:
   m_Start: {fileID: 0}
   m_Credits: {fileID: 0}
   m_Exit: {fileID: 0}
+  m_PlantaSup: {fileID: 0}
+  m_PlantaBaja: {fileID: 0}
 --- !u!1 &874866877
 GameObject:
   m_ObjectHideFlags: 0
@@ -886,7 +890,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Equipo T\xE9cnico"
+  m_Text: Developert
 --- !u!222 &874866880
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1146,7 +1150,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Rebeca Mart\xEDnez Dom\xEDnguez"
+  m_Text: "Rebeca Mart\xEDnez Dom\xEDnguez\n(UK flag by Freepik)"
 --- !u!222 &1179059078
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1374,7 +1378,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Equipo Art\xEDsitco"
+  m_Text: Artists
 --- !u!222 &1621523922
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1532,10 +1536,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Gesti\xF3n - Carles Bonet Papell \nGesti\xF3n - Alejandro R\xEDos Jerez\nProductor
-    / Programador - Sergio Rodr\xEDguez Gonz\xE1lez\nDise\xF1ador / Programador -
-    Enric Tena Brossa \nProgramador - Sergio Torres Rodr\xEDguez\nProgramador - Carlos
-    Molina Arg\xFCelles\n"
+  m_Text: "Management - Carles Bonet Papell \nManagement - Alejandro R\xEDos Jerez\nProduction
+    / Programmer - Sergio Rodr\xEDguez Gonz\xE1lez\nDesigner / Programmer - Enric
+    Tena Brossa \nProgrammer - Sergio Torres Rodr\xEDguez\nProgrammer - Carlos Molina
+    Arg\xFCelles\n"
 --- !u!222 &1908397550
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1944,6 +1948,9 @@ MonoBehaviour:
   l_ActiveCubes: 0
   l_Room: 0
   m_Taskmaster: {fileID: 0}
+  m_Animation: {fileID: 0}
+  m_Ropa: {fileID: 0}
+  m_Activated: 0
 --- !u!114 &1378880845169778175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1961,6 +1968,12 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  CuboAceite: {fileID: 0}
+  CuboPalanca: {fileID: 0}
+  CuboTelar: {fileID: 0}
+  AceiteAnimation: {fileID: 0}
+  PalancaAnimation: {fileID: 0}
+  TelarAnimatior: {fileID: 0}
   l_ActionsCubes: 0
 --- !u!23 &1378880845226037587
 MeshRenderer:
@@ -2286,4 +2299,4 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
